@@ -38,4 +38,8 @@ There was one corrected checkpoint mistake: fixture tests passed, but the first 
 
 ## Delivery state
 
-The repository is local, with no remote or public deployment created. The production preview can be served with `node scripts/serve.mjs --dist --subpath` at `http://127.0.0.1:4174/valor-mortis-cheatsheet/`. The integration choice is still pending. See [English usage](../README.en.md) or [Russian usage](../README.md).
+After the local implementation review, the user authorized creating a new GitHub repository, pushing the project and connecting GitHub Pages. The publishing workflow checks and builds before deploying `main`; other branches and pull requests do not deploy. The account already uses `alexsuslin.com` for project Pages sites.
+
+Repository: [alexsuslin/valor-mortis-cheatsheet](https://github.com/alexsuslin/valor-mortis-cheatsheet). Website: [Valor Mortis field guide](https://alexsuslin.com/valor-mortis-cheatsheet/).
+
+The production preview can still be served with `node scripts/serve.mjs --dist --subpath` at `http://127.0.0.1:4174/valor-mortis-cheatsheet/`. See [English usage](../README.en.md) or [Russian usage](../README.md).

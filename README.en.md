@@ -2,6 +2,8 @@
 
 **English** · [Русский](./README.md)
 
+**Website:** [alexsuslin.com/valor-mortis-cheatsheet](https://alexsuslin.com/valor-mortis-cheatsheet/) · **Repository:** [alexsuslin/valor-mortis-cheatsheet](https://github.com/alexsuslin/valor-mortis-cheatsheet)
+
 A browser-local companion to Valor Mortis, adapted from the [Hell Is Us checklist](https://github.com/alexsuslin/hellisus-cheatsheet). Follow a route, protect important choices, and keep your current step, equipment and achievements together.
 
 ## Included
@@ -64,7 +66,7 @@ Local browser storage is tied to the exact origin. A different port, browser, ho
 
 ## Static hosting
 
-`npm run build` writes only public HTML, assets and data to [dist/](./dist/). Publish that directory with a static host or GitHub Pages artifact workflow. Relative URLs support a repository subpath. No repository has been published and no deployment is configured automatically; [CI](./.github/workflows/check.yml) only checks and builds.
+`npm run build` writes only public HTML, assets and data to [dist/](./dist/). The [GitHub Actions workflow](./.github/workflows/check.yml) runs formatting, unit/data tests and browser tests before publishing this directory to GitHub Pages. Pushes to `main` deploy automatically; pull requests and other branches run checks without deploying. Pages uses the account's existing `alexsuslin.com` domain. No separate DNS or CNAME change is needed for this project.
 
 Each build versions local JavaScript, CSS and JSON references from their contents. Reloading after a release fetches matching assets without clearing progress.
 

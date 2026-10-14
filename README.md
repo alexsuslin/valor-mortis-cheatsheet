@@ -2,6 +2,8 @@
 
 **Русский** · [English](./README.en.md)
 
+**Сайт:** [alexsuslin.com/valor-mortis-cheatsheet](https://alexsuslin.com/valor-mortis-cheatsheet/) · **Репозиторий:** [alexsuslin/valor-mortis-cheatsheet](https://github.com/alexsuslin/valor-mortis-cheatsheet)
+
 Интерактивный помощник для прохождения Valor Mortis по образцу [Hell Is Us checklist](https://github.com/alexsuslin/hellisus-cheatsheet). Маршрут, важные решения, текущий шаг, снаряжение и достижения в одном месте.
 
 ## Возможности
@@ -64,7 +66,7 @@ node scripts/serve.mjs --dist --subpath
 
 ## Публикация и разработка
 
-`npm run build` создаёт статические файлы в [dist/](./dist/). Их можно разместить на статическом хостинге. Относительные ссылки работают внутри пути репозитория. Публичного развёртывания пока нет; [CI](./.github/workflows/check.yml) только проверяет и собирает проект.
+`npm run build` создаёт статические файлы в [dist/](./dist/). [GitHub Actions](./.github/workflows/check.yml) проверяет форматирование, данные и поведение в браузере, затем публикует сборку на GitHub Pages. Отправка изменений в `main` автоматически обновляет сайт; другие ветки и pull request проходят проверки без публикации. Используется существующий домен аккаунта `alexsuslin.com`; отдельные изменения DNS и CNAME для проекта не нужны.
 
 Данные находятся в [data/](./data/). Не меняйте постоянный ID при правке формулировки. Позиции [каталога переноса](./assets/transfer-catalog.js) можно только дополнять: перестановка повредит старые ссылки. Подробные правила сопровождения и лицензии описаны в [английской документации](./README.en.md).
 
