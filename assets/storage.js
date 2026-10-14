@@ -9,17 +9,15 @@ export function loadState(storage) {
     return { state: {}, available: false };
   }
 
+  if (saved === null || saved === undefined)
+    return { state: {}, available: true };
   try {
     const state = JSON.parse(saved);
-    return {
-      state:
-        state && typeof state === "object" && !Array.isArray(state)
-          ? state
-          : {},
-      available: true,
-    };
+    if (!state || typeof state !== "object" || Array.isArray(state))
+      return { state: {}, available: false };
+    return { state, available: true };
   } catch {
-    return { state: {}, available: true };
+    return { state: {}, available: false };
   }
 }
 

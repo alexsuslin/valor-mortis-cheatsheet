@@ -1,5 +1,19 @@
 import { expect, test } from "@playwright/test";
 
+test("ordinary quest achievements do not claim quest failure", async ({
+  page,
+}) => {
+  await page.goto(".");
+  await page.locator('[data-view="achievements"]').click();
+  await page.locator("#achievement-category").selectOption("quest");
+  await expect(page.locator("#achievement-category option:checked")).toHaveText(
+    "Quests",
+  );
+  await expect(page.locator("#achievement-cards .eyebrow").first()).toHaveText(
+    "Quests",
+  );
+});
+
 test("achievement filters combine category and completed state", async ({
   page,
 }) => {

@@ -1,4 +1,81 @@
+import { readFile } from "node:fs/promises";
 import { expect, test } from "@playwright/test";
+
+test("corrupt storage preserves checked progress and an exportable snapshot", async ({
+  page,
+  context,
+}) => {
+  await page.goto(".");
+  await page.locator('#walkthrough [data-progress-id="vm-saber"]').check();
+  const other = await context.newPage();
+  await other.goto(".");
+  await expect(other.locator("#save-controls")).toBeVisible();
+  await other.evaluate(() =>
+    localStorage.setItem("valor-mortis-checklist-v1", "{"),
+  );
+  await expect(
+    page.locator('#walkthrough [data-progress-id="vm-saber"]'),
+  ).toBeChecked();
+  await expect(page.locator("#save-status")).toContainText("unavailable");
+  const downloadPromise = page.waitForEvent("download");
+  await page.locator("#export-save").click();
+  const download = await downloadPromise;
+  const snapshot = JSON.parse(await readFile(await download.path(), "utf8"));
+  expect(snapshot.completed).toContain("vm-saber");
+  expect(snapshot.completed).toContain("build-saber-obtained");
+  await page.locator("#theme-toggle").click();
+  await page.reload();
+  await expect(
+    page.locator('#walkthrough [data-progress-id="vm-saber"]'),
+  ).toBeChecked();
+  await other.close();
+});
+
+test("unchecking a blocked route pickup retains historical acquisition after recovery", async ({
+  page,
+}) => {
+  await controllableStorage(page);
+  await page.goto(".");
+  await expect(page.locator("#save-controls")).toBeVisible();
+  await page.evaluate(() => {
+    window.failWrites = true;
+  });
+  await page.locator('#walkthrough [data-progress-id="vm-saber"]').check();
+  await page.locator('#walkthrough [data-progress-id="vm-saber"]').uncheck();
+  await page.evaluate(() => {
+    window.failWrites = false;
+  });
+  await page.locator("#theme-toggle").click();
+  await page.reload();
+  await page.locator('[data-view="build"]').click();
+  await expect(
+    page.locator('#build [data-progress-id="build-saber-obtained"]'),
+  ).toBeChecked();
+});
+
+test("an explicit acquisition correction overrides an earlier derived pending mark", async ({
+  page,
+}) => {
+  await controllableStorage(page);
+  await page.goto(".");
+  await expect(page.locator("#save-controls")).toBeVisible();
+  await page.evaluate(() => {
+    window.failWrites = true;
+  });
+  await page.locator('#walkthrough [data-progress-id="vm-saber"]').check();
+  await page.locator('[data-view="build"]').click();
+  await page
+    .locator('#build [data-progress-id="build-saber-obtained"]')
+    .uncheck();
+  await page.evaluate(() => {
+    window.failWrites = false;
+  });
+  await page.locator("#theme-toggle").click();
+  await page.reload();
+  await expect(
+    page.locator('#build [data-progress-id="build-saber-obtained"]'),
+  ).not.toBeChecked();
+});
 
 test("corrupt cross-tab storage does not crash the active guide", async ({
   page,

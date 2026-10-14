@@ -42,7 +42,15 @@ export function createAchievementTracker({
       const card = element("article", "card");
       card.id = achievement.id;
       card.append(
-        element("span", "eyebrow", t(achievement.category)),
+        element(
+          "span",
+          "eyebrow",
+          t(
+            achievement.category === "quest"
+              ? "questCategory"
+              : achievement.category,
+          ),
+        ),
         element("h3", "", achievement.title[state.language]),
       );
       if (state.language === "ru")
@@ -119,7 +127,11 @@ export function createAchievementTracker({
       "all",
       ...new Set(achievements.map((item) => item.category)),
     ]) {
-      const option = element("option", "", t(name));
+      const option = element(
+        "option",
+        "",
+        t(name === "quest" ? "questCategory" : name),
+      );
       option.value = name;
       category.append(option);
     }

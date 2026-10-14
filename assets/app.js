@@ -84,15 +84,15 @@ function persist(change) {
       replace: pendingReplacement,
       edits: [...pending.values()],
     },
+    // Acquisition is an event, not a condition to reapply on every retry.
     (completed) =>
-      [...pending.keys()].flatMap((id) =>
-        getAcquisitionEdits(buildStages, completed, id),
-      ),
+      change?.id ? getAcquisitionEdits(buildStages, completed, change.id) : [],
   );
   state.completed = new Set(
     result.state.completed.filter((id) => knownIds.has(id)),
   );
   state.storageAvailable = result.available;
+  for (const edit of result.derivedEdits) pending.set(edit.id, edit);
   if (result.available) {
     pending.clear();
     pendingReplacement = false;
@@ -243,6 +243,15 @@ byId("retry").addEventListener("click", () => location.reload());
 window.addEventListener("storage", (event) => {
   if (event.key !== STORAGE_KEY || pendingReplacement) return;
   const incoming = loadState(storage);
+  if (
+    !incoming.available ||
+    (event.newValue !== null && !Array.isArray(incoming.state.completed))
+  ) {
+    // A damaged external save is not an instruction to clear usable progress.
+    state.storageAvailable = false;
+    updateCounters();
+    return;
+  }
   const incomingIds = Array.isArray(incoming.state.completed)
     ? incoming.state.completed
     : [];

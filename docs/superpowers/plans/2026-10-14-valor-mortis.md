@@ -233,11 +233,11 @@ State retains the reference's shared `completed: Set<string>`, `currentItemId`, 
 - [x] Audit all content references, review dates, translations, chapter/quest coverage, and source-use limits. Clearly distinguish incomplete quest/duplicate coverage from tested app behavior. Inspect every view in both languages/themes at mobile and desktop widths, keyboard focus, overflow, and reduced motion.
 - [x] Write bilingual run/backup/transfer/coverage documentation, source attribution, and manual static hosting instructions. Retain upstream license attribution. Add CI using Node 22, reproducible install, lint, unit checks, build, and Chromium browser checks without deployment permissions.
 - [x] Run `npm run check`, `npm test`, `npm run build`, and `npm run test:browser`; require exit 0 for each. Run `git diff --check`. Verify the built site at `/valor-mortis-cheatsheet/` and record actual test counts in the handoff.
-- [ ] Follow the execution skill's final independent review requirement, resolve substantive findings, rerun affected checks, and commit as `docs: verify and document Valor Mortis companion`.
-- [ ] Deliver the local preview address, actual coverage, passed checks, and remaining content uncertainties. Do not claim deployment or in-game verification.
+- [x] Follow the execution skill's final independent review requirement, resolve substantive findings, rerun affected checks, and commit as `docs: verify and document Valor Mortis companion`.
+- [x] Deliver the local preview address, actual coverage, passed checks, and remaining content uncertainties. Do not claim deployment or in-game verification.
 
 ## Plan self-review
 
 The seven tasks cover all five views, independent progress/equipment semantics, translation and evidence, unknown-content treatment, static serving, error handling, and transfer. Each Review Focus item has a corresponding test task. The shared schema and interfaces above override incompatible Hell Is Us assumptions; reusable mechanics retain their original contracts where possible.
 
-Recommended execution: **Native**, implementing the tasks in this session with one independent review at the end. These tasks share the same content IDs and state contracts; keeping implementation context together should reduce repeated setup. Native execution was approved. Implementation and verification are complete; independent review and final delivery remain.
+Execution: **Native**, approved by the user. All seven tasks are complete. An independent review identified persistence and interface/data defects; they were reproduced and fixed, with 28 unit/data tests and 24 browser tests passing afterward. See [verification and decisions](../../verification.md). Local branch integration is the remaining user choice; no public deployment occurred.

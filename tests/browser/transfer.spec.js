@@ -1,5 +1,17 @@
 import { expect, test } from "@playwright/test";
 
+test("newer transfers tell the recipient to update and preserve existing progress", async ({
+  page,
+}) => {
+  await page.goto(".");
+  await page.locator('#walkthrough [data-progress-id="vm-saber"]').check();
+  await page.goto("./#vm-progress=1.0000ffff.9f62cde3");
+  await expect(page.locator("#toast")).toContainText("Update this companion");
+  await expect(
+    page.locator('#walkthrough [data-progress-id="vm-saber"]'),
+  ).toBeChecked();
+});
+
 test("clipboard failure leaves a selectable link and a rendered QR", async ({
   page,
 }) => {

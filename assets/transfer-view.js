@@ -1,6 +1,10 @@
 import { APP_ID, BACKUP_VERSION, MAX_BACKUP_BYTES } from "./config.js";
 import { parseBackup } from "./model.js";
-import { createTransferUrl, parseTransferHash } from "./transfer.js";
+import {
+  createTransferUrl,
+  parseTransferHash,
+  TransferUpdateRequiredError,
+} from "./transfer.js";
 import { button, byId, element } from "./ui.js";
 import qrcode from "./vendor/qrcode.js";
 
@@ -145,8 +149,14 @@ export function bindProgressTransfer({
     history.replaceState(null, "", `${location.pathname}${location.search}`);
     try {
       preview(parseTransferHash(hash, knownIds));
-    } catch {
-      toast(t("invalidSave"));
+    } catch (error) {
+      toast(
+        t(
+          error instanceof TransferUpdateRequiredError
+            ? "updateRequired"
+            : "invalidSave",
+        ),
+      );
     }
   }
   window.addEventListener("hashchange", consumeHash);

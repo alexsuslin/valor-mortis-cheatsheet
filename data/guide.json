@@ -3107,7 +3107,7 @@
             "en": "Collect the final waterside drawing; claim the rare Transmutation material.",
             "ru": "Заберите последний рисунок у воды; получите редкий материал трансмутации."
           },
-          "categories": ["quest"],
+          "categories": ["quest", "material"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter7"],

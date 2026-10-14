@@ -3,6 +3,12 @@ import { parseBackup } from "./model.js";
 import { transferIds } from "./transfer-catalog.js";
 
 const positions = new Map(transferIds.map((id, index) => [id, index]));
+export class TransferUpdateRequiredError extends Error {
+  constructor() {
+    super("Update required for this transfer");
+    this.name = "TransferUpdateRequiredError";
+  }
+}
 
 // CRC detects accidental damage. A progress link is readable, not encrypted.
 function checksum(bytes) {
@@ -68,15 +74,13 @@ export function parseTransferHash(hash, knownIds) {
   )
     throw Error("Damaged transfer");
   const current = (bytes[2] << 8) | bytes[3];
-  if (current > transferIds.length)
-    throw Error("Update required for this transfer");
+  if (current > transferIds.length) throw new TransferUpdateRequiredError();
   if (current && !transferIds[current - 1].startsWith("vm-"))
     throw Error("Invalid current route position");
   const completed = [];
   for (let position = 0; position < (bytes.length - 4) * 8; position++) {
     if (!(bytes[4 + (position >>> 3)] & (1 << (position % 8)))) continue;
-    if (position >= transferIds.length)
-      throw Error("Update required for this transfer");
+    if (position >= transferIds.length) throw new TransferUpdateRequiredError();
     completed.push(transferIds[position]);
   }
   return parseBackup(

@@ -1,4 +1,7 @@
 const en = {
+  questCategory: "Quests",
+  updateRequired:
+    "Update this companion, then reopen the original transfer link. It contains newer progress entries. Your current save is unchanged.",
   skip: "Skip to guide",
   fieldGuide: "FIELD GUIDE",
   theme: "Theme",
@@ -120,6 +123,9 @@ const en = {
   close: "Close",
 };
 const ru = {
+  questCategory: "Задания",
+  updateRequired:
+    "Обновите путеводитель и снова откройте исходную ссылку: в ней есть новые записи прогресса. Текущее сохранение не изменено.",
   skip: "К путеводителю",
   fieldGuide: "ПУТЕВОДИТЕЛЬ",
   theme: "Тема",
