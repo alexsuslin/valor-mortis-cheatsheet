@@ -524,6 +524,14 @@ footer > div > p {
 .subheading {
   margin-top: 28px;
 }
+#transfer-qr svg {
+  display: block;
+  width: 280px;
+  max-width: 100%;
+  height: auto;
+  margin: 18px auto;
+  background: white;
+}
 #current > .card-grid {
   margin-bottom: 20px;
 }

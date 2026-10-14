@@ -15,6 +15,7 @@ import {
   STORAGE_KEY,
   saveProgress,
 } from "./storage.js";
+import { bindProgressTransfer } from "./transfer-view.js";
 import { byId, element, evidenceLinks } from "./ui.js";
 
 let storage;
@@ -59,6 +60,8 @@ let guide,
   routeView;
 const renderers = new Map();
 let buildStages = [];
+let pendingReplacement = false;
+let toastTimer;
 
 function snapshot() {
   return {
@@ -72,21 +75,28 @@ function snapshot() {
 }
 function persist(change) {
   if (change?.id) pending.set(change.id, change);
+  if (change?.replace) pendingReplacement = true;
   const result = saveProgress(
     storage,
     snapshot(),
     {
       ...change,
+      replace: pendingReplacement,
       edits: [...pending.values()],
     },
     (completed) =>
-      change?.id ? getAcquisitionEdits(buildStages, completed, change.id) : [],
+      [...pending.keys()].flatMap((id) =>
+        getAcquisitionEdits(buildStages, completed, id),
+      ),
   );
   state.completed = new Set(
     result.state.completed.filter((id) => knownIds.has(id)),
   );
   state.storageAvailable = result.available;
-  if (result.available) pending.clear();
+  if (result.available) {
+    pending.clear();
+    pendingReplacement = false;
+  }
   updateCounters();
 }
 function updateCounters() {
@@ -138,6 +148,30 @@ function selectCurrent(id) {
 function navigateRoute(id) {
   selectView("walkthrough");
   routeView.showItem(id);
+}
+function toast(message) {
+  clearTimeout(toastTimer);
+  byId("toast").textContent = message;
+  byId("toast").hidden = false;
+  toastTimer = setTimeout(() => {
+    byId("toast").hidden = true;
+  }, 6000);
+}
+function restoreSnapshot(backup) {
+  pending.clear();
+  state.completed = new Set(backup.completed);
+  if (backup.language) state.language = backup.language;
+  if (backup.theme) state.theme = backup.theme;
+  state.activeView = backup.activeView ?? "walkthrough";
+  state.currentItemId = resolveCurrentItem(
+    items,
+    backup.currentItemId,
+    state.completed,
+  )?.id;
+  state.filters.hideCompleted = false;
+  persist({ replace: true });
+  preferences();
+  selectView(state.activeView);
 }
 function renderViews() {
   routeView?.render();
@@ -306,6 +340,16 @@ try {
   }
   window.addEventListener("hashchange", followHash);
   followHash();
+  const transfer = bindProgressTransfer({
+    snapshot,
+    knownIds,
+    t,
+    onImport: restoreSnapshot,
+    onReset: () =>
+      restoreSnapshot({ completed: [], activeView: "walkthrough" }),
+    toast,
+  });
+  transfer.consumeHash();
 } catch (error) {
   console.error("Unable to load guide", error);
   byId("load-error").textContent = t("loadError");
