@@ -61,3 +61,40 @@ test("search and category filters combine across languages", () => {
     0,
   );
 });
+
+test("chapter and warning filters combine without treating all optional actions as missable", () => {
+  const base = {
+    title: { en: "Shield", ru: "Щит" },
+    description: { en: "Upgrade", ru: "Улучшить" },
+    categories: ["transmutation"],
+  };
+  const items = [
+    {
+      ...base,
+      id: "a",
+      chapterId: "chapter-08",
+      warnings: [{ kind: "achievement" }],
+    },
+    { ...base, id: "b", chapterId: "chapter-07", warnings: [] },
+  ];
+  assert.deepEqual(
+    filterItems(
+      items,
+      { chapterId: "chapter-08", warningKind: "achievement" },
+      new Set(),
+    ).map((i) => i.id),
+    ["a"],
+  );
+  assert.equal(
+    filterItems(
+      items,
+      { chapterId: "chapter-07", warningKind: "any" },
+      new Set(),
+    ).length,
+    0,
+  );
+  assert.equal(
+    filterItems(items, { hideCompleted: true }, new Set(["a"])).length,
+    1,
+  );
+});

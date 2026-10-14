@@ -4,6 +4,22 @@ export function filterItems(items, filters, completed) {
   const query = (filters.query ?? "").trim().toLocaleLowerCase();
 
   return items.filter((item) => {
+    if (
+      filters.chapterId &&
+      filters.chapterId !== "all" &&
+      item.chapterId !== filters.chapterId
+    )
+      return false;
+    if (filters.warningKind && filters.warningKind !== "all") {
+      if (
+        !item.warnings?.some(
+          (warning) =>
+            filters.warningKind === "any" ||
+            warning.kind === filters.warningKind,
+        )
+      )
+        return false;
+    }
     const categories = item.categories ?? [item.category];
     if (
       filters.category &&

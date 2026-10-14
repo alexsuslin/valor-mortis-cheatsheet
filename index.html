@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="description" content="A bilingual Valor Mortis field guide: chronological checklist, quest warnings, achievements and build notes.">
+ <meta name="color-scheme" content="light dark"><title>Valor Mortis — Field Guide</title>
+ <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./assets/styles.css">
+ <script src="./assets/theme-init.js"></script><script type="module" src="./assets/app.js"></script>
+</head>
+<body>
+ <a class="skip-link" href="#workspace" data-i18n="skip">Skip to guide</a>
+ <header class="site-header"><a class="brand" href="#walkthrough"><span class="brand-mark" aria-hidden="true">VM</span><span>VALOR MORTIS<small data-i18n="fieldGuide">FIELD GUIDE</small></span></a>
+ <div class="preferences"><button type="button" data-language="en" aria-pressed="true">EN</button><button type="button" data-language="ru" aria-pressed="false">RU</button><button type="button" id="theme-toggle" data-i18n="theme">Theme</button></div></header>
+ <main>
+ <section class="hero"><div><p class="eyebrow" data-i18n="eyebrow">A SOLDIER’S FIELD NOTES · LAUNCH EDITION</p><h1>VALOR<br><em>MORTIS</em><span class="hero-subtitle" data-i18n="heroTitle">Remember every detour.</span></h1><p class="hero-description" data-i18n="heroDescription">Your route through a broken empire. Keep the discoveries, decisions and unfinished business in sight.</p><div class="tags"><span>RU / EN</span><span data-i18n="local">Saved on this device</span><span data-i18n="noAccount">No account needed</span></div></div>
+ <aside class="progress-card"><p class="eyebrow" data-i18n="yourProgress">YOUR ROUTE</p><div class="progress-value"><span id="progress-percent">0</span><small>%</small><span class="seal" aria-hidden="true">✦</span></div><progress id="overall-progress" max="100" value="0" aria-label="Route progress"></progress><p id="progress-count" aria-live="polite">Loading…</p><p class="muted" id="coverage-summary"></p><p class="save-status" id="save-status"></p></aside></section>
+ <aside class="notice"><strong data-i18n="noticeTitle">Before you spend your rare materials</strong><p data-i18n="noticeText">Reserve one Quintessential Transmutation Material for Shield level 5. The route also flags quest failures and rewards affected by choices.</p></aside>
+ <div class="view-bar"><nav id="view-switch" aria-label="Guide views"><button type="button" data-view="current" hidden data-i18n="current">Current</button><button type="button" data-view="walkthrough" aria-pressed="true" data-i18n="walkthrough">Walkthrough</button><button type="button" data-view="achievements" hidden data-i18n="achievements">Achievements</button><button type="button" data-view="build" hidden data-i18n="build">My build</button><button type="button" data-view="tips" hidden data-i18n="tips">Tips</button></nav><button id="about-toggle" type="button" aria-expanded="false" data-i18n="sources">Sources & coverage</button></div>
+ <section id="about" hidden><h2 data-i18n="coverageTitle">What this edition covers</h2><p data-i18n="coverageText">This is a launch guide, with spoilers. Progress counts the included actions, not a verified 100% of the game. Russian prose and most names are convenience translations; English names remain searchable. Open the illustrated sources for detailed directions.</p><div id="coverage-notes" class="card-grid"></div><h3 data-i18n="sources">Sources & coverage</h3><div id="source-list" class="source-list"></div></section>
+ <p id="load-error" class="notice" role="alert" hidden></p><button type="button" id="retry" hidden data-i18n="retry">Retry</button>
+ <div id="workspace" tabindex="-1">
+ <section id="walkthrough" class="view"><div class="section-title"><div><p class="eyebrow" data-i18n="routeEyebrow">THE CAMPAIGN</p><h2 data-i18n="walkthrough">Walkthrough</h2></div><span class="muted" data-i18n="spoilers">Story & solution spoilers</span></div>
+ <div class="filters"><label class="search"><span data-i18n="searchLabel">Search both languages</span><input id="search" type="search" autocomplete="off"></label><label><span data-i18n="chapter">Chapter</span><select id="chapter-filter"></select></label><label><span data-i18n="category">Category</span><select id="category-filter"></select></label><label><span data-i18n="warnings">Warnings</span><select id="warning-filter"></select></label></div>
+ <div class="filter-actions"><label><input id="hide-completed" type="checkbox"><span data-i18n="hideCompleted">Hide completed</span></label><button type="button" id="clear-filters" data-i18n="clear">Clear filters</button><button type="button" id="expand-all" data-i18n="expand">Expand all</button><span id="result-count" class="muted"></span></div><div id="checklist-sections"></div></section>
+ <section id="current" class="view" hidden></section><section id="achievements" class="view" hidden></section><section id="build" class="view" hidden></section><section id="tips" class="view" hidden></section>
+ </div>
+ <footer><div><strong>VALOR MORTIS</strong><p data-i18n="fanProject">An independent fan companion. Not affiliated with One More Level or Lyrical Games.</p></div><div id="save-controls" hidden><button type="button" id="export-save" data-i18n="exportSave">Export JSON</button><button type="button" id="import-save" data-i18n="importSave">Import JSON</button><button type="button" id="share-save" data-i18n="shareSave">Transfer / QR</button><button type="button" id="reset-save" data-i18n="reset">Reset progress</button><input type="file" id="import-file" accept="application/json,.json" hidden></div></footer>
+ </main><div id="toast" role="status" hidden></div>
+ <dialog id="save-dialog"><form method="dialog"><button class="dialog-close" value="cancel" aria-label="Close">×</button></form><div id="dialog-content"></div></dialog>
+</body></html>
