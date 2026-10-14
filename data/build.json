@@ -1,0 +1,621 @@
+{
+  "version": 1,
+  "updated": "2026-10-14",
+  "sources": [
+    {
+      "id": "chapter1",
+      "name": "PowerPyx · Revival",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-1-revival-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter2",
+      "name": "PowerPyx · Regroup",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-2-regroup-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter3",
+      "name": "PowerPyx · Rendezvous",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-3-rendezvous-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter4",
+      "name": "PowerPyx · Dark Descent",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-4-dark-descent-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter5",
+      "name": "PowerPyx · Crime",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-5-crime-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter6",
+      "name": "PowerPyx · Punishment",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-6-punishment-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter7",
+      "name": "PowerPyx · Witch Hunt",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-7-witch-hunt-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter8",
+      "name": "PowerPyx · Blasphemy",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-8-blasphemy-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter9",
+      "name": "PowerPyx · In Ruins",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-9-in-ruins-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter10",
+      "name": "PowerPyx · Shackled",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-10-shackled-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter11",
+      "name": "PowerPyx · Reflection",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-11-reflection-endgame-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "quests",
+      "name": "PowerPyx · Side quests",
+      "url": "https://www.powerpyx.com/valor-mortis-all-side-quest-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "ambers",
+      "name": "PowerPyx · Ambers",
+      "url": "https://www.powerpyx.com/valor-mortis-all-amber-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "healing",
+      "name": "PowerPyx · Ferrofluid",
+      "url": "https://www.powerpyx.com/valor-mortis-all-ferrofluid-upgrade-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "materials",
+      "name": "PowerPyx · Upgrade materials",
+      "url": "https://www.powerpyx.com/valor-mortis-max-level-upgrade-material-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "trophies",
+      "name": "PowerPyx · Trophy roadmap",
+      "url": "https://www.powerpyx.com/valor-mortis-trophy-guide-roadmap/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "publisher",
+      "name": "Lyrical Games · Launch tips",
+      "url": "https://news.xbox.com/en-us/2026/10/13/valor-mortis-tips-and-tricks-to-survive-the-crimson-plague/",
+      "kind": "official",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "emissary",
+      "name": "PC Gamer · The Emissary",
+      "url": "https://www.pcgamer.com/games/action/valor-mortis-the-emissary-walkthrough/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "travel",
+      "name": "Insider Gaming · Fast travel",
+      "url": "https://insider-gaming.com/fast-travel-valor-mortis/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "postgame",
+      "name": "Insider Gaming · Postgame",
+      "url": "https://insider-gaming.com/free-roam-valor-mortis/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "ps5",
+      "name": "Exophase · PS5",
+      "url": "https://www.exophase.com/game/valor-mortis-psn/trophies/",
+      "kind": "platform-mirror",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "steam",
+      "name": "Exophase · Steam",
+      "url": "https://www.exophase.com/game/valor-mortis-steam/achievements/",
+      "kind": "platform-mirror",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "xbox",
+      "name": "Exophase · Xbox",
+      "url": "https://www.exophase.com/game/valor-mortis-xbox/achievements/",
+      "kind": "platform-mirror",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "russian",
+      "name": "Russian quest terminology",
+      "url": "https://igra4.ru/prohojdenie-vseh-pobochnyh-zadanii-valor-mortis-gaid-po-igre/",
+      "kind": "community",
+      "reviewed": "2026-10-14"
+    }
+  ],
+  "stages": [
+    {
+      "id": "build-saber",
+      "title": {
+        "en": "Saber",
+        "ru": "Сабля"
+      },
+      "obtain": {
+        "en": "Obtain your starting blade.",
+        "ru": "Получите стартовый клинок."
+      },
+      "apply": {
+        "en": "Upgrade Saber when its materials are available.",
+        "ru": "Улучшите Сабля, когда появятся материалы."
+      },
+      "obtainRouteIds": ["vm-saber"],
+      "routeIds": ["vm-saber"],
+      "optional": false,
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter1"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "build-fire",
+      "title": {
+        "en": "Fire",
+        "ru": "Огонь"
+      },
+      "obtain": {
+        "en": "Unlock Fire and burn obstructing vines.",
+        "ru": "Получите Огонь и сожгите преграждающие путь лозы."
+      },
+      "apply": {
+        "en": "Upgrade Fire when its materials are available.",
+        "ru": "Улучшите Огонь, когда появятся материалы."
+      },
+      "obtainRouteIds": ["vm-fire"],
+      "routeIds": ["vm-fire"],
+      "optional": false,
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter1"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "build-pistol",
+      "title": {
+        "en": "Pistol",
+        "ru": "Пистолет"
+      },
+      "obtain": {
+        "en": "Collect it inside the bridge train car.",
+        "ru": "Заберите в вагоне на мосту."
+      },
+      "apply": {
+        "en": "Upgrade Pistol when its materials are available.",
+        "ru": "Улучшите Пистолет, когда появятся материалы."
+      },
+      "obtainRouteIds": ["vm-pistol"],
+      "routeIds": ["vm-pistol"],
+      "optional": false,
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter2"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "build-rapier",
+      "title": {
+        "en": "Rapier",
+        "ru": "Рапира"
+      },
+      "obtain": {
+        "en": "Pull it from the body toward the village.",
+        "ru": "Вытащите из тела по пути в деревню."
+      },
+      "apply": {
+        "en": "Upgrade Rapier when its materials are available.",
+        "ru": "Улучшите Рапира, когда появятся материалы."
+      },
+      "obtainRouteIds": ["vm-rapier"],
+      "routeIds": ["vm-rapier"],
+      "optional": false,
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter3"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "build-blunderbuss",
+      "title": {
+        "en": "Blunderbuss",
+        "ru": "Мушкетон"
+      },
+      "obtain": {
+        "en": "Defeat the Volunteer; loot the carriage.",
+        "ru": "Победите добровольца; обыщите вагон."
+      },
+      "apply": {
+        "en": "Upgrade Blunderbuss when its materials are available.",
+        "ru": "Улучшите Мушкетон, когда появятся материалы."
+      },
+      "obtainRouteIds": ["vm-blunderbuss"],
+      "routeIds": ["vm-blunderbuss"],
+      "optional": false,
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter3"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "build-stasis",
+      "title": {
+        "en": "Stasis",
+        "ru": "Стазис"
+      },
+      "obtain": {
+        "en": "Progress beyond the first walkway crank.",
+        "ru": "Пройдите за первую рукоять вращающегося перехода."
+      },
+      "apply": {
+        "en": "Upgrade Stasis when its materials are available.",
+        "ru": "Улучшите Стазис, когда появятся материалы."
+      },
+      "obtainRouteIds": ["vm-stasis"],
+      "routeIds": ["vm-stasis"],
+      "optional": false,
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter4"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "build-musket",
+      "title": {
+        "en": "Musket",
+        "ru": "Мушкет"
+      },
+      "obtain": {
+        "en": "Defeat the dual-blade Volunteer; unlock the wagon.",
+        "ru": "Победите добровольца с двумя клинками; откройте повозку."
+      },
+      "apply": {
+        "en": "Upgrade Musket when its materials are available.",
+        "ru": "Улучшите Мушкет, когда появятся материалы."
+      },
+      "obtainRouteIds": ["vm-musket"],
+      "routeIds": ["vm-musket"],
+      "optional": false,
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter5"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "build-claymore",
+      "title": {
+        "en": "Claymore",
+        "ru": "Клеймор"
+      },
+      "obtain": {
+        "en": "Shoot church weak points; take the blade.",
+        "ru": "Уничтожьте слабые точки церкви; заберите клинок."
+      },
+      "apply": {
+        "en": "Upgrade Claymore when its materials are available.",
+        "ru": "Улучшите Клеймор, когда появятся материалы."
+      },
+      "obtainRouteIds": ["vm-claymore"],
+      "routeIds": ["vm-claymore"],
+      "optional": false,
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter6"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "build-shield",
+      "title": {
+        "en": "Shield",
+        "ru": "Щит"
+      },
+      "obtain": {
+        "en": "Receive the power in the library.",
+        "ru": "Получите способность в библиотеке."
+      },
+      "apply": {
+        "en": "Upgrade Shield to level 5; reserve a Quintessential material.",
+        "ru": "Улучшите Щит до 5-го уровня; сохраните высший материал."
+      },
+      "obtainRouteIds": ["vm-shield"],
+      "routeIds": ["vm-shield"],
+      "optional": false,
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["materials"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "build-healing",
+      "title": {
+        "en": "Early healing",
+        "ru": "Раннее лечение"
+      },
+      "obtain": {
+        "en": "Break boxes before the pole swing.",
+        "ru": "Разбейте ящики перед прыжком к перекладине."
+      },
+      "apply": {
+        "en": "Apply the healing-power material.",
+        "ru": "Примените материал силы лечения."
+      },
+      "obtainRouteIds": ["vm-guidepost-healing"],
+      "routeIds": ["vm-guidepost-healing"],
+      "optional": false,
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["healing"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "build-firearm-final",
+      "title": {
+        "en": "Choose a final firearm",
+        "ru": "Выберите финальный огнестрел"
+      },
+      "obtain": {
+        "en": "Lecture hall chest beneath the balcony.",
+        "ru": "Сундук под балконом лекционного зала."
+      },
+      "apply": {
+        "en": "Spend the documented final part on your preferred firearm.",
+        "ru": "Потратьте описанную финальную деталь на выбранное оружие."
+      },
+      "obtainRouteIds": ["vm-masterwork-firearm"],
+      "routeIds": ["vm-masterwork-firearm"],
+      "optional": false,
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["materials"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "build-blade-final",
+      "title": {
+        "en": "Finish a blade",
+        "ru": "Максимальный клинок"
+      },
+      "obtain": {
+        "en": "Chest in the side laboratory.",
+        "ru": "Сундук в боковой лаборатории."
+      },
+      "apply": {
+        "en": "Apply the final material to a melee weapon.",
+        "ru": "Примените финальный материал к оружию ближнего боя."
+      },
+      "obtainRouteIds": ["vm-lighthouse-blade"],
+      "routeIds": ["vm-lighthouse-blade"],
+      "optional": false,
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["materials"],
+        "reviewed": "2026-10-14"
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "id": "equipment-saber",
+      "title": {
+        "en": "Saber",
+        "ru": "Сабля"
+      },
+      "kind": "weapon",
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter1"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "equipment-fire",
+      "title": {
+        "en": "Fire",
+        "ru": "Огонь"
+      },
+      "kind": "transmutation",
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter1"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "equipment-pistol",
+      "title": {
+        "en": "Pistol",
+        "ru": "Пистолет"
+      },
+      "kind": "weapon",
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter2"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "equipment-rapier",
+      "title": {
+        "en": "Rapier",
+        "ru": "Рапира"
+      },
+      "kind": "weapon",
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter3"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "equipment-blunderbuss",
+      "title": {
+        "en": "Blunderbuss",
+        "ru": "Мушкетон"
+      },
+      "kind": "weapon",
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter3"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "equipment-stasis",
+      "title": {
+        "en": "Stasis",
+        "ru": "Стазис"
+      },
+      "kind": "transmutation",
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter4"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "equipment-musket",
+      "title": {
+        "en": "Musket",
+        "ru": "Мушкет"
+      },
+      "kind": "weapon",
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter5"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "equipment-claymore",
+      "title": {
+        "en": "Claymore",
+        "ru": "Клеймор"
+      },
+      "kind": "weapon",
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter6"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "equipment-shield",
+      "title": {
+        "en": "Shield",
+        "ru": "Щит"
+      },
+      "kind": "transmutation",
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter8"],
+        "reviewed": "2026-10-14"
+      }
+    }
+  ],
+  "loadouts": [
+    {
+      "title": {
+        "en": "Bullet-parry playstyle",
+        "ru": "Парирование пуль"
+      },
+      "description": {
+        "en": "Marksman’s Bane turns a successful bullet parry into pistol ammunition.",
+        "ru": "Marksman’s Bane даёт патрон пистолета за успешное парирование пули."
+      },
+      "routeIds": ["vm-quarry-marksman"],
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["publisher"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "title": {
+        "en": "Weak-point explosions",
+        "ru": "Взрывы слабых точек"
+      },
+      "description": {
+        "en": "Volatile End rewards weak-point shots with an explosion.",
+        "ru": "Volatile End добавляет взрыв при попадании в слабую точку."
+      },
+      "routeIds": ["vm-fields-volatile"],
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["publisher"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "title": {
+        "en": "Melee healing, with a cost",
+        "ru": "Лечение в ближнем бою с ценой"
+      },
+      "description": {
+        "en": "Butcher’s Carnage heals through melee hits but disables flask healing. Consider the tradeoff before equipping it.",
+        "ru": "Butcher’s Carnage лечит ударами вблизи, но отключает лечение флаконами. Учтите это до экипировки."
+      },
+      "routeIds": ["vm-art"],
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["publisher"],
+        "reviewed": "2026-10-14"
+      }
+    }
+  ]
+}

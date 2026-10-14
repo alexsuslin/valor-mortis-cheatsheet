@@ -1,6 +1,10 @@
 import { createAchievementTracker } from "./achievement-view.js";
 import { validateAchievements } from "./achievements.js";
+import { getAcquisitionEdits, getBuildIds } from "./build.js";
+import { createBuildTracker } from "./build-view.js";
 import { VIEWS } from "./config.js";
+import { resolveCurrentItem } from "./current.js";
+import { createCurrentTracker } from "./current-view.js";
 import { getGuideCoverage, getRouteItems, validateGuide } from "./guide.js";
 import { translate } from "./i18n.js";
 import { getProgress } from "./model.js";
@@ -54,6 +58,7 @@ let guide,
   knownIds = new Set(),
   routeView;
 const renderers = new Map();
+let buildStages = [];
 
 function snapshot() {
   return {
@@ -67,10 +72,16 @@ function snapshot() {
 }
 function persist(change) {
   if (change?.id) pending.set(change.id, change);
-  const result = saveProgress(storage, snapshot(), {
-    ...change,
-    edits: [...pending.values()],
-  });
+  const result = saveProgress(
+    storage,
+    snapshot(),
+    {
+      ...change,
+      edits: [...pending.values()],
+    },
+    (completed) =>
+      change?.id ? getAcquisitionEdits(buildStages, completed, change.id) : [],
+  );
   state.completed = new Set(
     result.state.completed.filter((id) => knownIds.has(id)),
   );
@@ -130,7 +141,7 @@ function navigateRoute(id) {
 }
 function renderViews() {
   routeView?.render();
-  for (const render of renderers.values()) render();
+  renderers.get(state.activeView)?.();
 }
 function renderAbout() {
   if (!guide) return;
@@ -219,9 +230,22 @@ try {
   if (!achievementResponse.ok) throw Error("Achievement request failed");
   const catalog = await achievementResponse.json();
   validateAchievements(catalog, items);
-  knownIds = new Set(
-    [...items, ...catalog.achievements].map((item) => item.id),
+  const supportResponses = await Promise.all([
+    fetch(new URL("../data/build.json", import.meta.url)),
+    fetch(new URL("../data/tips.json", import.meta.url)),
+  ]);
+  if (supportResponses.some((response) => !response.ok))
+    throw Error("Companion data request failed");
+  const [build, tips] = await Promise.all(
+    supportResponses.map((response) => response.json()),
   );
+  buildStages = build.stages;
+  knownIds = new Set([
+    ...[...items, ...catalog.achievements, ...tips.reminders].map(
+      (item) => item.id,
+    ),
+    ...getBuildIds(build.stages, build.equipment),
+  ]);
   state.completed = new Set(
     [...state.completed].filter((id) => knownIds.has(id)),
   );
@@ -243,9 +267,45 @@ try {
     onRoute: navigateRoute,
   });
   renderers.set("achievements", () => achievementView.render());
-  document.querySelector('[data-view="achievements"]').hidden = false;
+  const buildView = createBuildTracker({
+    build,
+    tips,
+    state,
+    t,
+    onToggle: toggle,
+    onRoute: navigateRoute,
+  });
+  renderers.set("build", () => buildView.render());
+  renderers.set("tips", () => buildView.renderTips());
+  const currentView = createCurrentTracker({
+    guide,
+    items,
+    build,
+    tips,
+    achievements: catalog.achievements,
+    state,
+    t,
+    onToggle: toggle,
+    onSelect: selectCurrent,
+    onRoute: navigateRoute,
+  });
+  renderers.set("current", () => currentView.render());
+  state.currentItemId = resolveCurrentItem(
+    items,
+    state.currentItemId,
+    state.completed,
+  )?.id;
+  for (const button of document.querySelectorAll("[data-view]"))
+    button.hidden = false;
   preferences();
-  selectView("walkthrough", false);
+  function followHash() {
+    const id = location.hash.slice(1);
+    if (VIEWS.includes(id)) selectView(id, false);
+    else if (items.some((item) => item.id === id)) navigateRoute(id);
+    else selectView(state.activeView, false);
+  }
+  window.addEventListener("hashchange", followHash);
+  followHash();
 } catch (error) {
   console.error("Unable to load guide", error);
   byId("load-error").textContent = t("loadError");

@@ -1,0 +1,333 @@
+{
+  "version": 1,
+  "updated": "2026-10-14",
+  "sources": [
+    {
+      "id": "chapter1",
+      "name": "PowerPyx · Revival",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-1-revival-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter2",
+      "name": "PowerPyx · Regroup",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-2-regroup-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter3",
+      "name": "PowerPyx · Rendezvous",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-3-rendezvous-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter4",
+      "name": "PowerPyx · Dark Descent",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-4-dark-descent-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter5",
+      "name": "PowerPyx · Crime",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-5-crime-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter6",
+      "name": "PowerPyx · Punishment",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-6-punishment-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter7",
+      "name": "PowerPyx · Witch Hunt",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-7-witch-hunt-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter8",
+      "name": "PowerPyx · Blasphemy",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-8-blasphemy-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter9",
+      "name": "PowerPyx · In Ruins",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-9-in-ruins-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter10",
+      "name": "PowerPyx · Shackled",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-10-shackled-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter11",
+      "name": "PowerPyx · Reflection",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-11-reflection-endgame-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "quests",
+      "name": "PowerPyx · Side quests",
+      "url": "https://www.powerpyx.com/valor-mortis-all-side-quest-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "ambers",
+      "name": "PowerPyx · Ambers",
+      "url": "https://www.powerpyx.com/valor-mortis-all-amber-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "healing",
+      "name": "PowerPyx · Ferrofluid",
+      "url": "https://www.powerpyx.com/valor-mortis-all-ferrofluid-upgrade-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "materials",
+      "name": "PowerPyx · Upgrade materials",
+      "url": "https://www.powerpyx.com/valor-mortis-max-level-upgrade-material-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "trophies",
+      "name": "PowerPyx · Trophy roadmap",
+      "url": "https://www.powerpyx.com/valor-mortis-trophy-guide-roadmap/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "publisher",
+      "name": "Lyrical Games · Launch tips",
+      "url": "https://news.xbox.com/en-us/2026/10/13/valor-mortis-tips-and-tricks-to-survive-the-crimson-plague/",
+      "kind": "official",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "emissary",
+      "name": "PC Gamer · The Emissary",
+      "url": "https://www.pcgamer.com/games/action/valor-mortis-the-emissary-walkthrough/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "travel",
+      "name": "Insider Gaming · Fast travel",
+      "url": "https://insider-gaming.com/fast-travel-valor-mortis/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "postgame",
+      "name": "Insider Gaming · Postgame",
+      "url": "https://insider-gaming.com/free-roam-valor-mortis/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "ps5",
+      "name": "Exophase · PS5",
+      "url": "https://www.exophase.com/game/valor-mortis-psn/trophies/",
+      "kind": "platform-mirror",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "steam",
+      "name": "Exophase · Steam",
+      "url": "https://www.exophase.com/game/valor-mortis-steam/achievements/",
+      "kind": "platform-mirror",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "xbox",
+      "name": "Exophase · Xbox",
+      "url": "https://www.exophase.com/game/valor-mortis-xbox/achievements/",
+      "kind": "platform-mirror",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "russian",
+      "name": "Russian quest terminology",
+      "url": "https://igra4.ru/prohojdenie-vseh-pobochnyh-zadanii-valor-mortis-gaid-po-igre/",
+      "kind": "community",
+      "reviewed": "2026-10-14"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "tip-shield-reserve",
+      "title": {
+        "en": "Protect Shield Bash",
+        "ru": "Сохраните доступ к толчку Щита"
+      },
+      "description": {
+        "en": "Keep a Quintessential material for Shield level 5.",
+        "ru": "Оставьте высший материал для Щита 5-го уровня."
+      },
+      "routeIds": [
+        "vm-shield",
+        "vm-monster-hunt-finish",
+        "vm-fortress-transmutation"
+      ],
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["materials"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "tip-parry",
+      "title": {
+        "en": "Commit to your swing",
+        "ru": "Учитывайте длительность удара"
+      },
+      "description": {
+        "en": "An attack cannot be cancelled into a parry.",
+        "ru": "Начатую атаку нельзя отменить парированием."
+      },
+      "routeIds": ["vm-saber"],
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["publisher"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "tip-counter",
+      "title": {
+        "en": "Counter after blocking",
+        "ru": "Контратака после блока"
+      },
+      "description": {
+        "en": "An immediate counter can recover the health lost to a block.",
+        "ru": "Немедленная контратака может вернуть здоровье, потерянное при блоке."
+      },
+      "routeIds": [],
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["publisher"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "tip-weakpoints",
+      "title": {
+        "en": "Aim at weak points",
+        "ru": "Цельтесь в слабые точки"
+      },
+      "description": {
+        "en": "Weak-point hits refill Nephtoglobin; use the resource with your powers.",
+        "ru": "Попадания по слабым точкам восстанавливают нептоглобин для способностей."
+      },
+      "routeIds": ["vm-pistol"],
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["publisher"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "tip-poison",
+      "title": {
+        "en": "Return when Shield unlocks",
+        "ru": "Вернитесь после получения Щита"
+      },
+      "description": {
+        "en": "The Emissary’s poison route needs the University power.",
+        "ru": "Ядовитый путь Посланника требует способности из Университета."
+      },
+      "routeIds": ["vm-emissary-seal", "vm-shield", "vm-emissary-finish"],
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["emissary"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "tip-choir",
+      "title": {
+        "en": "Before leaving prison",
+        "ru": "Перед уходом из тюрьмы"
+      },
+      "description": {
+        "en": "Finish the prison documents for The Choir before escaping.",
+        "ru": "Соберите тюремные документы Хора до побега."
+      },
+      "routeIds": ["vm-choir-journal", "vm-choir-letter"],
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter10"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "tip-captives",
+      "title": {
+        "en": "Leave the captives alive",
+        "ru": "Не убивайте пленников"
+      },
+      "description": {
+        "en": "Shooting the undead captives can fail Mummy and Daddy.",
+        "ru": "Выстрелы в пленных мертвецов могут провалить «Мама и папа»."
+      },
+      "routeIds": ["vm-mummy-start"],
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter7"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "tip-laudanum",
+      "title": {
+        "en": "Read the reward warning first",
+        "ru": "Сначала прочитайте о награде"
+      },
+      "description": {
+        "en": "The Laudanum duplicate reward depends on a disputed choice outcome.",
+        "ru": "Дубликат за Лауданум зависит от спорного результата выбора."
+      },
+      "routeIds": ["vm-laudanum"],
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter7"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "tip-cleanup",
+      "title": {
+        "en": "Cleanup after the ending",
+        "ru": "Зачистка после финала"
+      },
+      "description": {
+        "en": "The final chapter guide documents return routes; prison content is an exception.",
+        "ru": "Гайд финальной главы описывает возвращения; тюремное содержимое — исключение."
+      },
+      "routeIds": ["vm-entity"],
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["chapter11"],
+        "reviewed": "2026-10-14"
+      }
+    }
+  ]
+}

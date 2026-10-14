@@ -510,11 +510,22 @@ footer {
   font-size: 11px;
   color: var(--muted);
 }
+/* biome-ignore lint/style/noDescendingSpecificity: footer and warning components are disjoint. */
 footer > div > strong {
   letter-spacing: 2px;
 }
+/* biome-ignore lint/style/noDescendingSpecificity: footer copy has independent sizing. */
 footer > div > p {
   max-width: 430px;
+}
+.view > h2 {
+  margin-top: 30px;
+}
+.subheading {
+  margin-top: 28px;
+}
+#current > .card-grid {
+  margin-bottom: 20px;
 }
 #save-controls {
   display: flex;
