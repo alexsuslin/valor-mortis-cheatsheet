@@ -2,7 +2,7 @@
 
 Date: October 14, 2026
 
-The user approved adapting the existing Hell Is Us companion after reviewing the research findings and proposed feature set. This specification records that scope for implementation. The written specification still requires review under the active brainstorming workflow.
+The user approved adapting the existing Hell Is Us companion after reviewing the research findings and proposed feature set, then approved this written specification on October 14, 2026. This specification records that scope for implementation.
 
 ## Purpose
 
