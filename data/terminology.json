@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "updated": "2026-10-14",
+  "sources": [
+    {
+      "id": "russian",
+      "name": "Russian quest terminology",
+      "url": "https://igra4.ru/prohojdenie-vseh-pobochnyh-zadanii-valor-mortis-gaid-po-igre/",
+      "kind": "community",
+      "reviewed": "2026-10-14"
+    }
+  ],
+  "entries": [
+    {
+      "en": "The Battlefield",
+      "ru": "Поле битвы",
+      "status": "unverified",
+      "sourceIds": ["russian"]
+    },
+    {
+      "en": "Valley of Ashes",
+      "ru": "Долина пепла",
+      "status": "unverified",
+      "sourceIds": ["russian"]
+    },
+    {
+      "en": "Abandoned Church",
+      "ru": "Заброшенная церковь",
+      "status": "unverified",
+      "sourceIds": ["russian"]
+    },
+    {
+      "en": "Fallen Village",
+      "ru": "Павшая деревня",
+      "status": "unverified",
+      "sourceIds": ["russian"]
+    },
+    {
+      "en": "Caverns",
+      "ru": "Пещеры",
+      "status": "unverified",
+      "sourceIds": ["russian"]
+    },
+    {
+      "en": "Vale of Wrath",
+      "ru": "Долина гнева",
+      "status": "unverified",
+      "sourceIds": ["russian"]
+    },
+    {
+      "en": "Cursed Hollow",
+      "ru": "Проклятая лощина",
+      "status": "unverified",
+      "sourceIds": ["russian"]
+    },
+    {
+      "en": "The Outskirts",
+      "ru": "Окраины",
+      "status": "unverified",
+      "sourceIds": ["russian"]
+    },
+    {
+      "en": "City of Orphans",
+      "ru": "Город сирот",
+      "status": "unverified",
+      "sourceIds": ["russian"]
+    },
+    {
+      "en": "University",
+      "ru": "Университет",
+      "status": "unverified",
+      "sourceIds": ["russian"]
+    },
+    {
+      "en": "Fortress",
+      "ru": "Крепость",
+      "status": "unverified",
+      "sourceIds": ["russian"]
+    },
+    {
+      "en": "Prison",
+      "ru": "Тюрьма",
+      "status": "unverified",
+      "sourceIds": ["russian"]
+    },
+    {
+      "en": "Entropy",
+      "ru": "Энтропия",
+      "status": "unverified",
+      "sourceIds": ["russian"]
+    }
+  ]
+}

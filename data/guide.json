@@ -1,0 +1,4737 @@
+{
+  "version": 1,
+  "updated": "2026-10-14",
+  "sources": [
+    {
+      "id": "chapter1",
+      "name": "PowerPyx · Revival",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-1-revival-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter2",
+      "name": "PowerPyx · Regroup",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-2-regroup-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter3",
+      "name": "PowerPyx · Rendezvous",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-3-rendezvous-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter4",
+      "name": "PowerPyx · Dark Descent",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-4-dark-descent-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter5",
+      "name": "PowerPyx · Crime",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-5-crime-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter6",
+      "name": "PowerPyx · Punishment",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-6-punishment-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter7",
+      "name": "PowerPyx · Witch Hunt",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-7-witch-hunt-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter8",
+      "name": "PowerPyx · Blasphemy",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-8-blasphemy-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter9",
+      "name": "PowerPyx · In Ruins",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-9-in-ruins-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter10",
+      "name": "PowerPyx · Shackled",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-10-shackled-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter11",
+      "name": "PowerPyx · Reflection",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-11-reflection-endgame-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "quests",
+      "name": "PowerPyx · Side quests",
+      "url": "https://www.powerpyx.com/valor-mortis-all-side-quest-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "ambers",
+      "name": "PowerPyx · Ambers",
+      "url": "https://www.powerpyx.com/valor-mortis-all-amber-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "healing",
+      "name": "PowerPyx · Ferrofluid",
+      "url": "https://www.powerpyx.com/valor-mortis-all-ferrofluid-upgrade-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "materials",
+      "name": "PowerPyx · Upgrade materials",
+      "url": "https://www.powerpyx.com/valor-mortis-max-level-upgrade-material-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "trophies",
+      "name": "PowerPyx · Trophy roadmap",
+      "url": "https://www.powerpyx.com/valor-mortis-trophy-guide-roadmap/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "publisher",
+      "name": "Lyrical Games · Launch tips",
+      "url": "https://news.xbox.com/en-us/2026/10/13/valor-mortis-tips-and-tricks-to-survive-the-crimson-plague/",
+      "kind": "official",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "emissary",
+      "name": "PC Gamer · The Emissary",
+      "url": "https://www.pcgamer.com/games/action/valor-mortis-the-emissary-walkthrough/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "travel",
+      "name": "Insider Gaming · Fast travel",
+      "url": "https://insider-gaming.com/fast-travel-valor-mortis/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "postgame",
+      "name": "Insider Gaming · Postgame",
+      "url": "https://insider-gaming.com/free-roam-valor-mortis/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "ps5",
+      "name": "Exophase · PS5",
+      "url": "https://www.exophase.com/game/valor-mortis-psn/trophies/",
+      "kind": "platform-mirror",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "steam",
+      "name": "Exophase · Steam",
+      "url": "https://www.exophase.com/game/valor-mortis-steam/achievements/",
+      "kind": "platform-mirror",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "xbox",
+      "name": "Exophase · Xbox",
+      "url": "https://www.exophase.com/game/valor-mortis-xbox/achievements/",
+      "kind": "platform-mirror",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "russian",
+      "name": "Russian quest terminology",
+      "url": "https://igra4.ru/prohojdenie-vseh-pobochnyh-zadanii-valor-mortis-gaid-po-igre/",
+      "kind": "community",
+      "reviewed": "2026-10-14"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "chapter-01",
+      "title": {
+        "en": "Revival",
+        "ru": "Возрождение"
+      }
+    },
+    {
+      "id": "chapter-02",
+      "title": {
+        "en": "Regroup",
+        "ru": "Перегруппировка"
+      }
+    },
+    {
+      "id": "chapter-03",
+      "title": {
+        "en": "Rendezvous",
+        "ru": "Встреча"
+      }
+    },
+    {
+      "id": "chapter-04",
+      "title": {
+        "en": "Dark Descent",
+        "ru": "Спуск во тьму"
+      }
+    },
+    {
+      "id": "chapter-05",
+      "title": {
+        "en": "Crime",
+        "ru": "Преступление"
+      }
+    },
+    {
+      "id": "chapter-06",
+      "title": {
+        "en": "Punishment",
+        "ru": "Наказание"
+      }
+    },
+    {
+      "id": "chapter-07",
+      "title": {
+        "en": "Witch Hunt",
+        "ru": "Охота на ведьм"
+      }
+    },
+    {
+      "id": "chapter-08",
+      "title": {
+        "en": "Blasphemy",
+        "ru": "Богохульство"
+      }
+    },
+    {
+      "id": "chapter-09",
+      "title": {
+        "en": "In Ruins",
+        "ru": "В руинах"
+      }
+    },
+    {
+      "id": "chapter-10",
+      "title": {
+        "en": "Shackled",
+        "ru": "В оковах"
+      }
+    },
+    {
+      "id": "chapter-11",
+      "title": {
+        "en": "Reflection",
+        "ru": "Размышление и зачистка"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "section-1-battlefield-onslaught-arch",
+      "chapterId": "chapter-01",
+      "title": {
+        "en": "Onslaught Arch",
+        "ru": "Onslaught Arch"
+      },
+      "region": {
+        "en": "The Battlefield",
+        "ru": "Поле битвы"
+      },
+      "lantern": {
+        "en": "Onslaught Arch",
+        "ru": "Onslaught Arch"
+      },
+      "items": [
+        {
+          "id": "vm-saber",
+          "title": {
+            "en": "Saber",
+            "ru": "Сабля"
+          },
+          "description": {
+            "en": "Obtain your starting blade.",
+            "ru": "Получите стартовый клинок."
+          },
+          "categories": ["weapon"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter1"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-fire",
+          "title": {
+            "en": "Fire",
+            "ru": "Огонь"
+          },
+          "description": {
+            "en": "Unlock Fire and burn obstructing vines.",
+            "ru": "Получите Огонь и сожгите преграждающие путь лозы."
+          },
+          "categories": ["transmutation"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter1"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-battlefield-bottomless-well",
+          "title": {
+            "en": "Bottomless Well",
+            "ru": "Янтарь · Bottomless Well"
+          },
+          "description": {
+            "en": "Backtrack up the cliffs; burn vines.",
+            "ru": "Вернитесь вверх по скалам; сожгите лозы."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter1"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "bottomless-well"
+        },
+        {
+          "id": "vm-battlefield-persistence",
+          "title": {
+            "en": "Transmuted Persistence",
+            "ru": "Янтарь · Transmuted Persistence"
+          },
+          "description": {
+            "en": "Left battlefield detour, behind burnable vines.",
+            "ru": "Ответвление слева на поле битвы, за лозами."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter1"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "transmuted-persistence"
+        }
+      ]
+    },
+    {
+      "id": "section-1-battlefield-trenches",
+      "chapterId": "chapter-01",
+      "title": {
+        "en": "Trenches",
+        "ru": "Trenches"
+      },
+      "region": {
+        "en": "The Battlefield",
+        "ru": "Поле битвы"
+      },
+      "lantern": {
+        "en": "Trenches",
+        "ru": "Trenches"
+      },
+      "items": [
+        {
+          "id": "vm-battlefield-iron-grip",
+          "title": {
+            "en": "Iron Grip",
+            "ru": "Янтарь · Iron Grip"
+          },
+          "description": {
+            "en": "After plunge tutorial, search right dead end.",
+            "ru": "После обучения удару сверху осмотрите правый тупик."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter1"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "iron-grip"
+        },
+        {
+          "id": "vm-lothaire-first",
+          "title": {
+            "en": "First Lothaire encounter",
+            "ru": "Первая встреча с Лотером"
+          },
+          "description": {
+            "en": "Continue after the intended defeat.",
+            "ru": "Продолжайте после предусмотренного поражения."
+          },
+          "categories": ["story"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter1"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-2-valley-guidepost",
+      "chapterId": "chapter-02",
+      "title": {
+        "en": "Guidepost",
+        "ru": "Guidepost"
+      },
+      "region": {
+        "en": "Valley of Ashes",
+        "ru": "Долина пепла"
+      },
+      "lantern": {
+        "en": "Guidepost",
+        "ru": "Guidepost"
+      },
+      "items": [
+        {
+          "id": "vm-guidepost-healing",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Break boxes before the pole swing.",
+            "ru": "Разбейте ящики перед прыжком к перекладине."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter2"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-guidepost-shell",
+          "title": {
+            "en": "Indestructible Shell",
+            "ru": "Янтарь · Indestructible Shell"
+          },
+          "description": {
+            "en": "Chest after the first Grenadier.",
+            "ru": "Сундук после первого гренадера."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter2"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "indestructible-shell"
+        },
+        {
+          "id": "vm-farewell-start",
+          "title": {
+            "en": "An Unheard Farewell",
+            "ru": "Неуслышанное прощание"
+          },
+          "description": {
+            "en": "Accept the carriage occupant’s request.",
+            "ru": "Примите просьбу человека в вагоне."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter2"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-farewell"
+        },
+        {
+          "id": "vm-pistol",
+          "title": {
+            "en": "Pistol",
+            "ru": "Пистолет"
+          },
+          "description": {
+            "en": "Collect it inside the bridge train car.",
+            "ru": "Заберите в вагоне на мосту."
+          },
+          "categories": ["weapon"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter2"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-2-valley-the-climb",
+      "chapterId": "chapter-02",
+      "title": {
+        "en": "The Climb",
+        "ru": "The Climb"
+      },
+      "region": {
+        "en": "Valley of Ashes",
+        "ru": "Долина пепла"
+      },
+      "lantern": {
+        "en": "The Climb",
+        "ru": "The Climb"
+      },
+      "items": [
+        {
+          "id": "vm-climb-flask",
+          "title": {
+            "en": "Flask capacity",
+            "ru": "Ёмкость флакона"
+          },
+          "description": {
+            "en": "Chest left of the lantern.",
+            "ru": "Сундук слева от фонаря."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter2"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-farewell-letter",
+          "title": {
+            "en": "Officer’s letter",
+            "ru": "Письмо офицерам"
+          },
+          "description": {
+            "en": "Use the moving lift; burn vines; defeat the miniboss and collect its letter.",
+            "ru": "Используйте движущийся подъёмник; сожгите лозы; победите мини-босса и заберите письмо."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter2"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-farewell"
+        }
+      ]
+    },
+    {
+      "id": "section-2-valley-demolished-path",
+      "chapterId": "chapter-02",
+      "title": {
+        "en": "Demolished Path",
+        "ru": "Demolished Path"
+      },
+      "region": {
+        "en": "Valley of Ashes",
+        "ru": "Долина пепла"
+      },
+      "lantern": {
+        "en": "Demolished Path",
+        "ru": "Demolished Path"
+      },
+      "items": [
+        {
+          "id": "vm-farewell-finish",
+          "title": {
+            "en": "Return to the adjutant",
+            "ru": "Вернитесь к адъютанту"
+          },
+          "description": {
+            "en": "Open the ladder shortcut and report back for Sleight of Hand.",
+            "ru": "Откройте лестницу и доложите адъютанту; награда — Sleight of Hand."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter2"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-farewell",
+          "amberId": "sleight-of-hand"
+        },
+        {
+          "id": "vm-oathbound-lucien",
+          "title": {
+            "en": "The Oathbound",
+            "ru": "Верные Клятве"
+          },
+          "description": {
+            "en": "Take the left detour; defeat Lucien’s guard and collect the emblem.",
+            "ru": "Сверните налево; победите стража и заберите эмблему Люсьена."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter2"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-oathbound"
+        },
+        {
+          "id": "vm-valley-perfectionism",
+          "title": {
+            "en": "Perfectionism",
+            "ru": "Янтарь · Perfectionism"
+          },
+          "description": {
+            "en": "Chest behind the guard.",
+            "ru": "Сундук за стражем."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter2"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "perfectionism"
+        }
+      ]
+    },
+    {
+      "id": "section-2-valley-the-other-side",
+      "chapterId": "chapter-02",
+      "title": {
+        "en": "The Other Side",
+        "ru": "The Other Side"
+      },
+      "region": {
+        "en": "Valley of Ashes",
+        "ru": "Долина пепла"
+      },
+      "lantern": {
+        "en": "The Other Side",
+        "ru": "The Other Side"
+      },
+      "items": [
+        {
+          "id": "vm-emissary-seal",
+          "title": {
+            "en": "The Emissary",
+            "ru": "Посланник"
+          },
+          "description": {
+            "en": "Retrieve the seal from the carriage; defer the poison route.",
+            "ru": "Заберите печать из вагона; отложите путь через яд."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter2"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-emissary"
+        }
+      ]
+    },
+    {
+      "id": "section-2-valley-military-camp",
+      "chapterId": "chapter-02",
+      "title": {
+        "en": "Military Camp",
+        "ru": "Military Camp"
+      },
+      "region": {
+        "en": "Valley of Ashes",
+        "ru": "Долина пепла"
+      },
+      "lantern": {
+        "en": "Military Camp",
+        "ru": "Military Camp"
+      },
+      "items": [
+        {
+          "id": "vm-camp-dominatus",
+          "title": {
+            "en": "Dominatus",
+            "ru": "Янтарь · Dominatus"
+          },
+          "description": {
+            "en": "Search the corner tent before the hill.",
+            "ru": "Осмотрите угловую палатку перед холмом."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter2"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "dominatus"
+        },
+        {
+          "id": "vm-camp-surplus",
+          "title": {
+            "en": "Surplus",
+            "ru": "Янтарь · Surplus"
+          },
+          "description": {
+            "en": "Burn hillside vines; shoot lantern and weak point.",
+            "ru": "Сожгите лозы на склоне; стреляйте в фонарь и слабую точку."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter2"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "surplus"
+        }
+      ]
+    },
+    {
+      "id": "section-2-valley-quarry",
+      "chapterId": "chapter-02",
+      "title": {
+        "en": "Quarry",
+        "ru": "Quarry"
+      },
+      "region": {
+        "en": "Valley of Ashes",
+        "ru": "Долина пепла"
+      },
+      "lantern": {
+        "en": "Quarry",
+        "ru": "Quarry"
+      },
+      "items": [
+        {
+          "id": "vm-quarry-concoction",
+          "title": {
+            "en": "Potent Concoction",
+            "ru": "Янтарь · Potent Concoction"
+          },
+          "description": {
+            "en": "Burn vines opposite the shortcut ladder.",
+            "ru": "Сожгите лозы напротив короткой лестницы."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter2"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "potent-concoction"
+        },
+        {
+          "id": "vm-quarry-marksman",
+          "title": {
+            "en": "Marksman’s Bane",
+            "ru": "Янтарь · Marksman’s Bane"
+          },
+          "description": {
+            "en": "After zipline, break left boxes; reach tower.",
+            "ru": "После троса разбейте ящики слева; доберитесь до башни."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter2"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "marksmans-bane"
+        },
+        {
+          "id": "vm-lothaire",
+          "title": {
+            "en": "General Lothaire",
+            "ru": "Генерал Лотер"
+          },
+          "description": {
+            "en": "Defeat the story boss.",
+            "ru": "Победите сюжетного босса."
+          },
+          "categories": ["boss"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter2"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-3-church-abandoned-church",
+      "chapterId": "chapter-03",
+      "title": {
+        "en": "Abandoned Church",
+        "ru": "Abandoned Church"
+      },
+      "region": {
+        "en": "Abandoned Church",
+        "ru": "Заброшенная церковь"
+      },
+      "lantern": {
+        "en": "Abandoned Church",
+        "ru": "Abandoned Church"
+      },
+      "items": [
+        {
+          "id": "vm-fast-travel",
+          "title": {
+            "en": "Unlock fast travel",
+            "ru": "Откройте быстрое перемещение"
+          },
+          "description": {
+            "en": "Activate the church lantern after Lothaire.",
+            "ru": "Активируйте церковный фонарь после Лотера."
+          },
+          "categories": ["story"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["travel"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-3-battlefield-onslaught-arch",
+      "chapterId": "chapter-03",
+      "title": {
+        "en": "Onslaught Arch",
+        "ru": "Onslaught Arch"
+      },
+      "region": {
+        "en": "The Battlefield",
+        "ru": "Поле битвы"
+      },
+      "lantern": {
+        "en": "Onslaught Arch",
+        "ru": "Onslaught Arch"
+      },
+      "items": [
+        {
+          "id": "vm-oathbound-valen",
+          "title": {
+            "en": "Valen’s emblem",
+            "ru": "Эмблема Валена"
+          },
+          "description": {
+            "en": "Return uphill; shoot the blocked left path and defeat the guard.",
+            "ru": "Вернитесь вверх; откройте выстрелом левый проход и победите стража."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter3"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-oathbound"
+        },
+        {
+          "id": "vm-battlefield-duellist",
+          "title": {
+            "en": "Duellist’s Focus",
+            "ru": "Янтарь · Duellist’s Focus"
+          },
+          "description": {
+            "en": "Loot the guard’s chest.",
+            "ru": "Откройте сундук стража."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter3"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "duellists-focus"
+        }
+      ]
+    },
+    {
+      "id": "section-3-church-abandoned-church",
+      "chapterId": "chapter-03",
+      "title": {
+        "en": "Abandoned Church",
+        "ru": "Abandoned Church"
+      },
+      "region": {
+        "en": "Abandoned Church",
+        "ru": "Заброшенная церковь"
+      },
+      "lantern": {
+        "en": "Abandoned Church",
+        "ru": "Abandoned Church"
+      },
+      "items": [
+        {
+          "id": "vm-rapier",
+          "title": {
+            "en": "Rapier",
+            "ru": "Рапира"
+          },
+          "description": {
+            "en": "Pull it from the body toward the village.",
+            "ru": "Вытащите из тела по пути в деревню."
+          },
+          "categories": ["weapon"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter3"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-3-village-fields",
+      "chapterId": "chapter-03",
+      "title": {
+        "en": "Fields",
+        "ru": "Fields"
+      },
+      "region": {
+        "en": "Fallen Village",
+        "ru": "Павшая деревня"
+      },
+      "lantern": {
+        "en": "Fields",
+        "ru": "Fields"
+      },
+      "items": [
+        {
+          "id": "vm-scarecrow",
+          "title": {
+            "en": "The Scarecrow",
+            "ru": "Пугало"
+          },
+          "description": {
+            "en": "Bring the pendant and illustrated letter; then inspect the barn pillows.",
+            "ru": "Принесите кулон и письмо с рисунком; затем осмотрите подушки в амбаре."
+          },
+          "categories": ["quest", "amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter3"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-scarecrow",
+          "amberId": "bountiful-harvest"
+        },
+        {
+          "id": "vm-fields-volatile",
+          "title": {
+            "en": "Volatile End",
+            "ru": "Янтарь · Volatile End"
+          },
+          "description": {
+            "en": "Chest beyond the explosive bodies in the barn.",
+            "ru": "Сундук за взрывающимися телами в амбаре."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter3"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "volatile-end"
+        },
+        {
+          "id": "vm-blunderbuss",
+          "title": {
+            "en": "Blunderbuss",
+            "ru": "Мушкетон"
+          },
+          "description": {
+            "en": "Defeat the Volunteer; loot the carriage.",
+            "ru": "Победите добровольца; обыщите вагон."
+          },
+          "categories": ["weapon"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter3"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-fields-well",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Chest beside the house’s well.",
+            "ru": "Сундук у колодца возле дома."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter3"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-3-village-marketplace",
+      "chapterId": "chapter-03",
+      "title": {
+        "en": "Marketplace",
+        "ru": "Marketplace"
+      },
+      "region": {
+        "en": "Fallen Village",
+        "ru": "Павшая деревня"
+      },
+      "lantern": {
+        "en": "Marketplace",
+        "ru": "Marketplace"
+      },
+      "items": [
+        {
+          "id": "vm-lullaby",
+          "title": {
+            "en": "Lullaby",
+            "ru": "Колыбельная"
+          },
+          "description": {
+            "en": "Crib → backyard key → locked riverside house → return the toy.",
+            "ru": "Колыбель → ключ за домом → запертый дом у реки → верните игрушку."
+          },
+          "categories": ["quest", "amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter3"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-lullaby",
+          "amberId": "tomorrows-promise"
+        },
+        {
+          "id": "vm-market-corner",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Chest inside the first left corner house.",
+            "ru": "Сундук в первом угловом доме слева."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter3"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-village-fury",
+          "title": {
+            "en": "Warrior’s Fury",
+            "ru": "Янтарь · Warrior’s Fury"
+          },
+          "description": {
+            "en": "Balcony jump from the house under fire.",
+            "ru": "Прыжок с балкона обстреливаемого дома."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter3"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "warriors-fury"
+        },
+        {
+          "id": "vm-storage-key",
+          "title": {
+            "en": "Storage Key",
+            "ru": "Ключ от склада"
+          },
+          "description": {
+            "en": "Descend behind the house; inspect the box.",
+            "ru": "Спуститесь за домом; осмотрите ящик."
+          },
+          "categories": ["key"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter3"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-3-village-orchard",
+      "chapterId": "chapter-03",
+      "title": {
+        "en": "Orchard",
+        "ru": "Orchard"
+      },
+      "region": {
+        "en": "Fallen Village",
+        "ru": "Павшая деревня"
+      },
+      "lantern": {
+        "en": "Orchard",
+        "ru": "Orchard"
+      },
+      "items": [
+        {
+          "id": "vm-iron-marshall",
+          "title": {
+            "en": "The Iron Marshall",
+            "ru": "Железный маршал"
+          },
+          "description": {
+            "en": "Defeat the story boss.",
+            "ru": "Победите сюжетного босса."
+          },
+          "categories": ["boss"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter3"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-orchard-glass",
+          "title": {
+            "en": "Glass Soldier",
+            "ru": "Янтарь · Glass Soldier"
+          },
+          "description": {
+            "en": "Climb the right building; drop behind it.",
+            "ru": "Поднимитесь в здание справа; спрыгните за него."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter3"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "glass-soldier"
+        }
+      ]
+    },
+    {
+      "id": "section-3-village-marketplace-return",
+      "chapterId": "chapter-03",
+      "title": {
+        "en": "Marketplace — return",
+        "ru": "Marketplace — return"
+      },
+      "region": {
+        "en": "Fallen Village",
+        "ru": "Павшая деревня"
+      },
+      "lantern": {
+        "en": "Marketplace — return",
+        "ru": "Marketplace — return"
+      },
+      "items": [
+        {
+          "id": "vm-market-grapple-flask",
+          "title": {
+            "en": "Flask capacity",
+            "ru": "Ёмкость флакона"
+          },
+          "description": {
+            "en": "Grapple across water; chest after second pillar.",
+            "ru": "Переправьтесь крюком; сундук за вторым столбом."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter3"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-4-church-abandoned-church",
+      "chapterId": "chapter-04",
+      "title": {
+        "en": "Abandoned Church",
+        "ru": "Abandoned Church"
+      },
+      "region": {
+        "en": "Abandoned Church",
+        "ru": "Заброшенная церковь"
+      },
+      "lantern": {
+        "en": "Abandoned Church",
+        "ru": "Abandoned Church"
+      },
+      "items": [
+        {
+          "id": "vm-church-first-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Buy Louis’s available healing-power upgrade.",
+            "ru": "Купите доступное улучшение силы лечения у Луи."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-church-flask",
+          "title": {
+            "en": "Flask capacity",
+            "ru": "Ёмкость флакона"
+          },
+          "description": {
+            "en": "Buy Louis’s flask-capacity upgrade.",
+            "ru": "Купите увеличение ёмкости флакона у Луи."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-cave-key",
+          "title": {
+            "en": "Cave Grotto Key",
+            "ru": "Ключ от грота"
+          },
+          "description": {
+            "en": "Speak to James after rescuing Louis.",
+            "ru": "Поговорите с Джеймсом после спасения Луи."
+          },
+          "categories": ["key"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-4-valley-quarry-return",
+      "chapterId": "chapter-04",
+      "title": {
+        "en": "Quarry — return",
+        "ru": "Quarry — return"
+      },
+      "region": {
+        "en": "Valley of Ashes",
+        "ru": "Долина пепла"
+      },
+      "lantern": {
+        "en": "Quarry — return",
+        "ru": "Quarry — return"
+      },
+      "items": [
+        {
+          "id": "vm-quarry-return-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Use the lift and grapple route to the upper chest.",
+            "ru": "По подъёмнику и точкам крюка доберитесь до верхнего сундука."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-4-caverns-last-sunlight",
+      "chapterId": "chapter-04",
+      "title": {
+        "en": "Last Sunlight",
+        "ru": "Last Sunlight"
+      },
+      "region": {
+        "en": "Caverns",
+        "ru": "Пещеры"
+      },
+      "lantern": {
+        "en": "Last Sunlight",
+        "ru": "Last Sunlight"
+      },
+      "items": [
+        {
+          "id": "vm-homesick",
+          "title": {
+            "en": "Homesick",
+            "ru": "Тоска по дому"
+          },
+          "description": {
+            "en": "Find both letters near the memory and boat; return to the first letter.",
+            "ru": "Найдите письма у воспоминания и лодки; вернитесь к первому."
+          },
+          "categories": ["quest", "amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-homesick",
+          "amberId": "bottomless-well"
+        },
+        {
+          "id": "vm-cave-dominatus",
+          "title": {
+            "en": "Dominatus",
+            "ru": "Янтарь · Dominatus"
+          },
+          "description": {
+            "en": "Defeat the miniboss beside the campfire.",
+            "ru": "Победите мини-босса у костра."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "dominatus"
+        },
+        {
+          "id": "vm-cave-lucky",
+          "title": {
+            "en": "Lucky Shot",
+            "ru": "Янтарь · Lucky Shot"
+          },
+          "description": {
+            "en": "Drop into the floor tunnel; search near the Grenadier.",
+            "ru": "Спуститесь в туннель; осмотрите место у гренадера."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "lucky-shot"
+        }
+      ]
+    },
+    {
+      "id": "section-4-caverns-weeping-ledge",
+      "chapterId": "chapter-04",
+      "title": {
+        "en": "Weeping Ledge",
+        "ru": "Weeping Ledge"
+      },
+      "region": {
+        "en": "Caverns",
+        "ru": "Пещеры"
+      },
+      "lantern": {
+        "en": "Weeping Ledge",
+        "ru": "Weeping Ledge"
+      },
+      "items": [
+        {
+          "id": "vm-cave-lunatic",
+          "title": {
+            "en": "Lunatic’s Grasp",
+            "ru": "Янтарь · Lunatic’s Grasp"
+          },
+          "description": {
+            "en": "Chest beside vines in the Carrion room.",
+            "ru": "Сундук у лоз в комнате падальщиков."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "lunatics-grasp"
+        },
+        {
+          "id": "vm-stasis",
+          "title": {
+            "en": "Stasis",
+            "ru": "Стазис"
+          },
+          "description": {
+            "en": "Progress beyond the first walkway crank.",
+            "ru": "Пройдите за первую рукоять вращающегося перехода."
+          },
+          "categories": ["transmutation"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-4-caverns-old-mine",
+      "chapterId": "chapter-04",
+      "title": {
+        "en": "Old Mine",
+        "ru": "Old Mine"
+      },
+      "region": {
+        "en": "Caverns",
+        "ru": "Пещеры"
+      },
+      "lantern": {
+        "en": "Old Mine",
+        "ru": "Old Mine"
+      },
+      "items": [
+        {
+          "id": "vm-oathbound-jean",
+          "title": {
+            "en": "Jean Pierre’s emblem",
+            "ru": "Эмблема Жан-Пьера"
+          },
+          "description": {
+            "en": "Use crane platforms; defeat the cave guard.",
+            "ru": "Используйте платформы крана; победите стража пещеры."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-oathbound"
+        },
+        {
+          "id": "vm-mine-perfectionism",
+          "title": {
+            "en": "Perfectionism",
+            "ru": "Янтарь · Perfectionism"
+          },
+          "description": {
+            "en": "Chest behind the guard.",
+            "ru": "Сундук за стражем."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "perfectionism"
+        },
+        {
+          "id": "vm-mine-flask",
+          "title": {
+            "en": "Flask capacity",
+            "ru": "Ёмкость флакона"
+          },
+          "description": {
+            "en": "Stop the spinning platform; cross to its chest.",
+            "ru": "Остановите платформу; перейдите к сундуку."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-mine-surplus",
+          "title": {
+            "en": "Surplus",
+            "ru": "Янтарь · Surplus"
+          },
+          "description": {
+            "en": "Explore behind the ladder between minecart tracks.",
+            "ru": "Осмотрите проход за лестницей между рельсами."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "surplus"
+        },
+        {
+          "id": "vm-mine-platform-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Chest across the frozen platform.",
+            "ru": "Сундук за замороженной платформой."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-mining-key",
+          "title": {
+            "en": "Mining Shaft Key",
+            "ru": "Ключ от шахты"
+          },
+          "description": {
+            "en": "Drop from the lift onto the body’s ledge.",
+            "ru": "Спрыгните с подъёмника на уступ с телом."
+          },
+          "categories": ["key"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-mine-bottom-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Unlock the shaft; descend below the Volunteer.",
+            "ru": "Откройте шахту; спуститесь к сундуку за добровольцем."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-mine-limit",
+          "title": {
+            "en": "Limit Break",
+            "ru": "Янтарь · Limit Break"
+          },
+          "description": {
+            "en": "Lower cavern, behind the corner ramp.",
+            "ru": "Нижний ярус пещеры, за угловым пандусом."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "limit-break"
+        }
+      ]
+    },
+    {
+      "id": "section-4-caverns-ancient-lair",
+      "chapterId": "chapter-04",
+      "title": {
+        "en": "Ancient Lair",
+        "ru": "Ancient Lair"
+      },
+      "region": {
+        "en": "Caverns",
+        "ru": "Пещеры"
+      },
+      "lantern": {
+        "en": "Ancient Lair",
+        "ru": "Ancient Lair"
+      },
+      "items": [
+        {
+          "id": "vm-sphinx",
+          "title": {
+            "en": "The Sphinx",
+            "ru": "Сфинкс"
+          },
+          "description": {
+            "en": "Defeat the story boss.",
+            "ru": "Победите сюжетного босса."
+          },
+          "categories": ["boss"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter4"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-5-church-abandoned-church",
+      "chapterId": "chapter-05",
+      "title": {
+        "en": "Abandoned Church",
+        "ru": "Abandoned Church"
+      },
+      "region": {
+        "en": "Abandoned Church",
+        "ru": "Заброшенная церковь"
+      },
+      "lantern": {
+        "en": "Abandoned Church",
+        "ru": "Abandoned Church"
+      },
+      "items": [
+        {
+          "id": "vm-church-second-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Purchase the newly available power upgrade.",
+            "ru": "Купите новое улучшение силы лечения."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-outward-key",
+          "title": {
+            "en": "Outward Pass Key",
+            "ru": "Ключ от внешнего прохода"
+          },
+          "description": {
+            "en": "Collect James’s key for the next route.",
+            "ru": "Получите у Джеймса ключ к следующему пути."
+          },
+          "categories": ["key"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-5-vale-wolfsbane-field",
+      "chapterId": "chapter-05",
+      "title": {
+        "en": "Wolfsbane Field",
+        "ru": "Wolfsbane Field"
+      },
+      "region": {
+        "en": "Vale of Wrath",
+        "ru": "Долина гнева"
+      },
+      "lantern": {
+        "en": "Wolfsbane Field",
+        "ru": "Wolfsbane Field"
+      },
+      "items": [
+        {
+          "id": "vm-lost-boy",
+          "title": {
+            "en": "The Lost Boy",
+            "ru": "Потерянный мальчик"
+          },
+          "description": {
+            "en": "Read Mirek’s note; recover the cave key; inspect the cellar note.",
+            "ru": "Прочитайте записку Мирека; найдите ключ в пещере; прочитайте записку в подвале."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-lost-boy"
+        },
+        {
+          "id": "vm-vale-exchange",
+          "title": {
+            "en": "Equivalent Exchange",
+            "ru": "Янтарь · Equivalent Exchange"
+          },
+          "description": {
+            "en": "Grapple to the cave miniboss.",
+            "ru": "Доберитесь крюком к мини-боссу пещеры."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "equivalent-exchange"
+        },
+        {
+          "id": "vm-cellar-wound",
+          "title": {
+            "en": "Wound that Heals",
+            "ru": "Янтарь · Wound that Heals"
+          },
+          "description": {
+            "en": "Loot the opened cellar.",
+            "ru": "Обыщите открытый подвал."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "wound-that-heals"
+        }
+      ]
+    },
+    {
+      "id": "section-5-vale-under-the-bridge",
+      "chapterId": "chapter-05",
+      "title": {
+        "en": "Under the Bridge",
+        "ru": "Under the Bridge"
+      },
+      "region": {
+        "en": "Vale of Wrath",
+        "ru": "Долина гнева"
+      },
+      "lantern": {
+        "en": "Under the Bridge",
+        "ru": "Under the Bridge"
+      },
+      "items": [
+        {
+          "id": "vm-deserter-start",
+          "title": {
+            "en": "The Deserter",
+            "ru": "Дезертир"
+          },
+          "description": {
+            "en": "Read the wanted notice; collect the hut key from its guard.",
+            "ru": "Прочитайте объявление; заберите ключ от хижины у стража."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-deserter"
+        },
+        {
+          "id": "vm-art",
+          "title": {
+            "en": "In the Name of Art",
+            "ru": "Во имя искусства"
+          },
+          "description": {
+            "en": "Shoot through the window; inspect painting; retrieve grave key; read basement letter.",
+            "ru": "Стреляйте через окно; осмотрите картину; найдите ключ у могилы; прочитайте письмо в подвале."
+          },
+          "categories": ["quest", "amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-art",
+          "amberId": "butchers-carnage"
+        },
+        {
+          "id": "vm-deserter-finish",
+          "title": {
+            "en": "Anubis figurine",
+            "ru": "Фигурка Анубиса"
+          },
+          "description": {
+            "en": "Search the three safe square hives; assemble the figurine.",
+            "ru": "Обыщите три безопасных квадратных улья; соберите фигурку."
+          },
+          "categories": ["quest", "amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-deserter",
+          "amberId": "bountiful-harvest"
+        },
+        {
+          "id": "vm-hut-perfectionism",
+          "title": {
+            "en": "Perfectionism",
+            "ru": "Янтарь · Perfectionism"
+          },
+          "description": {
+            "en": "Chest inside the beekeeper’s hut.",
+            "ru": "Сундук в хижине пчеловода."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "perfectionism"
+        },
+        {
+          "id": "vm-forest-wound",
+          "title": {
+            "en": "Wound that Heals",
+            "ru": "Янтарь · Wound that Heals"
+          },
+          "description": {
+            "en": "Defeat the uphill forest miniboss.",
+            "ru": "Победите лесного мини-босса на холме."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "wound-that-heals"
+        },
+        {
+          "id": "vm-musket",
+          "title": {
+            "en": "Musket",
+            "ru": "Мушкет"
+          },
+          "description": {
+            "en": "Defeat the dual-blade Volunteer; unlock the wagon.",
+            "ru": "Победите добровольца с двумя клинками; откройте повозку."
+          },
+          "categories": ["weapon"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-bridge-gears-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Chest beside the gate gears.",
+            "ru": "Сундук возле механизма ворот."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-fishing-flask",
+          "title": {
+            "en": "Flask capacity",
+            "ru": "Ёмкость флакона"
+          },
+          "description": {
+            "en": "Chest beside the hanging-body tree.",
+            "ru": "Сундук возле дерева с повешенными."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-fishing-dilated",
+          "title": {
+            "en": "Dilated Moment",
+            "ru": "Янтарь · Dilated Moment"
+          },
+          "description": {
+            "en": "Follow the river to its dead-end chest.",
+            "ru": "Пройдите вдоль реки к сундуку в тупике."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "dilated-moment"
+        }
+      ]
+    },
+    {
+      "id": "section-5-vale-poisoned-camp",
+      "chapterId": "chapter-05",
+      "title": {
+        "en": "Poisoned Camp",
+        "ru": "Poisoned Camp"
+      },
+      "region": {
+        "en": "Vale of Wrath",
+        "ru": "Долина гнева"
+      },
+      "lantern": {
+        "en": "Poisoned Camp",
+        "ru": "Poisoned Camp"
+      },
+      "items": [
+        {
+          "id": "vm-camp-lucky",
+          "title": {
+            "en": "Lucky Shot",
+            "ru": "Янтарь · Lucky Shot"
+          },
+          "description": {
+            "en": "Trapped chest after the flamethrower Volunteers.",
+            "ru": "Сундук-ловушка после добровольцев с огнемётами."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "lucky-shot"
+        }
+      ]
+    },
+    {
+      "id": "section-5-vale-ship-graveyard",
+      "chapterId": "chapter-05",
+      "title": {
+        "en": "Ship Graveyard",
+        "ru": "Ship Graveyard"
+      },
+      "region": {
+        "en": "Vale of Wrath",
+        "ru": "Долина гнева"
+      },
+      "lantern": {
+        "en": "Ship Graveyard",
+        "ru": "Ship Graveyard"
+      },
+      "items": [
+        {
+          "id": "vm-ship-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Chest beneath the deck near three enemies.",
+            "ru": "Сундук под палубой возле трёх врагов."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-5-vale-old-windmill",
+      "chapterId": "chapter-05",
+      "title": {
+        "en": "Old Windmill",
+        "ru": "Old Windmill"
+      },
+      "region": {
+        "en": "Vale of Wrath",
+        "ru": "Долина гнева"
+      },
+      "lantern": {
+        "en": "Old Windmill",
+        "ru": "Old Windmill"
+      },
+      "items": [
+        {
+          "id": "vm-slaughtermill",
+          "title": {
+            "en": "Slaughtermill",
+            "ru": "Мельница-бойня"
+          },
+          "description": {
+            "en": "Defeat the story boss.",
+            "ru": "Победите сюжетного босса."
+          },
+          "categories": ["boss"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-emissary-letter",
+          "title": {
+            "en": "Emissary’s letter",
+            "ru": "Письмо посланника"
+          },
+          "description": {
+            "en": "Read the letter in the exit tunnel.",
+            "ru": "Прочитайте письмо в выходном туннеле."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter5"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-emissary"
+        }
+      ]
+    },
+    {
+      "id": "section-6-village-marketplace-return",
+      "chapterId": "chapter-06",
+      "title": {
+        "en": "Marketplace — return",
+        "ru": "Marketplace — return"
+      },
+      "region": {
+        "en": "Fallen Village",
+        "ru": "Павшая деревня"
+      },
+      "lantern": {
+        "en": "Marketplace — return",
+        "ru": "Marketplace — return"
+      },
+      "items": [
+        {
+          "id": "vm-oathbound-etienne",
+          "title": {
+            "en": "Etienne’s emblem",
+            "ru": "Эмблема Этьена"
+          },
+          "description": {
+            "en": "Use the newly accessible Nephto path to the cave guard.",
+            "ru": "Пройдите по открывшемуся пути к стражу пещеры."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter6"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-oathbound"
+        }
+      ]
+    },
+    {
+      "id": "section-6-hollow-eerie-view",
+      "chapterId": "chapter-06",
+      "title": {
+        "en": "Eerie View",
+        "ru": "Eerie View"
+      },
+      "region": {
+        "en": "Cursed Hollow",
+        "ru": "Проклятая лощина"
+      },
+      "lantern": {
+        "en": "Eerie View",
+        "ru": "Eerie View"
+      },
+      "items": [
+        {
+          "id": "vm-bride",
+          "title": {
+            "en": "The Bride",
+            "ru": "Невеста"
+          },
+          "description": {
+            "en": "Defeat the story boss.",
+            "ru": "Победите сюжетного босса."
+          },
+          "categories": ["boss"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter6"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-till-death-start",
+          "title": {
+            "en": "Till Death",
+            "ru": "До самой смерти"
+          },
+          "description": {
+            "en": "Inspect the altar wreath.",
+            "ru": "Осмотрите венок у алтаря."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter6"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-till-death"
+        }
+      ]
+    },
+    {
+      "id": "section-6-hollow-village-church",
+      "chapterId": "chapter-06",
+      "title": {
+        "en": "Village Church",
+        "ru": "Village Church"
+      },
+      "region": {
+        "en": "Cursed Hollow",
+        "ru": "Проклятая лощина"
+      },
+      "lantern": {
+        "en": "Village Church",
+        "ru": "Village Church"
+      },
+      "items": [
+        {
+          "id": "vm-sleeping-beauty",
+          "title": {
+            "en": "Sleeping Beauty",
+            "ru": "Спящая красавица"
+          },
+          "description": {
+            "en": "Read the shrine prayer; recover Headman’s Key; inspect the spinning wheel.",
+            "ru": "Прочитайте молитву у святилища; найдите ключ старосты; осмотрите прялку."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter6"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-sleeping-beauty"
+        }
+      ]
+    },
+    {
+      "id": "section-6-hollow-deep-water",
+      "chapterId": "chapter-06",
+      "title": {
+        "en": "Deep Water",
+        "ru": "Deep Water"
+      },
+      "region": {
+        "en": "Cursed Hollow",
+        "ru": "Проклятая лощина"
+      },
+      "lantern": {
+        "en": "Deep Water",
+        "ru": "Deep Water"
+      },
+      "items": [
+        {
+          "id": "vm-hollow-wound",
+          "title": {
+            "en": "Wound that Heals",
+            "ru": "Янтарь · Wound that Heals"
+          },
+          "description": {
+            "en": "Activate the lantern before returning to the poison miniboss.",
+            "ru": "Активируйте фонарь перед возвращением к ядовитому мини-боссу."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter6"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "wound-that-heals"
+        },
+        {
+          "id": "vm-oathbound-severin",
+          "title": {
+            "en": "Severin’s emblem",
+            "ru": "Эмблема Северина"
+          },
+          "description": {
+            "en": "Explore the island beyond the hay bale; defeat the guard.",
+            "ru": "Осмотрите остров за стогом; победите стража."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter6"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-oathbound"
+        },
+        {
+          "id": "vm-hollow-life",
+          "title": {
+            "en": "Life Diverted",
+            "ru": "Янтарь · Life Diverted"
+          },
+          "description": {
+            "en": "Chest behind the guard.",
+            "ru": "Сундук за стражем."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter6"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "life-diverted"
+        }
+      ]
+    },
+    {
+      "id": "section-6-hollow-silent-cannons",
+      "chapterId": "chapter-06",
+      "title": {
+        "en": "Silent Cannons",
+        "ru": "Silent Cannons"
+      },
+      "region": {
+        "en": "Cursed Hollow",
+        "ru": "Проклятая лощина"
+      },
+      "lantern": {
+        "en": "Silent Cannons",
+        "ru": "Silent Cannons"
+      },
+      "items": [
+        {
+          "id": "vm-seamus",
+          "title": {
+            "en": "The Curious Case of Seamus Diggory",
+            "ru": "Загадочная история Шеймуса Диггори"
+          },
+          "description": {
+            "en": "Speak through the window; bring pig blood or wine.",
+            "ru": "Поговорите через окно; принесите свиную кровь или вино."
+          },
+          "categories": ["quest", "healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter6"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-seamus"
+        },
+        {
+          "id": "vm-hollow-shell",
+          "title": {
+            "en": "Indestructible Shell",
+            "ru": "Янтарь · Indestructible Shell"
+          },
+          "description": {
+            "en": "Trapped chest beyond Seamus’s shack.",
+            "ru": "Сундук-ловушка за хижиной Шеймуса."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter6"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "indestructible-shell"
+        },
+        {
+          "id": "vm-hollow-fury",
+          "title": {
+            "en": "Warrior’s Fury",
+            "ru": "Янтарь · Warrior’s Fury"
+          },
+          "description": {
+            "en": "Defeat the dog beyond the house.",
+            "ru": "Победите пса за домом."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter6"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "warriors-fury"
+        }
+      ]
+    },
+    {
+      "id": "section-6-hollow-village-church-return",
+      "chapterId": "chapter-06",
+      "title": {
+        "en": "Village Church — return",
+        "ru": "Village Church — return"
+      },
+      "region": {
+        "en": "Cursed Hollow",
+        "ru": "Проклятая лощина"
+      },
+      "lantern": {
+        "en": "Village Church — return",
+        "ru": "Village Church — return"
+      },
+      "items": [
+        {
+          "id": "vm-claymore",
+          "title": {
+            "en": "Claymore",
+            "ru": "Клеймор"
+          },
+          "description": {
+            "en": "Shoot church weak points; take the blade.",
+            "ru": "Уничтожьте слабые точки церкви; заберите клинок."
+          },
+          "categories": ["weapon"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter6"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-till-death-finish",
+          "title": {
+            "en": "Return the red ribbon",
+            "ru": "Верните красную ленту"
+          },
+          "description": {
+            "en": "Collect the grave ribbon; return it to the wreath; rest and revisit.",
+            "ru": "Заберите ленту с могилы; верните венку; отдохните и вернитесь."
+          },
+          "categories": ["quest", "amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter6"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-till-death",
+          "amberId": "tomorrows-promise"
+        }
+      ]
+    },
+    {
+      "id": "section-7-outskirts-broken-bridge",
+      "chapterId": "chapter-07",
+      "title": {
+        "en": "Broken Bridge",
+        "ru": "Broken Bridge"
+      },
+      "region": {
+        "en": "The Outskirts",
+        "ru": "Окраины"
+      },
+      "lantern": {
+        "en": "Broken Bridge",
+        "ru": "Broken Bridge"
+      },
+      "items": [
+        {
+          "id": "vm-outskirts-dominatus",
+          "title": {
+            "en": "Dominatus",
+            "ru": "Янтарь · Dominatus"
+          },
+          "description": {
+            "en": "Platforms left of the wall jumps.",
+            "ru": "Платформы слева от прыжков по стенам."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "dominatus"
+        },
+        {
+          "id": "vm-aurelius",
+          "title": {
+            "en": "Justicar Aurelius",
+            "ru": "Юстициарий Аврелий"
+          },
+          "description": {
+            "en": "Defeat the story boss.",
+            "ru": "Победите сюжетного босса."
+          },
+          "categories": ["boss"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-7-outskirts-breach",
+      "chapterId": "chapter-07",
+      "title": {
+        "en": "Breach",
+        "ru": "Breach"
+      },
+      "region": {
+        "en": "The Outskirts",
+        "ru": "Окраины"
+      },
+      "lantern": {
+        "en": "Breach",
+        "ru": "Breach"
+      },
+      "items": [
+        {
+          "id": "vm-breach-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Chest on the slope after the boss.",
+            "ru": "Сундук на склоне после босса."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-7-outskirts-island-of-whispers",
+      "chapterId": "chapter-07",
+      "title": {
+        "en": "Island of Whispers",
+        "ru": "Island of Whispers"
+      },
+      "region": {
+        "en": "The Outskirts",
+        "ru": "Окраины"
+      },
+      "lantern": {
+        "en": "Island of Whispers",
+        "ru": "Island of Whispers"
+      },
+      "items": [
+        {
+          "id": "vm-anthem",
+          "title": {
+            "en": "The Shrike’s Anthem",
+            "ru": "Гимн Жулана"
+          },
+          "description": {
+            "en": "Read the shrine note; visit the four burrows along the village route.",
+            "ru": "Прочитайте записку у святилища; посетите четыре норы на пути через деревню."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-anthem"
+        },
+        {
+          "id": "vm-outskirts-surplus",
+          "title": {
+            "en": "Surplus",
+            "ru": "Янтарь · Surplus"
+          },
+          "description": {
+            "en": "Chest left of the street’s two tall enemies.",
+            "ru": "Сундук слева на улице с двумя высокими врагами."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "surplus"
+        },
+        {
+          "id": "vm-laudanum",
+          "title": {
+            "en": "Laudanum",
+            "ru": "Лауданум"
+          },
+          "description": {
+            "en": "Accept a branch at the doors; retrieve medicine in Market Square; return and rest.",
+            "ru": "Выберите вариант у дверей; найдите лекарство на Рыночной площади; вернитесь и отдохните."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [
+            {
+              "kind": "reward",
+              "text": {
+                "en": "The Potent Concoction duplicate reportedly requires helping the children; guides disagree.",
+                "ru": "Дубликат Potent Concoction, по одному гайду, требует помощи детям; источники расходятся."
+              },
+              "evidence": {
+                "status": "conflicting",
+                "sourceIds": ["chapter7", "quests"],
+                "reviewed": "2026-10-14"
+              }
+            }
+          ],
+          "searchTerms": [],
+          "questId": "quest-laudanum"
+        }
+      ]
+    },
+    {
+      "id": "section-7-outskirts-market-square",
+      "chapterId": "chapter-07",
+      "title": {
+        "en": "Market Square",
+        "ru": "Market Square"
+      },
+      "region": {
+        "en": "The Outskirts",
+        "ru": "Окраины"
+      },
+      "lantern": {
+        "en": "Market Square",
+        "ru": "Market Square"
+      },
+      "items": [
+        {
+          "id": "vm-outskirts-lunatic",
+          "title": {
+            "en": "Lunatic’s Grasp",
+            "ru": "Янтарь · Lunatic’s Grasp"
+          },
+          "description": {
+            "en": "Cross boats behind the barn.",
+            "ru": "Переберитесь по лодкам за амбаром."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "lunatics-grasp"
+        },
+        {
+          "id": "vm-outskirts-flask",
+          "title": {
+            "en": "Flask capacity",
+            "ru": "Ёмкость флакона"
+          },
+          "description": {
+            "en": "Explode window barrels; search the upper floor.",
+            "ru": "Взорвите бочки через окно; осмотрите верхний этаж."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-7-outskirts-lighthouse",
+      "chapterId": "chapter-07",
+      "title": {
+        "en": "Lighthouse",
+        "ru": "Lighthouse"
+      },
+      "region": {
+        "en": "The Outskirts",
+        "ru": "Окраины"
+      },
+      "lantern": {
+        "en": "Lighthouse",
+        "ru": "Lighthouse"
+      },
+      "items": [
+        {
+          "id": "vm-experiment",
+          "title": {
+            "en": "Experiment 83",
+            "ru": "Эксперимент 83"
+          },
+          "description": {
+            "en": "Defeat the story boss.",
+            "ru": "Победите сюжетного босса."
+          },
+          "categories": ["boss"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-lighthouse-blade",
+          "title": {
+            "en": "Quintessential Blade Material",
+            "ru": "Высший материал клинка"
+          },
+          "description": {
+            "en": "Chest in the side laboratory.",
+            "ru": "Сундук в боковой лаборатории."
+          },
+          "categories": ["material"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["materials"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-7-city-tribunal-square",
+      "chapterId": "chapter-07",
+      "title": {
+        "en": "Tribunal Square",
+        "ru": "Tribunal Square"
+      },
+      "region": {
+        "en": "City of Orphans",
+        "ru": "Город сирот"
+      },
+      "lantern": {
+        "en": "Tribunal Square",
+        "ru": "Tribunal Square"
+      },
+      "items": [
+        {
+          "id": "vm-monster-hunt-start",
+          "title": {
+            "en": "Monster Hunt",
+            "ru": "Охота на чудовищ"
+          },
+          "description": {
+            "en": "Collect drawings through the city and sewers; the illustrated source tracks all 17.",
+            "ru": "Собирайте рисунки в городе и канализации; в источнике отмечены все 17."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-monster-hunt"
+        },
+        {
+          "id": "vm-city-sixth",
+          "title": {
+            "en": "Sixth Sense",
+            "ru": "Янтарь · Sixth Sense"
+          },
+          "description": {
+            "en": "Climb boxes beside the riverside burrow.",
+            "ru": "Заберитесь по ящикам у норы возле реки."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "sixth-sense"
+        },
+        {
+          "id": "vm-city-well",
+          "title": {
+            "en": "Bottomless Well",
+            "ru": "Янтарь · Bottomless Well"
+          },
+          "description": {
+            "en": "Defeat the courtyard miniboss.",
+            "ru": "Победите мини-босса во дворе."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "bottomless-well"
+        },
+        {
+          "id": "vm-city-courtyard-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Loot the courtyard chest.",
+            "ru": "Откройте сундук во дворе."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-bedtime",
+          "title": {
+            "en": "Bedtime Stories",
+            "ru": "Сказки на ночь"
+          },
+          "description": {
+            "en": "Recover the basement book; return and read it to the children.",
+            "ru": "Заберите книгу в подвале; вернитесь и прочитайте детям."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-bedtime"
+        },
+        {
+          "id": "vm-city-tower-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Chest in the cannon patrol square.",
+            "ru": "Сундук на площади, где ходит пушкарь."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-7-city-shamble-street",
+      "chapterId": "chapter-07",
+      "title": {
+        "en": "Shamble Street",
+        "ru": "Shamble Street"
+      },
+      "region": {
+        "en": "City of Orphans",
+        "ru": "Город сирот"
+      },
+      "lantern": {
+        "en": "Shamble Street",
+        "ru": "Shamble Street"
+      },
+      "items": [
+        {
+          "id": "vm-city-life",
+          "title": {
+            "en": "Life Diverted",
+            "ru": "Янтарь · Life Diverted"
+          },
+          "description": {
+            "en": "Chest at the building exit.",
+            "ru": "Сундук на выходе из здания."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "life-diverted"
+        },
+        {
+          "id": "vm-city-squeak",
+          "title": {
+            "en": "Silent Squeak",
+            "ru": "Янтарь · Silent Squeak"
+          },
+          "description": {
+            "en": "Speak at the rooftop burrow.",
+            "ru": "Поговорите у норы на крыше."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "silent-squeak"
+        },
+        {
+          "id": "vm-misericorde",
+          "title": {
+            "en": "Misericorde",
+            "ru": "Милосердие"
+          },
+          "description": {
+            "en": "Speak to the bound man; destroy the attic weak point; return.",
+            "ru": "Поговорите с привязанным мужчиной; уничтожьте слабую точку чердака; вернитесь."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-misericorde"
+        }
+      ]
+    },
+    {
+      "id": "section-7-city-sewers",
+      "chapterId": "chapter-07",
+      "title": {
+        "en": "Sewers",
+        "ru": "Sewers"
+      },
+      "region": {
+        "en": "City of Orphans",
+        "ru": "Город сирот"
+      },
+      "lantern": {
+        "en": "Sewers",
+        "ru": "Sewers"
+      },
+      "items": [
+        {
+          "id": "vm-mummy-start",
+          "title": {
+            "en": "Mummy and Daddy",
+            "ru": "Мама и папа"
+          },
+          "description": {
+            "en": "Speak at the burrows and inspect the captive room.",
+            "ru": "Поговорите у нор и осмотрите комнату с пленниками."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [
+            {
+              "kind": "quest",
+              "text": {
+                "en": "Do not shoot the captive undead: the guide reports immediate quest failure.",
+                "ru": "Не стреляйте в пленных мертвецов: гайд указывает на провал задания."
+              },
+              "evidence": {
+                "status": "single-source",
+                "sourceIds": ["chapter7"],
+                "reviewed": "2026-10-14"
+              }
+            }
+          ],
+          "searchTerms": [],
+          "questId": "quest-mummy"
+        },
+        {
+          "id": "vm-sewer-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Grapple left past the explosive corpse.",
+            "ru": "Переправьтесь крюком влево за взрывающимся телом."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-sewer-key",
+          "title": {
+            "en": "Sewers Key",
+            "ru": "Ключ от канализации"
+          },
+          "description": {
+            "en": "Take the lower-left branch; open its chest.",
+            "ru": "Спуститесь по левой ветке; откройте сундук."
+          },
+          "categories": ["key"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-monster-hunt-finish",
+          "title": {
+            "en": "Complete the drawing collection",
+            "ru": "Завершите коллекцию рисунков"
+          },
+          "description": {
+            "en": "Collect the final waterside drawing; claim the rare Transmutation material.",
+            "ru": "Заберите последний рисунок у воды; получите редкий материал трансмутации."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [
+            {
+              "kind": "achievement",
+              "text": {
+                "en": "Reserve a Quintessential material for Shield level 5.",
+                "ru": "Сохраните высший материал для Щита 5-го уровня."
+              },
+              "evidence": {
+                "status": "single-source",
+                "sourceIds": ["materials"],
+                "reviewed": "2026-10-14"
+              }
+            }
+          ],
+          "searchTerms": [],
+          "questId": "quest-monster-hunt"
+        },
+        {
+          "id": "vm-shrike",
+          "title": {
+            "en": "Meet the Shrike",
+            "ru": "Встреча с Жуланом"
+          },
+          "description": {
+            "en": "Continue beyond the sewers.",
+            "ru": "Продолжайте путь за канализацией."
+          },
+          "categories": ["story"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter7"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-8-university-main-hall",
+      "chapterId": "chapter-08",
+      "title": {
+        "en": "Main Hall",
+        "ru": "Main Hall"
+      },
+      "region": {
+        "en": "University",
+        "ru": "Университет"
+      },
+      "lantern": {
+        "en": "Main Hall",
+        "ru": "Main Hall"
+      },
+      "items": [
+        {
+          "id": "vm-university-flask",
+          "title": {
+            "en": "Flask capacity",
+            "ru": "Ёмкость флакона"
+          },
+          "description": {
+            "en": "Shoot the stair weak point; move the statue.",
+            "ru": "Уничтожьте слабую точку у лестницы; сдвиньте статую."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter8"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-university-payback",
+          "title": {
+            "en": "Payback",
+            "ru": "Янтарь · Payback"
+          },
+          "description": {
+            "en": "Descend from the rooftop-access room; defeat the cannon miniboss.",
+            "ru": "Спуститесь из комнаты выхода на крышу; победите мини-босса с пушкой."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter8"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "payback"
+        },
+        {
+          "id": "vm-library-key",
+          "title": {
+            "en": "Library Key",
+            "ru": "Ключ от библиотеки"
+          },
+          "description": {
+            "en": "Explore left of the lift among movable walls.",
+            "ru": "Осмотрите проход слева от лифта среди подвижных стен."
+          },
+          "categories": ["key"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter8"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-shield",
+          "title": {
+            "en": "Shield",
+            "ru": "Щит"
+          },
+          "description": {
+            "en": "Receive the power in the library.",
+            "ru": "Получите способность в библиотеке."
+          },
+          "categories": ["transmutation"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter8"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [
+            {
+              "kind": "achievement",
+              "text": {
+                "en": "Upgrade Shield to level 5 for Abyssal Eviction; keep one rare material.",
+                "ru": "Для Abyssal Eviction нужен Щит 5-го уровня; сохраните редкий материал."
+              },
+              "evidence": {
+                "status": "single-source",
+                "sourceIds": ["trophies"],
+                "reviewed": "2026-10-14"
+              }
+            }
+          ],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-library-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Cross poison; loot behind the lower-library statue.",
+            "ru": "Пересеките яд; обыщите место за статуей нижней библиотеки."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter8"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-masterwork-firearm",
+          "title": {
+            "en": "Masterwork Firearm Part",
+            "ru": "Мастерская деталь огнестрела"
+          },
+          "description": {
+            "en": "Lecture hall chest beneath the balcony.",
+            "ru": "Сундук под балконом лекционного зала."
+          },
+          "categories": ["material"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["materials"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [
+            {
+              "kind": "reward",
+              "text": {
+                "en": "Only one final firearm material is documented. Choose your level-10 weapon deliberately.",
+                "ru": "Описана лишь одна финальная деталь. Обдумайте выбор оружия 10-го уровня."
+              },
+              "evidence": {
+                "status": "single-source",
+                "sourceIds": ["materials"],
+                "reviewed": "2026-10-14"
+              }
+            }
+          ],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-8-university-lift-shaft",
+      "chapterId": "chapter-08",
+      "title": {
+        "en": "Lift Shaft",
+        "ru": "Lift Shaft"
+      },
+      "region": {
+        "en": "University",
+        "ru": "Университет"
+      },
+      "lantern": {
+        "en": "Lift Shaft",
+        "ru": "Lift Shaft"
+      },
+      "items": [
+        {
+          "id": "vm-university-fury",
+          "title": {
+            "en": "Warrior’s Fury",
+            "ru": "Янтарь · Warrior’s Fury"
+          },
+          "description": {
+            "en": "Defeat the dog among square cages.",
+            "ru": "Победите пса среди квадратных клеток."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter8"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "warriors-fury"
+        },
+        {
+          "id": "vm-university-lunatic",
+          "title": {
+            "en": "Lunatic’s Grasp",
+            "ru": "Янтарь · Lunatic’s Grasp"
+          },
+          "description": {
+            "en": "Left explosive chest below the poison walkway.",
+            "ru": "Левый взрывающийся сундук под проходом над ядом."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter8"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "lunatics-grasp"
+        },
+        {
+          "id": "vm-university-poison-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Right explosive chest below the walkway.",
+            "ru": "Правый взрывающийся сундук под переходом."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter8"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-8-university-laboratories",
+      "chapterId": "chapter-08",
+      "title": {
+        "en": "Laboratories",
+        "ru": "Laboratories"
+      },
+      "region": {
+        "en": "University",
+        "ru": "Университет"
+      },
+      "lantern": {
+        "en": "Laboratories",
+        "ru": "Laboratories"
+      },
+      "items": [
+        {
+          "id": "vm-orphan",
+          "title": {
+            "en": "The Orphan",
+            "ru": "Сирота"
+          },
+          "description": {
+            "en": "Defeat the story boss.",
+            "ru": "Победите сюжетного босса."
+          },
+          "categories": ["boss"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter8"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-9-church-abandoned-church",
+      "chapterId": "chapter-09",
+      "title": {
+        "en": "Abandoned Church",
+        "ru": "Abandoned Church"
+      },
+      "region": {
+        "en": "Abandoned Church",
+        "ru": "Заброшенная церковь"
+      },
+      "lantern": {
+        "en": "Abandoned Church",
+        "ru": "Abandoned Church"
+      },
+      "items": [
+        {
+          "id": "vm-church-third-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Buy Louis’s new power upgrade.",
+            "ru": "Купите новое улучшение силы лечения у Луи."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-9-fortress-main-gate",
+      "chapterId": "chapter-09",
+      "title": {
+        "en": "Main Gate",
+        "ru": "Main Gate"
+      },
+      "region": {
+        "en": "Fortress",
+        "ru": "Крепость"
+      },
+      "lantern": {
+        "en": "Main Gate",
+        "ru": "Main Gate"
+      },
+      "items": [
+        {
+          "id": "vm-fortress-fire",
+          "title": {
+            "en": "Fire Breathing",
+            "ru": "Янтарь · Fire Breathing"
+          },
+          "description": {
+            "en": "Defeat the entrance cannon miniboss.",
+            "ru": "Победите мини-босса с пушкой у входа."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "fire-breathing"
+        }
+      ]
+    },
+    {
+      "id": "section-9-fortress-traverse",
+      "chapterId": "chapter-09",
+      "title": {
+        "en": "Traverse",
+        "ru": "Traverse"
+      },
+      "region": {
+        "en": "Fortress",
+        "ru": "Крепость"
+      },
+      "lantern": {
+        "en": "Traverse",
+        "ru": "Traverse"
+      },
+      "items": [
+        {
+          "id": "vm-fortress-life",
+          "title": {
+            "en": "Life Diverted",
+            "ru": "Янтарь · Life Diverted"
+          },
+          "description": {
+            "en": "Burn building vines; defeat its occupant.",
+            "ru": "Сожгите лозы здания; победите обитателя."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "life-diverted"
+        },
+        {
+          "id": "vm-traverse-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Chest behind boxes above the stairs.",
+            "ru": "Сундук за ящиками наверху лестницы."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-fortress-lucky",
+          "title": {
+            "en": "Lucky Shot",
+            "ru": "Янтарь · Lucky Shot"
+          },
+          "description": {
+            "en": "Drop to the rear-left ledge.",
+            "ru": "Спрыгните на уступ сзади слева."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "lucky-shot"
+        },
+        {
+          "id": "vm-fortress-transmutation",
+          "title": {
+            "en": "Quintessential Transmutation Material",
+            "ru": "Высший материал трансмутации"
+          },
+          "description": {
+            "en": "Light both signal fires; chest just past the gate.",
+            "ru": "Зажгите оба сигнальных огня; сундук сразу за воротами."
+          },
+          "categories": ["material"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["materials"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [
+            {
+              "kind": "achievement",
+              "text": {
+                "en": "Keep one rare material for Shield; only two are documented.",
+                "ru": "Сохраните редкий материал для Щита; описано лишь два."
+              },
+              "evidence": {
+                "status": "single-source",
+                "sourceIds": ["materials"],
+                "reviewed": "2026-10-14"
+              }
+            }
+          ],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-fortress-shell",
+          "title": {
+            "en": "Indestructible Shell",
+            "ru": "Янтарь · Indestructible Shell"
+          },
+          "description": {
+            "en": "Chest at the end of the cannon-fire path.",
+            "ru": "Сундук в конце пути под пушечным огнём."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "indestructible-shell"
+        }
+      ]
+    },
+    {
+      "id": "section-9-fortress-chapel",
+      "chapterId": "chapter-09",
+      "title": {
+        "en": "Chapel",
+        "ru": "Chapel"
+      },
+      "region": {
+        "en": "Fortress",
+        "ru": "Крепость"
+      },
+      "lantern": {
+        "en": "Chapel",
+        "ru": "Chapel"
+      },
+      "items": [
+        {
+          "id": "vm-chapel-blade",
+          "title": {
+            "en": "Quintessential Blade Material",
+            "ru": "Высший материал клинка"
+          },
+          "description": {
+            "en": "Underground ambush room, right of stairs.",
+            "ru": "Подземная комната засады справа от лестницы."
+          },
+          "categories": ["material"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["materials"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-bonfire",
+          "title": {
+            "en": "Light the hidden bonfire",
+            "ru": "Зажгите скрытый костёр"
+          },
+          "description": {
+            "en": "Find the sword downstairs; use Fire.",
+            "ru": "Найдите меч внизу; примените Огонь."
+          },
+          "categories": ["story"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-captain-key",
+          "title": {
+            "en": "Captain’s Key",
+            "ru": "Капитанский ключ"
+          },
+          "description": {
+            "en": "Search the room beyond the lower stairs.",
+            "ru": "Осмотрите комнату за нижней лестницей."
+          },
+          "categories": ["key"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-fortress-promise",
+          "title": {
+            "en": "Tomorrow’s Promise",
+            "ru": "Янтарь · Tomorrow’s Promise"
+          },
+          "description": {
+            "en": "Climb to the long switch-door room.",
+            "ru": "Поднимитесь в длинную комнату с дверным рычагом."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "tomorrows-promise"
+        },
+        {
+          "id": "vm-armoury-key",
+          "title": {
+            "en": "Fortress Armoury Key",
+            "ru": "Ключ от арсенала крепости"
+          },
+          "description": {
+            "en": "Climb the ladder beyond the tunnel fight.",
+            "ru": "Поднимитесь по лестнице после боя в туннеле."
+          },
+          "categories": ["key"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-armoury-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Unlock the armoury chest.",
+            "ru": "Откройте сундук арсенала."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-9-fortress-ramparts",
+      "chapterId": "chapter-09",
+      "title": {
+        "en": "Ramparts",
+        "ru": "Ramparts"
+      },
+      "region": {
+        "en": "Fortress",
+        "ru": "Крепость"
+      },
+      "lantern": {
+        "en": "Ramparts",
+        "ru": "Ramparts"
+      },
+      "items": [
+        {
+          "id": "vm-fortress-concoction",
+          "title": {
+            "en": "Potent Concoction",
+            "ru": "Янтарь · Potent Concoction"
+          },
+          "description": {
+            "en": "Shoot the weak point to reveal a ladder.",
+            "ru": "Уничтожьте слабую точку, открывающую лестницу."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "potent-concoction"
+        },
+        {
+          "id": "vm-ramparts-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Climb to the cannon crew; search right.",
+            "ru": "Поднимитесь к пушкарям; осмотрите правую сторону."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-9-fortress-traverse-return",
+      "chapterId": "chapter-09",
+      "title": {
+        "en": "Traverse — return",
+        "ru": "Traverse — return"
+      },
+      "region": {
+        "en": "Fortress",
+        "ru": "Крепость"
+      },
+      "lantern": {
+        "en": "Traverse — return",
+        "ru": "Traverse — return"
+      },
+      "items": [
+        {
+          "id": "vm-captain-room-power",
+          "title": {
+            "en": "Healing power",
+            "ru": "Сила лечения"
+          },
+          "description": {
+            "en": "Use Captain’s Key opposite the cannons.",
+            "ru": "Примените капитанский ключ напротив пушек."
+          },
+          "categories": ["healing"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-9-fortress-courtyard",
+      "chapterId": "chapter-09",
+      "title": {
+        "en": "Courtyard",
+        "ru": "Courtyard"
+      },
+      "region": {
+        "en": "Fortress",
+        "ru": "Крепость"
+      },
+      "lantern": {
+        "en": "Courtyard",
+        "ru": "Courtyard"
+      },
+      "items": [
+        {
+          "id": "vm-courtyard-glass",
+          "title": {
+            "en": "Glass Soldier",
+            "ru": "Янтарь · Glass Soldier"
+          },
+          "description": {
+            "en": "Defeat the monstrous Eternal Guardsman.",
+            "ru": "Победите чудовищного вечного стража."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "glass-soldier"
+        },
+        {
+          "id": "vm-oathbound-bastien",
+          "title": {
+            "en": "Bastien’s emblem",
+            "ru": "Эмблема Бастьена"
+          },
+          "description": {
+            "en": "Inspect the body beyond the guard.",
+            "ru": "Осмотрите тело за стражем."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-oathbound"
+        },
+        {
+          "id": "vm-nephtis",
+          "title": {
+            "en": "Nephtis Superioris",
+            "ru": "Nephtis Superioris"
+          },
+          "description": {
+            "en": "Defeat the story boss.",
+            "ru": "Победите сюжетного босса."
+          },
+          "categories": ["boss"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter9"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [
+            {
+              "kind": "access",
+              "text": {
+                "en": "Travel is restricted during the late story transition. Prison content needs attention on arrival.",
+                "ru": "Поздний сюжет временно ограничивает перемещение. В тюрьме сразу проверьте побочные действия."
+              },
+              "evidence": {
+                "status": "conflicting",
+                "sourceIds": ["chapter9", "postgame"],
+                "reviewed": "2026-10-14"
+              }
+            }
+          ],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-10-prison-prison",
+      "chapterId": "chapter-10",
+      "title": {
+        "en": "Prison",
+        "ru": "Prison"
+      },
+      "region": {
+        "en": "Prison",
+        "ru": "Тюрьма"
+      },
+      "lantern": {
+        "en": "Prison",
+        "ru": "Prison"
+      },
+      "items": [
+        {
+          "id": "vm-choir-journal",
+          "title": {
+            "en": "The Choir",
+            "ru": "Хор"
+          },
+          "description": {
+            "en": "Read the first warden journal near the horn; inspect the upstairs chapel door.",
+            "ru": "Прочитайте первый журнал у рога; осмотрите дверь часовни наверху."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter10"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [
+            {
+              "kind": "quest",
+              "text": {
+                "en": "Do the prison steps before leaving; this area cannot be revisited. No trophy requires this quest.",
+                "ru": "Выполните тюремные этапы до ухода; вернуться нельзя. Для трофея задание не требуется."
+              },
+              "evidence": {
+                "status": "single-source",
+                "sourceIds": ["chapter10"],
+                "reviewed": "2026-10-14"
+              }
+            }
+          ],
+          "searchTerms": [],
+          "questId": "quest-choir"
+        },
+        {
+          "id": "vm-prison-armoury",
+          "title": {
+            "en": "Recover your equipment",
+            "ru": "Верните снаряжение"
+          },
+          "description": {
+            "en": "Get the kitchen Armoury Key; unlock the lower armoury.",
+            "ru": "Возьмите ключ на кухне; откройте нижний арсенал."
+          },
+          "categories": ["key"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter10"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        },
+        {
+          "id": "vm-choir-letter",
+          "title": {
+            "en": "Chapel documents",
+            "ru": "Документы часовни"
+          },
+          "description": {
+            "en": "Read journal two; collect Chapel Key; retrieve the prisoners’ letter.",
+            "ru": "Прочитайте второй журнал; найдите ключ часовни; заберите письмо о заключённых."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter10"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-choir"
+        }
+      ]
+    },
+    {
+      "id": "section-10-city-prison-exit",
+      "chapterId": "chapter-10",
+      "title": {
+        "en": "Prison exit",
+        "ru": "Prison exit"
+      },
+      "region": {
+        "en": "City of Orphans",
+        "ru": "Город сирот"
+      },
+      "lantern": {
+        "en": "Prison exit",
+        "ru": "Prison exit"
+      },
+      "items": [
+        {
+          "id": "vm-choir-finish",
+          "title": {
+            "en": "Post the prisoners’ letter",
+            "ru": "Разместите письмо о заключённых"
+          },
+          "description": {
+            "en": "Attach it to the board beside the exit lantern.",
+            "ru": "Прикрепите его к доске возле выходного фонаря."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter10"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-choir"
+        }
+      ]
+    },
+    {
+      "id": "section-11-caverns-ancient-lair",
+      "chapterId": "chapter-11",
+      "title": {
+        "en": "Ancient Lair",
+        "ru": "Ancient Lair"
+      },
+      "region": {
+        "en": "Caverns",
+        "ru": "Пещеры"
+      },
+      "lantern": {
+        "en": "Ancient Lair",
+        "ru": "Ancient Lair"
+      },
+      "items": [
+        {
+          "id": "vm-final-door",
+          "title": {
+            "en": "Speak to Lucjan",
+            "ru": "Поговорите с Люцианом"
+          },
+          "description": {
+            "en": "Choose the cave; approach the stone door.",
+            "ru": "Выберите пещеру; подойдите к каменной двери."
+          },
+          "categories": ["story"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter11"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-11-entropy-entropy",
+      "chapterId": "chapter-11",
+      "title": {
+        "en": "Entropy",
+        "ru": "Entropy"
+      },
+      "region": {
+        "en": "Entropy",
+        "ru": "Энтропия"
+      },
+      "lantern": {
+        "en": "Entropy",
+        "ru": "Entropy"
+      },
+      "items": [
+        {
+          "id": "vm-entity",
+          "title": {
+            "en": "The Entity",
+            "ru": "Сущность"
+          },
+          "description": {
+            "en": "Defeat the story boss.",
+            "ru": "Победите сюжетного босса."
+          },
+          "categories": ["boss"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter11"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    },
+    {
+      "id": "section-11-valley-the-other-side-return",
+      "chapterId": "chapter-11",
+      "title": {
+        "en": "The Other Side — return",
+        "ru": "The Other Side — return"
+      },
+      "region": {
+        "en": "Valley of Ashes",
+        "ru": "Долина пепла"
+      },
+      "lantern": {
+        "en": "The Other Side — return",
+        "ru": "The Other Side — return"
+      },
+      "items": [
+        {
+          "id": "vm-emissary-finish",
+          "title": {
+            "en": "Finish The Emissary",
+            "ru": "Завершите Посланника"
+          },
+          "description": {
+            "en": "With Shield, explore the poisoned camp; inspect body, note and red cloth.",
+            "ru": "Со Щитом обследуйте отравленный лагерь; осмотрите тело, записку и красную ткань."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["emissary"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-emissary"
+        },
+        {
+          "id": "vm-valley-copy",
+          "title": {
+            "en": "Perfect Copy",
+            "ru": "Янтарь · Perfect Copy"
+          },
+          "description": {
+            "en": "Shoot carriage blockage; search the right tent.",
+            "ru": "Уничтожьте преграду вагона; обыщите правую палатку."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter11"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "perfect-copy"
+        }
+      ]
+    },
+    {
+      "id": "section-11-vale-ship-graveyard-return",
+      "chapterId": "chapter-11",
+      "title": {
+        "en": "Ship Graveyard — return",
+        "ru": "Ship Graveyard — return"
+      },
+      "region": {
+        "en": "Vale of Wrath",
+        "ru": "Долина гнева"
+      },
+      "lantern": {
+        "en": "Ship Graveyard — return",
+        "ru": "Ship Graveyard — return"
+      },
+      "items": [
+        {
+          "id": "vm-graveyard-butcher",
+          "title": {
+            "en": "Butcher’s Carnage",
+            "ru": "Янтарь · Butcher’s Carnage"
+          },
+          "description": {
+            "en": "Cross poison to the left balcony.",
+            "ru": "Пересеките яд к левому балкону."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter11"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "butchers-carnage"
+        },
+        {
+          "id": "vm-smugglers-start",
+          "title": {
+            "en": "The King of Smugglers",
+            "ru": "Король контрабандистов"
+          },
+          "description": {
+            "en": "Find the Cargo Manifest beyond the boat route.",
+            "ru": "Найдите грузовую ведомость за путём по кораблю."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter11"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-smugglers"
+        }
+      ]
+    },
+    {
+      "id": "section-11-outskirts-harbour-return",
+      "chapterId": "chapter-11",
+      "title": {
+        "en": "Harbour — return",
+        "ru": "Harbour — return"
+      },
+      "region": {
+        "en": "The Outskirts",
+        "ru": "Окраины"
+      },
+      "lantern": {
+        "en": "Harbour — return",
+        "ru": "Harbour — return"
+      },
+      "items": [
+        {
+          "id": "vm-smugglers-finish",
+          "title": {
+            "en": "Open the harbour residence",
+            "ru": "Откройте дом в гавани"
+          },
+          "description": {
+            "en": "Defeat the ship-hold miniboss; use its key; read the upstairs journal and loot the chest.",
+            "ru": "Победите мини-босса трюма; примените ключ; прочитайте журнал наверху и откройте сундук."
+          },
+          "categories": ["quest", "amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter11"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-smugglers",
+          "amberId": "butchers-carnage"
+        }
+      ]
+    },
+    {
+      "id": "section-11-city-tribunal-square-return",
+      "chapterId": "chapter-11",
+      "title": {
+        "en": "Tribunal Square — return",
+        "ru": "Tribunal Square — return"
+      },
+      "region": {
+        "en": "City of Orphans",
+        "ru": "Город сирот"
+      },
+      "lantern": {
+        "en": "Tribunal Square — return",
+        "ru": "Tribunal Square — return"
+      },
+      "items": [
+        {
+          "id": "vm-city-harvest",
+          "title": {
+            "en": "Bountiful Harvest",
+            "ru": "Янтарь · Bountiful Harvest"
+          },
+          "description": {
+            "en": "Defeat the miniboss above the second shortcut ladder.",
+            "ru": "Победите мини-босса над второй короткой лестницей."
+          },
+          "categories": ["amber"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter11"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "amberId": "bountiful-harvest"
+        }
+      ]
+    },
+    {
+      "id": "section-11-city-shamble-street-return",
+      "chapterId": "chapter-11",
+      "title": {
+        "en": "Shamble Street — return",
+        "ru": "Shamble Street — return"
+      },
+      "region": {
+        "en": "City of Orphans",
+        "ru": "Город сирот"
+      },
+      "lantern": {
+        "en": "Shamble Street — return",
+        "ru": "Shamble Street — return"
+      },
+      "items": [
+        {
+          "id": "vm-oathbound-adrien",
+          "title": {
+            "en": "Adrien’s emblem",
+            "ru": "Эмблема Адриена"
+          },
+          "description": {
+            "en": "Cross the poison detour with Shield; defeat the final guard.",
+            "ru": "Пройдите через яд со Щитом; победите последнего стража."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter11"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-oathbound"
+        }
+      ]
+    },
+    {
+      "id": "section-11-fortress-courtyard-return",
+      "chapterId": "chapter-11",
+      "title": {
+        "en": "Courtyard — return",
+        "ru": "Courtyard — return"
+      },
+      "region": {
+        "en": "Fortress",
+        "ru": "Крепость"
+      },
+      "lantern": {
+        "en": "Courtyard — return",
+        "ru": "Courtyard — return"
+      },
+      "items": [
+        {
+          "id": "vm-oathbound-finish",
+          "title": {
+            "en": "Open the Oathbound chamber",
+            "ru": "Откройте зал Верных Клятве"
+          },
+          "description": {
+            "en": "Use the completed slab at the marked wall; read the table note.",
+            "ru": "Примените собранную плиту у отмеченной стены; прочитайте записку на столе."
+          },
+          "categories": ["quest"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["chapter11"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": [],
+          "questId": "quest-oathbound"
+        },
+        {
+          "id": "vm-oathbound-blade",
+          "title": {
+            "en": "Quintessential Blade Material",
+            "ru": "Высший материал клинка"
+          },
+          "description": {
+            "en": "Right chest in the secret chamber.",
+            "ru": "Правый сундук в тайной комнате."
+          },
+          "categories": ["material"],
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["materials"],
+            "reviewed": "2026-10-14"
+          },
+          "warnings": [],
+          "searchTerms": []
+        }
+      ]
+    }
+  ],
+  "quests": [
+    {
+      "id": "quest-farewell",
+      "title": {
+        "en": "An Unheard Farewell",
+        "ru": "Неуслышанное прощание"
+      },
+      "routeIds": [
+        "vm-farewell-start",
+        "vm-farewell-letter",
+        "vm-farewell-finish"
+      ],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-oathbound",
+      "title": {
+        "en": "The Oathbound",
+        "ru": "Верные Клятве"
+      },
+      "routeIds": [
+        "vm-oathbound-lucien",
+        "vm-oathbound-valen",
+        "vm-oathbound-jean",
+        "vm-oathbound-etienne",
+        "vm-oathbound-severin",
+        "vm-oathbound-bastien",
+        "vm-oathbound-adrien",
+        "vm-oathbound-finish"
+      ],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-emissary",
+      "title": {
+        "en": "The Emissary",
+        "ru": "Посланник"
+      },
+      "routeIds": [
+        "vm-emissary-seal",
+        "vm-emissary-letter",
+        "vm-emissary-finish"
+      ],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-scarecrow",
+      "title": {
+        "en": "The Scarecrow",
+        "ru": "Пугало"
+      },
+      "routeIds": ["vm-scarecrow"],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-lullaby",
+      "title": {
+        "en": "Lullaby",
+        "ru": "Колыбельная"
+      },
+      "routeIds": ["vm-lullaby"],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-homesick",
+      "title": {
+        "en": "Homesick",
+        "ru": "Тоска по дому"
+      },
+      "routeIds": ["vm-homesick"],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-lost-boy",
+      "title": {
+        "en": "The Lost Boy",
+        "ru": "Потерянный мальчик"
+      },
+      "routeIds": ["vm-lost-boy"],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-deserter",
+      "title": {
+        "en": "The Deserter",
+        "ru": "Дезертир"
+      },
+      "routeIds": ["vm-deserter-start", "vm-deserter-finish"],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-art",
+      "title": {
+        "en": "In the Name of Art",
+        "ru": "Во имя искусства"
+      },
+      "routeIds": ["vm-art"],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-till-death",
+      "title": {
+        "en": "Till Death",
+        "ru": "До самой смерти"
+      },
+      "routeIds": ["vm-till-death-start", "vm-till-death-finish"],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-sleeping-beauty",
+      "title": {
+        "en": "Sleeping Beauty",
+        "ru": "Спящая красавица"
+      },
+      "routeIds": ["vm-sleeping-beauty"],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-seamus",
+      "title": {
+        "en": "The Curious Case of Seamus Diggory",
+        "ru": "Загадочная история Шеймуса Диггори"
+      },
+      "routeIds": ["vm-seamus"],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-anthem",
+      "title": {
+        "en": "The Shrike’s Anthem",
+        "ru": "Гимн Жулана"
+      },
+      "routeIds": ["vm-anthem"],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-laudanum",
+      "title": {
+        "en": "Laudanum",
+        "ru": "Лауданум"
+      },
+      "routeIds": ["vm-laudanum"],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-monster-hunt",
+      "title": {
+        "en": "Monster Hunt",
+        "ru": "Охота на чудовищ"
+      },
+      "routeIds": ["vm-monster-hunt-start", "vm-monster-hunt-finish"],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-bedtime",
+      "title": {
+        "en": "Bedtime Stories",
+        "ru": "Сказки на ночь"
+      },
+      "routeIds": ["vm-bedtime"],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-misericorde",
+      "title": {
+        "en": "Misericorde",
+        "ru": "Милосердие"
+      },
+      "routeIds": ["vm-misericorde"],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-mummy",
+      "title": {
+        "en": "Mummy and Daddy",
+        "ru": "Мама и папа"
+      },
+      "routeIds": ["vm-mummy-start"],
+      "coverage": "partial"
+    },
+    {
+      "id": "quest-choir",
+      "title": {
+        "en": "The Choir",
+        "ru": "Хор"
+      },
+      "routeIds": ["vm-choir-journal", "vm-choir-letter", "vm-choir-finish"],
+      "coverage": "documented"
+    },
+    {
+      "id": "quest-smugglers",
+      "title": {
+        "en": "The King of Smugglers",
+        "ru": "Король контрабандистов"
+      },
+      "routeIds": ["vm-smugglers-start", "vm-smugglers-finish"],
+      "coverage": "documented"
+    }
+  ],
+  "coverageNotes": [
+    {
+      "id": "coverage-amber-count",
+      "title": {
+        "en": "Amber catalog is still changing",
+        "ru": "Каталог янтарей уточняется"
+      },
+      "description": {
+        "en": "Published totals disagree. This route tracks named pickups, not a guaranteed complete inventory.",
+        "ru": "Опубликованные итоги расходятся. Здесь учитываются описанные находки, без гарантии полного инвентаря."
+      },
+      "evidence": {
+        "status": "conflicting",
+        "sourceIds": ["ambers"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "coverage-glass-duplicate",
+      "title": {
+        "en": "Glass Soldier duplicate",
+        "ru": "Дубликат Glass Soldier"
+      },
+      "description": {
+        "en": "The third location is not documented. It is not an unfinished checkbox.",
+        "ru": "Третья точка не описана. Она не включена в незавершённые отметки."
+      },
+      "evidence": {
+        "status": "conflicting",
+        "sourceIds": ["ambers"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "coverage-mummy-outcome",
+      "title": {
+        "en": "Mummy and Daddy completion",
+        "ru": "Завершение «Мама и папа»"
+      },
+      "description": {
+        "en": "The captive warning is documented; a complete successful ending is not established by the inspected guide.",
+        "ru": "Предупреждение о пленниках подтверждено гайдом; полное успешное завершение в нём не описано."
+      },
+      "evidence": {
+        "status": "conflicting",
+        "sourceIds": ["chapter7"],
+        "reviewed": "2026-10-14"
+      },
+      "questId": "quest-mummy"
+    },
+    {
+      "id": "coverage-travel-cutoff",
+      "title": {
+        "en": "Temporary travel cutoff",
+        "ru": "Временное ограничение перемещения"
+      },
+      "description": {
+        "en": "Sources disagree on the exact cutoff. Postgame cleanup returns; prison access does not.",
+        "ru": "Источники расходятся о точном моменте. После финала доступна зачистка, но не возврат в тюрьму."
+      },
+      "evidence": {
+        "status": "conflicting",
+        "sourceIds": ["postgame"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "coverage-oathbound-flask",
+      "title": {
+        "en": "Possible extra Oathbound flask",
+        "ru": "Возможный дополнительный флакон"
+      },
+      "description": {
+        "en": "Chapter 11 lists a left-chest flask absent from the seven-flask guide. Verify in your game.",
+        "ru": "В главе 11 описан флакон слева, отсутствующий в списке семи флаконов. Проверьте в игре."
+      },
+      "evidence": {
+        "status": "conflicting",
+        "sourceIds": ["chapter11"],
+        "reviewed": "2026-10-14"
+      }
+    },
+    {
+      "id": "coverage-patch-chest",
+      "title": {
+        "en": "Launch-patch chest changes",
+        "ru": "Изменения сундуков в релизном патче"
+      },
+      "description": {
+        "en": "Chapter 2 comments report a removed healing chest. Use landmarks, not old guide numbering.",
+        "ru": "В комментариях к главе 2 сообщают об удалённом сундуке лечения. Ориентируйтесь на места, а не старую нумерацию."
+      },
+      "evidence": {
+        "status": "conflicting",
+        "sourceIds": ["chapter2"],
+        "reviewed": "2026-10-14"
+      }
+    }
+  ]
+}
