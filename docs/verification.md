@@ -1,6 +1,6 @@
 # Verification and implementation decisions
 
-Verified locally on Windows with Node.js 24.20.0 and installed Microsoft Edge, October 14, 2026. The project supports Node.js 22 or newer; the Linux CI workflow has been added but has not run on a hosted repository.
+Verified locally on Windows with Node.js 24.20.0 and installed Microsoft Edge, October 14, 2026. The project supports Node.js 22 or newer. The first hosted GitHub Actions run also passed on Linux with Node.js 22 and Chromium, then successfully deployed the Pages site.
 
 ## Results
 
@@ -41,5 +41,7 @@ There was one corrected checkpoint mistake: fixture tests passed, but the first 
 After the local implementation review, the user authorized creating a new GitHub repository, pushing the project and connecting GitHub Pages. The publishing workflow checks and builds before deploying `main`; other branches and pull requests do not deploy. The account already uses `alexsuslin.com` for project Pages sites.
 
 Repository: [alexsuslin/valor-mortis-cheatsheet](https://github.com/alexsuslin/valor-mortis-cheatsheet). Website: [Valor Mortis field guide](https://alexsuslin.com/valor-mortis-cheatsheet/).
+
+The [first successful deployment](https://github.com/alexsuslin/valor-mortis-cheatsheet/actions/runs/38559712835) published `a02bee3`. GitHub Pages has HTTPS enforcement enabled. Public HTTP checks returned 200 and confirmed the 11 chapters, 152 actions and 39 achievement records.
 
 The production preview can still be served with `node scripts/serve.mjs --dist --subpath` at `http://127.0.0.1:4174/valor-mortis-cheatsheet/`. See [English usage](../README.en.md) or [Russian usage](../README.md).
