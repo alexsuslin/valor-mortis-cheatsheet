@@ -1,5 +1,18 @@
 import { expect, test } from "@playwright/test";
 
+test("achievement filters combine category and completed state", async ({
+  page,
+}) => {
+  await page.goto(".");
+  await page.locator('[data-view="achievements"]').click();
+  await page.locator("#achievement-category").selectOption("completion");
+  await page
+    .locator('#achievements input[data-progress-id="achievement-all"]')
+    .check();
+  await page.locator("#achievement-hide").check();
+  await expect(page.locator("#achievement-cards article")).toHaveCount(0);
+});
+
 test("achievement progress is independent and related links clear route filters", async ({
   page,
 }) => {
@@ -9,7 +22,7 @@ test("achievement progress is independent and related links clear route filters"
   await page.locator('[data-view="achievements"]').click();
   await expect(page.locator("#achievement-count")).toContainText("0 / 39");
   await page.locator("#achievement-search").fill("Arsenal");
-  await page.locator("#achievements input[type=checkbox]").check();
+  await page.locator("#achievements input[data-progress-id]").check();
   await expect(page.locator("#achievement-count")).toContainText("1 / 39");
   await page
     .locator("#achievements details")

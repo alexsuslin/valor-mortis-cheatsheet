@@ -1,6 +1,6 @@
 # Valor Mortis Companion Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Deliver a local, bilingual Valor Mortis playthrough companion with the familiar Hell Is Us views, sourced game content, reliable progress, and portable saves.
 
@@ -78,7 +78,7 @@ State retains the reference's shared `completed: Set<string>`, `currentItemId`, 
 - Preserve `loadState(storage) -> {state, available}`, `saveState(storage, state) -> boolean`, `saveProgress(storage, state, change, deriveEdits) -> {state, available, derivedEdits}`, and `rebaseCompletion(savedIds, edits) -> string[]`.
 - `parseBackup(text, knownIds) -> snapshot` rejects foreign app/version, oversized UTF-8 input, invalid completion arrays, and invalid preference values. It filters unknown IDs and deduplicates checks. Absent `activeView` defaults to `walkthrough`; absent language/theme remain omitted for browser/system defaults, and absent current selection remains unset. Accept only the five known `activeView` values. Current route-only validation is completed in Task 5.
 
-- [ ] Add tests first for foreign-game rejection, maximum input size, invalid preference types, unknown/duplicate IDs, cancelled replacement at the caller boundary, corrupted storage, and storage throwing on reads or writes. Use the reference's storage tests where portable.
+- [x] Add tests first for foreign-game rejection, maximum input size, invalid preference types, unknown/duplicate IDs, cancelled replacement at the caller boundary, corrupted storage, and storage throwing on reads or writes. Use the reference's storage tests where portable.
 
   Core assertion for `rejects backups from the other game`:
   ```js
@@ -87,10 +87,10 @@ State retains the reference's shared `completed: Set<string>`, `currentItemId`, 
   }), new Set()));
   assert.equal(STORAGE_KEY, "valor-mortis-checklist-v1");
   ```
-- [ ] Run `node --test tests/model.test.mjs tests/storage.test.mjs`; confirm meaningful failures before implementation.
-- [ ] Adapt the state modules and identity constants. The initial theme script is a classic script: keep its literal storage key and add a test that it matches the exported constant instead of introducing module-loading flash.
-- [ ] Pin reference tool versions in the copied lockfile, updating only package identity. Run `npm ci`, the two test files, and `npm run check`; expect exit 0.
-- [ ] Commit as `feat: isolate Valor Mortis progress and backups`.
+- [x] Run `node --test tests/model.test.mjs tests/storage.test.mjs`; confirm meaningful failures before implementation.
+- [x] Adapt the state modules and identity constants. The initial theme script is a classic script: keep its literal storage key and add a test that it matches the exported constant instead of introducing module-loading flash.
+- [x] Pin reference tool versions in the copied lockfile, updating only package identity. Run `npm ci`, the two test files, and `npm run check`; expect exit 0.
+- [x] Commit as `feat: isolate Valor Mortis progress and backups`.
 
 ## Task 2: Build the sourced route catalog and coverage validation
 
@@ -103,7 +103,7 @@ State retains the reference's shared `completed: Set<string>`, `currentItemId`, 
 - `getGuideCoverage(guide) -> { actionable, notes, documentedQuests, partialQuests }` counts records, not source headline totals.
 - Terminology entries contain `{ en, ru, status, sourceIds }`; status is `platform-mirror`, `community`, or `unverified`. No automatic claim of official localization.
 
-- [ ] Write fixture tests that reject missing Russian instructions and broken quest links, accept a partial quest with a coverage note, and assert that one action plus one unknown-location note produces `{ actionable: 1, notes: 1 }`.
+- [x] Write fixture tests that reject missing Russian instructions and broken quest links, accept a partial quest with a coverage note, and assert that one action plus one unknown-location note produces `{ actionable: 1, notes: 1 }`.
 
   For `unknown locations do not increase completion totals`, the fixture contains one documented quest, one actionable step, and one unrelated coverage note:
   ```js
@@ -112,10 +112,10 @@ State retains the reference's shared `completed: Set<string>`, `currentItemId`, 
   });
   assert.equal(getRouteItems(fixture).length, 1);
   ```
-- [ ] Run `node --test tests/guide.test.mjs`; confirm the missing-validator failure.
-- [ ] Implement the three guide functions and populate all 11 chapters from the research sources. Reopen source pages as necessary. Write original concise instructions, including ability-gated returns, with evidence beside each action. Include all 20 quest identities; explicitly mark incomplete successful routes such as Mummy and Daddy as partial until corroborated.
-- [ ] Add contract assertions for the Shield reservation, The Choir deadline, captives warning, conditional Laudanum duplicate, and unknown Glass Soldier duplicate. Put unknown content only in coverage notes. Verify these assertions against named IDs in the newly authored data, not a fixed assumed total of collectibles.
-- [ ] Run guide tests and formatting checks; require 11 chapter IDs, 20 quest IDs, valid evidence on every action, and no unresolved references. Commit as `feat: add sourced Valor Mortis route and coverage notes`.
+- [x] Run `node --test tests/guide.test.mjs`; confirm the missing-validator failure.
+- [x] Implement the three guide functions and populate all 11 chapters from the research sources. Reopen source pages as necessary. Write original concise instructions, including ability-gated returns, with evidence beside each action. Include all 20 quest identities; explicitly mark incomplete successful routes such as Mummy and Daddy as partial until corroborated.
+- [x] Add contract assertions for the Shield reservation, The Choir deadline, captives warning, conditional Laudanum duplicate, and unknown Glass Soldier duplicate. Put unknown content only in coverage notes. Verify these assertions against named IDs in the newly authored data, not a fixed assumed total of collectibles.
+- [x] Run guide tests and formatting checks; require 11 chapter IDs, 20 quest IDs, valid evidence on every action, and no unresolved references. Commit as `feat: add sourced Valor Mortis route and coverage notes`.
 
 ## Task 3: Deliver the bilingual walkthrough and static shell
 
@@ -128,17 +128,17 @@ State retains the reference's shared `completed: Set<string>`, `currentItemId`, 
 - `createRouteView({guide,state,t,onToggle,onSelect}) -> {render(),showItem(id)}` owns route/navigation DOM. `showItem` opens the section and clears obstructing filters without changing checks.
 - `app.js` owns loading/validation, state transitions, preference application, and callbacks. HTTP/JSON/validation failure produces the localized load error plus retry control, without a false 100% indicator.
 
-- [ ] Add model assertions for combined bilingual search/chapter/warning filters. Add browser scenarios for chapter 11 navigation, one checkbox updating both counters, keyboard operation, RU/EN preservation, hidden completed items, and coverage notes having no checkboxes.
+- [x] Add model assertions for combined bilingual search/chapter/warning filters. Add browser scenarios for chapter 11 navigation, one checkbox updating both counters, keyboard operation, RU/EN preservation, hidden completed items, and coverage notes having no checkboxes.
 
   In `coverage is informative rather than checkable`, render one fixture coverage note:
   ```js
   await expect(page.locator('[data-coverage-note]')).toHaveCount(1);
   await expect(page.locator('[data-coverage-note] input[type="checkbox"]')).toHaveCount(0);
   ```
-- [ ] Run the model tests to see the unsupported filters fail. Run browser tests after the smallest server/shell fixture exists; require failures caused by absent interactions rather than a missing executable.
-- [ ] Adapt the shell and route view. Generate chapter navigation from JSON, replace all three-act assumptions, and render warnings/evidence safely with text nodes. Include the spoiler notice and source/coverage explanation.
-- [ ] Adapt serving and building for both `/` and `/valor-mortis-cheatsheet/`. Preserve relative, versioned imports. Use development port 4174 and browser-test port 4181 to avoid the reference companion. Hide unfinished view controls until their tasks connect them.
-- [ ] Run `npm test`, `npm run check`, `npm run build`, and `npx playwright test checklist coverage`. Inspect a 390-pixel mobile layout and a 1440-pixel desktop layout. Commit as `feat: add bilingual Valor Mortis walkthrough`.
+- [x] Run the model tests to see the unsupported filters fail. Run browser tests after the smallest server/shell fixture exists; require failures caused by absent interactions rather than a missing executable.
+- [x] Adapt the shell and route view. Generate chapter navigation from JSON, replace all three-act assumptions, and render warnings/evidence safely with text nodes. Include the spoiler notice and source/coverage explanation.
+- [x] Adapt serving and building for both `/` and `/valor-mortis-cheatsheet/`. Preserve relative, versioned imports. Use development port 4174 and browser-test port 4181 to avoid the reference companion. Hide unfinished view controls until their tasks connect them.
+- [x] Run `npm test`, `npm run check`, `npm run build`, and `npx playwright test checklist coverage`. Inspect a 390-pixel mobile layout and a 1440-pixel desktop layout. Commit as `feat: add bilingual Valor Mortis walkthrough`.
 
 ## Task 4: Add platform-aware achievement tracking
 
@@ -151,7 +151,7 @@ State retains the reference's shared `completed: Set<string>`, `currentItemId`, 
 - Preserve `getRelatedItems(achievement, items)` and `filterAchievements(achievements, filters, completed)`, replacing PS5-only exclusion with explicit platform eligibility.
 - Preserve `createAchievementTracker({achievements,items,state,t,onToggle,onRoute})` and its existing returned methods after inspecting callers. Include achievements in shared `knownIds`.
 
-- [ ] Test a completion achievement present on Steam and PS5, platform-specific wording, prerequisite checks not unlocking the achievement, and broken route references failing data validation.
+- [x] Test a completion achievement present on Steam and PS5, platform-specific wording, prerequisite checks not unlocking the achievement, and broken route references failing data validation.
 
   For `completion achievement is eligible on both platforms`, use an achievement fixture with both platform IDs and no prerequisite filters:
   ```js
@@ -159,10 +159,10 @@ State retains the reference's shared `completed: Set<string>`, `currentItemId`, 
     assert.equal(filterAchievements([completion], { platform }, new Set()).length, 1);
   }
   ```
-- [ ] Run `node --test tests/achievements.test.mjs`; confirm the legacy platform assumption fails.
-- [ ] Author the 39-entry catalog from current platform lists, with mirrored wording labeled. Link explicit relevant route IDs; avoid category-wide links that imply an unrelated action is required. Add independently sourced hints without copying entire trophy guides.
-- [ ] Connect manual unlocks, platform filtering, route links, and independent totals. A filtered cross-link opens its route destination and preserves all checks.
-- [ ] Run achievement and guide tests, then `npm run build` and `npx playwright test achievements`. Commit as `feat: track Valor Mortis achievements by platform`.
+- [x] Run `node --test tests/achievements.test.mjs`; confirm the legacy platform assumption fails.
+- [x] Author the 39-entry catalog from current platform lists, with mirrored wording labeled. Link explicit relevant route IDs; avoid category-wide links that imply an unrelated action is required. Add independently sourced hints without copying entire trophy guides.
+- [x] Connect manual unlocks, platform filtering, route links, and independent totals. A filtered cross-link opens its route destination and preserves all checks.
+- [x] Run achievement and guide tests, then `npm run build` and `npx playwright test achievements`. Commit as `feat: track Valor Mortis achievements by platform`.
 
 ## Task 5: Connect build, equipment, tips, and Current
 
@@ -176,7 +176,7 @@ State retains the reference's shared `completed: Set<string>`, `currentItemId`, 
 - Tips use `{reminders,sources}`; each reminder has `{id,title:Text,description:Text,routeIds,evidence}`. Eliminate the reference's timeloop-specific schema and controls.
 - `resolveCurrentItem(items, requestedId, completed) -> RouteItem | undefined` returns a known route item, then first incomplete, then first item. It never selects an achievement/build ID or coverage note.
 
-- [ ] Test ownership/application/equipment independence, one-way acquisition from an exact pickup, unchecking a route pickup preserving acquired gear, ready upgrades remaining visible after Current advances, and invalid/retired current IDs recovering safely.
+- [x] Test ownership/application/equipment independence, one-way acquisition from an exact pickup, unchecking a route pickup preserving acquired gear, ready upgrades remaining visible after Current advances, and invalid/retired current IDs recovering safely.
 
   For `current selection never resolves to an achievement`, supply one route item and its completed state:
   ```js
@@ -184,10 +184,10 @@ State retains the reference's shared `completed: Set<string>`, `currentItemId`, 
   assert.equal(resolveCurrentItem([item], "achievement-finish", new Set([item.id])), item);
   assert.equal(resolveCurrentItem([], undefined, new Set()), undefined);
   ```
-- [ ] Run `node --test tests/build.test.mjs tests/current.test.mjs`; confirm failures for absent contracts.
-- [ ] Populate the equipment progression, healing milestones, Shield reservation, and source-backed Amber tradeoffs. Mark suggestions as playstyle choices. Remove rage/grief, timeloop, and unverified numerical-demo assumptions.
-- [ ] Connect Current and all remaining view controls to shared state. Previous/Next changes selection only; checking an action keeps it selected. Persist `activeView`, while explicit navigation hashes take precedence on load. Both build renderers share acquisition logic; current equipment remains manually marked.
-- [ ] Run build/current unit tests, then `npm run build` and `npx playwright test current loadout`. Test invalid current IDs from both storage and import. Commit as `feat: add build workbook and current-step companion`.
+- [x] Run `node --test tests/build.test.mjs tests/current.test.mjs`; confirm failures for absent contracts.
+- [x] Populate the equipment progression, healing milestones, Shield reservation, and source-backed Amber tradeoffs. Mark suggestions as playstyle choices. Remove rage/grief, timeloop, and unverified numerical-demo assumptions.
+- [x] Connect Current and all remaining view controls to shared state. Previous/Next changes selection only; checking an action keeps it selected. Persist `activeView`, while explicit navigation hashes take precedence on load. Both build renderers share acquisition logic; current equipment remains manually marked.
+- [x] Run build/current unit tests, then `npm run build` and `npx playwright test current loadout`. Test invalid current IDs from both storage and import. Commit as `feat: add build workbook and current-step companion`.
 
 ## Task 6: Add safe JSON and QR/link transfer
 
@@ -201,7 +201,7 @@ State retains the reference's shared `completed: Set<string>`, `currentItemId`, 
 - Use a dedicated failure for foreign `#progress=` links rather than interpreting Hell Is Us bit positions. Unrelated navigation hashes return null.
 - Preserve the reference transfer-view callbacks, adjusting consumed-prefix detection and snapshot preview for the new identity and active view.
 
-- [ ] Write tests for each language/theme/view combination, empty and fully checked state, Unicode-safe JSON size checks, equipped marks, retired IDs, malformed payloads, foreign links/backups, and catalog growth. Keep a frozen first-release catalog prefix fixture to prevent reorder regressions.
+- [x] Write tests for each language/theme/view combination, empty and fully checked state, Unicode-safe JSON size checks, equipped marks, retired IDs, malformed payloads, foreign links/backups, and catalog growth. Keep a frozen first-release catalog prefix fixture to prevent reorder regressions.
 
   In `foreign links never reuse catalog positions`:
   ```js
@@ -209,10 +209,10 @@ State retains the reference's shared `completed: Set<string>`, `currentItemId`, 
   assert.equal(parseTransferHash("#current", knownIds), null);
   assert.deepEqual(transferIds.slice(0, frozenIds.length), frozenIds);
   ```
-- [ ] Run `node --test tests/transfer.test.mjs`; confirm failure before adapting the encoder/parser.
-- [ ] Implement the new header and fragment marker, build the append-only catalog, and connect JSON and link import to the same validated replacement flow. Remove consumed fragments after processing; cancellation and errors preserve the save.
-- [ ] Add browser tests for preview/apply/cancel, clipboard unavailability, QR encoding/decoding, large payload QR failure with copy-link/JSON fallback, and links received by an older catalog. Check no progress request is sent to a server.
-- [ ] Run transfer tests and `npm run build` then `npx playwright test transfer`. Commit as `feat: transfer Valor Mortis saves with JSON and QR links`.
+- [x] Run `node --test tests/transfer.test.mjs`; confirm failure before adapting the encoder/parser.
+- [x] Implement the new header and fragment marker, build the append-only catalog, and connect JSON and link import to the same validated replacement flow. Remove consumed fragments after processing; cancellation and errors preserve the save.
+- [x] Add browser tests for preview/apply/cancel, clipboard unavailability, QR encoding/decoding, large payload QR failure with copy-link/JSON fallback, and links received by an older catalog. Check no progress request is sent to a server.
+- [x] Run transfer tests and `npm run build` then `npx playwright test transfer`. Commit as `feat: transfer Valor Mortis saves with JSON and QR links`.
 
 ## Task 7: Verify the complete companion and document delivery
 
@@ -220,7 +220,7 @@ State retains the reference's shared `completed: Set<string>`, `currentItemId`, 
 
 **Interfaces:** Existing `npm test`, `npm run check`, `npm run build`, `npm run test:browser`, and `npm run dev` commands. CI checks and builds only; publishing remains a documented manual next step.
 
-- [ ] Add browser scenarios for storage becoming unavailable after successful edits, malformed data with retry, overlapping tabs merging independent checks, a current-step deep link under active filters, and a new build retaining progress while loading newly versioned resources.
+- [x] Add browser scenarios for storage becoming unavailable after successful edits, malformed data with retry, overlapping tabs merging independent checks, a current-step deep link under active filters, and a new build retaining progress while loading newly versioned resources.
 
   In `malformed content never renders successful completion`, intercept the guide request with invalid JSON before navigation:
   ```js
@@ -229,10 +229,10 @@ State retains the reference's shared `completed: Set<string>`, `currentItemId`, 
   await expect(page.locator("#load-error")).toBeVisible();
   await expect(page.locator("#progress-count")).toHaveText("—");
   ```
-- [ ] Run the targeted tests and record any failures before fixing them. Check save export still includes in-memory edits when persistence fails.
-- [ ] Audit all content references, review dates, translations, chapter/quest coverage, and source-use limits. Clearly distinguish incomplete quest/duplicate coverage from tested app behavior. Inspect every view in both languages/themes at mobile and desktop widths, keyboard focus, overflow, and reduced motion.
-- [ ] Write bilingual run/backup/transfer/coverage documentation, source attribution, and manual static hosting instructions. Retain upstream license attribution. Add CI using Node 22, reproducible install, lint, unit checks, build, and Chromium browser checks without deployment permissions.
-- [ ] Run `npm run check`, `npm test`, `npm run build`, and `npm run test:browser`; require exit 0 for each. Run `git diff --check`. Verify the built site at `/valor-mortis-cheatsheet/` and record actual test counts in the handoff.
+- [x] Run the targeted tests and record any failures before fixing them. Check save export still includes in-memory edits when persistence fails.
+- [x] Audit all content references, review dates, translations, chapter/quest coverage, and source-use limits. Clearly distinguish incomplete quest/duplicate coverage from tested app behavior. Inspect every view in both languages/themes at mobile and desktop widths, keyboard focus, overflow, and reduced motion.
+- [x] Write bilingual run/backup/transfer/coverage documentation, source attribution, and manual static hosting instructions. Retain upstream license attribution. Add CI using Node 22, reproducible install, lint, unit checks, build, and Chromium browser checks without deployment permissions.
+- [x] Run `npm run check`, `npm test`, `npm run build`, and `npm run test:browser`; require exit 0 for each. Run `git diff --check`. Verify the built site at `/valor-mortis-cheatsheet/` and record actual test counts in the handoff.
 - [ ] Follow the execution skill's final independent review requirement, resolve substantive findings, rerun affected checks, and commit as `docs: verify and document Valor Mortis companion`.
 - [ ] Deliver the local preview address, actual coverage, passed checks, and remaining content uncertainties. Do not claim deployment or in-game verification.
 
@@ -240,4 +240,4 @@ State retains the reference's shared `completed: Set<string>`, `currentItemId`, 
 
 The seven tasks cover all five views, independent progress/equipment semantics, translation and evidence, unknown-content treatment, static serving, error handling, and transfer. Each Review Focus item has a corresponding test task. The shared schema and interfaces above override incompatible Hell Is Us assumptions; reusable mechanics retain their original contracts where possible.
 
-Recommended execution: **Native**, implementing the tasks in this session with one independent review at the end. These tasks share the same content IDs and state contracts; keeping implementation context together should reduce repeated setup. No implementation has started. Plan review and execution-method selection are the remaining workflow gate.
+Recommended execution: **Native**, implementing the tasks in this session with one independent review at the end. These tasks share the same content IDs and state contracts; keeping implementation context together should reduce repeated setup. Native execution was approved. Implementation and verification are complete; independent review and final delivery remain.

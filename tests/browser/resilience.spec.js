@@ -1,5 +1,73 @@
 import { expect, test } from "@playwright/test";
 
+test("corrupt cross-tab storage does not crash the active guide", async ({
+  page,
+  context,
+}) => {
+  const errors = [];
+  page.on("pageerror", (error) => errors.push(error.message));
+  await page.goto(".");
+  const other = await context.newPage();
+  await other.goto(".");
+  await other.evaluate(() =>
+    localStorage.setItem(
+      "valor-mortis-checklist-v1",
+      JSON.stringify({ completed: { bad: true } }),
+    ),
+  );
+  await page.locator("#theme-toggle").click();
+  await expect(page.locator("#progress-count")).toContainText("152");
+  expect(errors).toEqual([]);
+  await other.close();
+});
+
+test("visiting all views never creates duplicated control IDs", async ({
+  page,
+}) => {
+  await page.goto(".");
+  for (const view of [
+    "build",
+    "tips",
+    "current",
+    "achievements",
+    "walkthrough",
+  ])
+    await page.locator(`[data-view="${view}"]`).click();
+  const duplicates = await page.evaluate(() => {
+    const ids = [...document.querySelectorAll("[id]")].map((n) => n.id);
+    return ids.filter((id, index) => ids.indexOf(id) !== index);
+  });
+  expect(duplicates).toEqual([]);
+});
+test("malformed content presents retry without reporting success", async ({
+  page,
+}) => {
+  await page.route("**/data/guide.json*", (route) =>
+    route.fulfill({ body: "{" }),
+  );
+  await page.goto(".");
+  await expect(page.locator("#load-error")).toBeVisible();
+  await expect(page.locator("#progress-count")).toHaveText("—");
+  await page.unroute("**/data/guide.json*");
+  await page.locator("#retry").click();
+  await expect(page.locator("#progress-count")).toContainText("152");
+});
+test("two open tabs merge independent edits", async ({ page, context }) => {
+  await page.goto(".");
+  const other = await context.newPage();
+  await other.goto(".");
+  await page.locator('#walkthrough [data-progress-id="vm-saber"]').check();
+  await other.locator('#walkthrough [data-progress-id="vm-fire"]').check();
+  await page.reload();
+  await expect(
+    page.locator('#walkthrough [data-progress-id="vm-saber"]'),
+  ).toBeChecked();
+  await expect(
+    page.locator('#walkthrough [data-progress-id="vm-fire"]'),
+  ).toBeChecked();
+  await other.close();
+});
+
 async function controllableStorage(page) {
   await page.addInitScript(() => {
     const original = Storage.prototype.setItem;
@@ -36,22 +104,20 @@ test("failed import writes retain replacement rather than resurrecting old check
   await page.evaluate(() => {
     window.failWrites = true;
   });
-  await page
-    .locator("#import-file")
-    .setInputFiles({
-      name: "save.json",
-      mimeType: "application/json",
-      buffer: Buffer.from(
-        JSON.stringify({
-          app: "valor-mortis-cheatsheet",
-          version: 1,
-          completed: ["vm-fire"],
-          language: "en",
-          theme: "dark",
-          activeView: "walkthrough",
-        }),
-      ),
-    });
+  await page.locator("#import-file").setInputFiles({
+    name: "save.json",
+    mimeType: "application/json",
+    buffer: Buffer.from(
+      JSON.stringify({
+        app: "valor-mortis-cheatsheet",
+        version: 1,
+        completed: ["vm-fire"],
+        language: "en",
+        theme: "dark",
+        activeView: "walkthrough",
+      }),
+    ),
+  });
   await page.locator("#apply-import").click();
   await expect(
     page.locator('#walkthrough [data-progress-id="vm-saber"]'),

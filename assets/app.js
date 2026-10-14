@@ -1,6 +1,6 @@
 import { createAchievementTracker } from "./achievement-view.js";
 import { validateAchievements } from "./achievements.js";
-import { getAcquisitionEdits, getBuildIds } from "./build.js";
+import { getAcquisitionEdits, getBuildIds, validateSupport } from "./build.js";
 import { createBuildTracker } from "./build-view.js";
 import { VIEWS } from "./config.js";
 import { resolveCurrentItem } from "./current.js";
@@ -241,12 +241,15 @@ byId("about-toggle").addEventListener("click", () => {
 });
 byId("retry").addEventListener("click", () => location.reload());
 window.addEventListener("storage", (event) => {
-  if (event.key !== STORAGE_KEY) return;
+  if (event.key !== STORAGE_KEY || pendingReplacement) return;
   const incoming = loadState(storage);
+  const incomingIds = Array.isArray(incoming.state.completed)
+    ? incoming.state.completed
+    : [];
   state.completed = new Set(
-    rebaseCompletion(incoming.state.completed ?? [], [
-      ...pending.values(),
-    ]).filter((id) => knownIds.has(id)),
+    rebaseCompletion(incomingIds, [...pending.values()]).filter((id) =>
+      knownIds.has(id),
+    ),
   );
   updateCounters();
   renderViews();
@@ -273,6 +276,7 @@ try {
   const [build, tips] = await Promise.all(
     supportResponses.map((response) => response.json()),
   );
+  validateSupport(build, tips, items);
   buildStages = build.stages;
   knownIds = new Set([
     ...[...items, ...catalog.achievements, ...tips.reminders].map(

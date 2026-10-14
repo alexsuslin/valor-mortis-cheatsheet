@@ -872,7 +872,7 @@
             "en": "Return uphill; shoot the blocked left path and defeat the guard.",
             "ru": "Вернитесь вверх; откройте выстрелом левый проход и победите стража."
           },
-          "categories": ["quest"],
+          "categories": ["quest", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter3"],
@@ -892,7 +892,7 @@
             "en": "Loot the guard’s chest.",
             "ru": "Откройте сундук стража."
           },
-          "categories": ["amber"],
+          "categories": ["amber", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter3"],
@@ -1218,7 +1218,7 @@
             "en": "Grapple across water; chest after second pillar.",
             "ru": "Переправьтесь крюком; сундук за вторым столбом."
           },
-          "categories": ["healing"],
+          "categories": ["healing", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter3"],
@@ -1330,7 +1330,7 @@
             "en": "Use the lift and grapple route to the upper chest.",
             "ru": "По подъёмнику и точкам крюка доберитесь до верхнего сундука."
           },
-          "categories": ["healing"],
+          "categories": ["healing", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["healing"],
@@ -2177,7 +2177,7 @@
             "en": "Use the newly accessible Nephto path to the cave guard.",
             "ru": "Пройдите по открывшемуся пути к стражу пещеры."
           },
-          "categories": ["quest"],
+          "categories": ["quest", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter6"],
@@ -2466,7 +2466,7 @@
             "en": "Shoot church weak points; take the blade.",
             "ru": "Уничтожьте слабые точки церкви; заберите клинок."
           },
-          "categories": ["weapon"],
+          "categories": ["weapon", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter6"],
@@ -2485,7 +2485,7 @@
             "en": "Collect the grave ribbon; return it to the wreath; rest and revisit.",
             "ru": "Заберите ленту с могилы; верните венку; отдохните и вернитесь."
           },
-          "categories": ["quest", "amber"],
+          "categories": ["quest", "amber", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter6"],
@@ -3844,7 +3844,7 @@
             "en": "Use Captain’s Key opposite the cannons.",
             "ru": "Примените капитанский ключ напротив пушек."
           },
-          "categories": ["healing"],
+          "categories": ["healing", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter9"],
@@ -4173,7 +4173,7 @@
             "en": "With Shield, explore the poisoned camp; inspect body, note and red cloth.",
             "ru": "Со Щитом обследуйте отравленный лагерь; осмотрите тело, записку и красную ткань."
           },
-          "categories": ["quest"],
+          "categories": ["quest", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["emissary"],
@@ -4193,7 +4193,7 @@
             "en": "Shoot carriage blockage; search the right tent.",
             "ru": "Уничтожьте преграду вагона; обыщите правую палатку."
           },
-          "categories": ["amber"],
+          "categories": ["amber", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter11"],
@@ -4231,7 +4231,7 @@
             "en": "Cross poison to the left balcony.",
             "ru": "Пересеките яд к левому балкону."
           },
-          "categories": ["amber"],
+          "categories": ["amber", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter11"],
@@ -4251,7 +4251,7 @@
             "en": "Find the Cargo Manifest beyond the boat route.",
             "ru": "Найдите грузовую ведомость за путём по кораблю."
           },
-          "categories": ["quest"],
+          "categories": ["quest", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter11"],
@@ -4289,7 +4289,7 @@
             "en": "Defeat the ship-hold miniboss; use its key; read the upstairs journal and loot the chest.",
             "ru": "Победите мини-босса трюма; примените ключ; прочитайте журнал наверху и откройте сундук."
           },
-          "categories": ["quest", "amber"],
+          "categories": ["quest", "amber", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter11"],
@@ -4328,7 +4328,7 @@
             "en": "Defeat the miniboss above the second shortcut ladder.",
             "ru": "Победите мини-босса над второй короткой лестницей."
           },
-          "categories": ["amber"],
+          "categories": ["amber", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter11"],
@@ -4366,7 +4366,7 @@
             "en": "Cross the poison detour with Shield; defeat the final guard.",
             "ru": "Пройдите через яд со Щитом; победите последнего стража."
           },
-          "categories": ["quest"],
+          "categories": ["quest", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter11"],
@@ -4404,7 +4404,7 @@
             "en": "Use the completed slab at the marked wall; read the table note.",
             "ru": "Примените собранную плиту у отмеченной стены; прочитайте записку на столе."
           },
-          "categories": ["quest"],
+          "categories": ["quest", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter11"],
@@ -4424,7 +4424,7 @@
             "en": "Right chest in the secret chamber.",
             "ru": "Правый сундук в тайной комнате."
           },
-          "categories": ["material"],
+          "categories": ["material", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["materials"],

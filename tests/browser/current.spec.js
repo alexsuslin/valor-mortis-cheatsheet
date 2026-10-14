@@ -1,5 +1,14 @@
 import { expect, test } from "@playwright/test";
 
+test("Current can jump directly to a chapter", async ({ page }) => {
+  await page.goto(".");
+  await page.locator('[data-view="current"]').click();
+  await page.locator("#current-chapter").selectOption("chapter-08");
+  await expect(page.locator("#current-step")).toHaveValue(
+    "vm-university-flask",
+  );
+});
+
 test("Current shares route progress and keeps its selection after checking", async ({
   page,
 }) => {

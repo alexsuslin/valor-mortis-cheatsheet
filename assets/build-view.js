@@ -1,8 +1,11 @@
 import { getBuildStatus } from "./build.js";
 import { button, byId, check, element, evidenceLinks } from "./ui.js";
-export function buildCard(stage, { state, t, onToggle, onRoute, sources }) {
+export function buildCard(
+  stage,
+  { state, t, onToggle, onRoute, sources, prefix = "build" },
+) {
   const card = element("article", "card");
-  card.id = stage.id;
+  card.id = `${prefix}-${stage.id}`;
   card.append(
     element("span", "badge", t(getBuildStatus(stage, state.completed))),
     element("h3", "", stage.title[state.language]),
@@ -12,7 +15,7 @@ export function buildCard(stage, { state, t, onToggle, onRoute, sources }) {
       t("obtained"),
       state.completed.has(`${stage.id}-obtained`),
       onToggle,
-      "build",
+      prefix,
     ),
     element("p", "", stage.apply[state.language]),
     check(
@@ -20,7 +23,7 @@ export function buildCard(stage, { state, t, onToggle, onRoute, sources }) {
       t("applied"),
       state.completed.has(`${stage.id}-applied`),
       onToggle,
-      "build",
+      prefix,
     ),
   );
   if (stage.optional)
@@ -30,7 +33,7 @@ export function buildCard(stage, { state, t, onToggle, onRoute, sources }) {
         t("skipped"),
         state.completed.has(`${stage.id}-skipped`),
         onToggle,
-        "build",
+        prefix,
       ),
     );
   for (const id of stage.routeIds)
@@ -38,7 +41,7 @@ export function buildCard(stage, { state, t, onToggle, onRoute, sources }) {
   card.append(evidenceLinks(stage.evidence, sources, t));
   return card;
 }
-export function tipCard(tip, { state, t, onToggle, sources }) {
+export function tipCard(tip, { state, t, onToggle, sources, prefix = "tip" }) {
   const card = element("article", "card");
   card.append(
     element("h3", "", tip.title[state.language]),
@@ -48,7 +51,7 @@ export function tipCard(tip, { state, t, onToggle, sources }) {
       t("acknowledged"),
       state.completed.has(tip.id),
       onToggle,
-      "tip",
+      prefix,
     ),
     evidenceLinks(tip.evidence, sources, t),
   );

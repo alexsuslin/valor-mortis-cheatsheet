@@ -127,4 +127,9 @@ test("published catalog covers the campaign and preserves consequential warnings
     guide.coverageNotes.some((note) => note.id === "coverage-glass-duplicate"),
   );
   assert.ok(!items.some((item) => item.id.startsWith("coverage-")));
+  assert.ok(
+    items
+      .find((item) => item.id === "vm-emissary-finish")
+      .categories.includes("revisit"),
+  );
 });

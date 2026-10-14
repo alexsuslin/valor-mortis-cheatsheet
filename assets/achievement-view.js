@@ -112,8 +112,35 @@ export function createAchievementTracker({
       filters.platform = platform.value;
       renderCards();
     });
-    controls.append(search, platform);
+    const category = element("select");
+    category.id = "achievement-category";
+    category.setAttribute("aria-label", t("category"));
+    for (const name of [
+      "all",
+      ...new Set(achievements.map((item) => item.category)),
+    ]) {
+      const option = element("option", "", t(name));
+      option.value = name;
+      category.append(option);
+    }
+    category.value = filters.category;
+    category.addEventListener("change", () => {
+      filters.category = category.value;
+      renderCards();
+    });
+    controls.append(search, platform, category);
     root.append(controls);
+    const hideLabel = element("label", "filter-actions");
+    const hide = element("input");
+    hide.type = "checkbox";
+    hide.id = "achievement-hide";
+    hide.checked = filters.hideCompleted;
+    hide.addEventListener("change", () => {
+      filters.hideCompleted = hide.checked;
+      renderCards();
+    });
+    hideLabel.append(hide, element("span", "", t("hideCompleted")));
+    root.append(hideLabel);
     const count = element("p", "muted");
     count.id = "achievement-count";
     root.append(count, element("p", "muted", t("platformNote")));

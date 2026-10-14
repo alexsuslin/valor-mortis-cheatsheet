@@ -5,6 +5,19 @@ import { createTransferUrl, parseTransferHash } from "../assets/transfer.js";
 import { transferIds } from "../assets/transfer-catalog.js";
 
 const known = new Set(transferIds);
+
+test("valid checksums do not bypass header or future-position validation", () => {
+  for (const hash of [
+    "#vm-progress=1.0000ffff.9f62cde3",
+    "#vm-progress=1.00000000000000000000000000000000000000000000000000000000000000000002.af7f0d06",
+  ])
+    assert.throws(() => parseTransferHash(hash, known), /Update required/);
+  for (const hash of [
+    "#vm-progress=1.04000000.ae26484b",
+    "#vm-progress=1.00050000.278f1df7",
+  ])
+    assert.throws(() => parseTransferHash(hash, known), /Damaged transfer/);
+});
 test("snapshots round-trip all preferences, equipment and current step", () => {
   for (const language of ["en", "ru"])
     for (const theme of ["light", "dark"])
@@ -39,7 +52,7 @@ test("foreign, damaged, oversized and unsupported transfers are rejected", () =>
     "#vm-progress=2.00.12345678",
     "#vm-progress=1.0.12345678",
     "#vm-progress=1.zz.12345678",
-    "#vm-progress=" + "a".repeat(8193),
+    `#vm-progress=${"a".repeat(8193)}`,
   ])
     assert.throws(() => parseTransferHash(hash, known));
   const url = new URL(

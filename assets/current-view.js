@@ -31,7 +31,24 @@ export function createCurrentTracker({
     const select = element("select");
     select.id = "current-step";
     select.setAttribute("aria-label", t("current"));
-    for (const row of items) {
+    const chapterSelect = element("select");
+    chapterSelect.id = "current-chapter";
+    chapterSelect.setAttribute("aria-label", t("chapter"));
+    for (const chapter of guide.chapters) {
+      const option = element("option", "", chapter.title[state.language]);
+      option.value = chapter.id;
+      chapterSelect.append(option);
+    }
+    chapterSelect.value = item.chapterId;
+    chapterSelect.addEventListener("change", () => {
+      const nextItem = resolveCurrentItem(
+        items.filter((row) => row.chapterId === chapterSelect.value),
+        undefined,
+        state.completed,
+      );
+      if (nextItem) onSelect(nextItem.id);
+    });
+    for (const row of items.filter((row) => row.chapterId === item.chapterId)) {
       const option = element(
         "option",
         "",
@@ -51,6 +68,7 @@ export function createCurrentTracker({
     next.disabled = index === items.length - 1;
     controls.append(
       previous,
+      chapterSelect,
       select,
       next,
       button(t("firstIncomplete"), () =>
@@ -94,6 +112,7 @@ export function createCurrentTracker({
           onToggle,
           onRoute,
           sources: build.sources,
+          prefix: "current-build",
         }),
       );
     root.append(cards);
@@ -102,7 +121,13 @@ export function createCurrentTracker({
       tip.routeIds.includes(item.id),
     ))
       tipsGrid.append(
-        tipCard(tip, { state, t, onToggle, sources: tips.sources }),
+        tipCard(tip, {
+          state,
+          t,
+          onToggle,
+          sources: tips.sources,
+          prefix: "current-tip",
+        }),
       );
     root.append(tipsGrid);
     const linked = achievements.filter((achievement) =>
@@ -125,7 +150,13 @@ export function createCurrentTracker({
     general.append(element("summary", "", t("general")));
     for (const tip of tips.reminders.filter((tip) => !tip.routeIds.length))
       general.append(
-        tipCard(tip, { state, t, onToggle, sources: tips.sources }),
+        tipCard(tip, {
+          state,
+          t,
+          onToggle,
+          sources: tips.sources,
+          prefix: "current-tip",
+        }),
       );
     root.append(general);
   }
