@@ -1,0 +1,1324 @@
+{
+  "version": 1,
+  "updated": "2026-10-14",
+  "sources": [
+    {
+      "id": "chapter1",
+      "name": "PowerPyx · Revival",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-1-revival-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter2",
+      "name": "PowerPyx · Regroup",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-2-regroup-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter3",
+      "name": "PowerPyx · Rendezvous",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-3-rendezvous-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter4",
+      "name": "PowerPyx · Dark Descent",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-4-dark-descent-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter5",
+      "name": "PowerPyx · Crime",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-5-crime-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter6",
+      "name": "PowerPyx · Punishment",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-6-punishment-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter7",
+      "name": "PowerPyx · Witch Hunt",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-7-witch-hunt-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter8",
+      "name": "PowerPyx · Blasphemy",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-8-blasphemy-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter9",
+      "name": "PowerPyx · In Ruins",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-9-in-ruins-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter10",
+      "name": "PowerPyx · Shackled",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-10-shackled-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "chapter11",
+      "name": "PowerPyx · Reflection",
+      "url": "https://www.powerpyx.com/valor-mortis-chapter-11-reflection-endgame-collectible-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "quests",
+      "name": "PowerPyx · Side quests",
+      "url": "https://www.powerpyx.com/valor-mortis-all-side-quest-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "ambers",
+      "name": "PowerPyx · Ambers",
+      "url": "https://www.powerpyx.com/valor-mortis-all-amber-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "healing",
+      "name": "PowerPyx · Ferrofluid",
+      "url": "https://www.powerpyx.com/valor-mortis-all-ferrofluid-upgrade-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "materials",
+      "name": "PowerPyx · Upgrade materials",
+      "url": "https://www.powerpyx.com/valor-mortis-max-level-upgrade-material-locations/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "trophies",
+      "name": "PowerPyx · Trophy roadmap",
+      "url": "https://www.powerpyx.com/valor-mortis-trophy-guide-roadmap/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "publisher",
+      "name": "Lyrical Games · Launch tips",
+      "url": "https://news.xbox.com/en-us/2026/10/13/valor-mortis-tips-and-tricks-to-survive-the-crimson-plague/",
+      "kind": "official",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "emissary",
+      "name": "PC Gamer · The Emissary",
+      "url": "https://www.pcgamer.com/games/action/valor-mortis-the-emissary-walkthrough/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "travel",
+      "name": "Insider Gaming · Fast travel",
+      "url": "https://insider-gaming.com/fast-travel-valor-mortis/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "postgame",
+      "name": "Insider Gaming · Postgame",
+      "url": "https://insider-gaming.com/free-roam-valor-mortis/",
+      "kind": "guide",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "ps5",
+      "name": "Exophase · PS5",
+      "url": "https://www.exophase.com/game/valor-mortis-psn/trophies/",
+      "kind": "platform-mirror",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "steam",
+      "name": "Exophase · Steam",
+      "url": "https://www.exophase.com/game/valor-mortis-steam/achievements/",
+      "kind": "platform-mirror",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "xbox",
+      "name": "Exophase · Xbox",
+      "url": "https://www.exophase.com/game/valor-mortis-xbox/achievements/",
+      "kind": "platform-mirror",
+      "reviewed": "2026-10-14"
+    },
+    {
+      "id": "russian",
+      "name": "Russian quest terminology",
+      "url": "https://igra4.ru/prohojdenie-vseh-pobochnyh-zadanii-valor-mortis-gaid-po-igre/",
+      "kind": "community",
+      "reviewed": "2026-10-14"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-all",
+      "title": {
+        "en": "Nephtis Superioris",
+        "ru": "Nephtis Superioris"
+      },
+      "description": {
+        "en": "Unlock every other achievement.",
+        "ru": "Откройте остальные достижения."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "completion",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": []
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["ps5"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-lothaire",
+      "title": {
+        "en": "Torn Banner",
+        "ru": "Порванное знамя"
+      },
+      "description": {
+        "en": "Defeat Lothaire in the rematch.",
+        "ru": "Победите Лотера в повторной встрече."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "story",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-lothaire"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["steam"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-marshall",
+      "title": {
+        "en": "Ultima Ratio Regum",
+        "ru": "Последний довод королей"
+      },
+      "description": {
+        "en": "Win the Iron Marshall fight.",
+        "ru": "Победите Железного маршала."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "story",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-iron-marshall"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["xbox"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": [],
+      "platformDescriptions": {
+        "steam": {
+          "en": "The English Steam mirror calls this boss Cannonhand Dubois; the PS5 list calls it Iron Marshall.",
+          "ru": "Английское зеркало Steam называет босса Пушкоруким Дюбуа, список PS5 — Железным маршалом."
+        }
+      }
+    },
+    {
+      "id": "achievement-sphinx",
+      "title": {
+        "en": "Not a Cat Person",
+        "ru": "Не люблю кошек"
+      },
+      "description": {
+        "en": "Win the Sphinx fight.",
+        "ru": "Победите Сфинкса."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "story",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-sphinx"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["ps5"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-slaughtermill",
+      "title": {
+        "en": "Quixotry",
+        "ru": "Дон Кихот"
+      },
+      "description": {
+        "en": "Win the Slaughtermill fight.",
+        "ru": "Победите Мельницу-бойню."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "story",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-slaughtermill"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["steam"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-bride",
+      "title": {
+        "en": "My Dying Bride",
+        "ru": "Мёртвая невеста"
+      },
+      "description": {
+        "en": "Win the Bride fight.",
+        "ru": "Победите Невесту."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "story",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-bride"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["xbox"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-aurelius",
+      "title": {
+        "en": "True Oath",
+        "ru": "Истинная клятва"
+      },
+      "description": {
+        "en": "Win the Aurelius fight.",
+        "ru": "Победите Аврелия."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "story",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-aurelius"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["ps5"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-experiment",
+      "title": {
+        "en": "Lament of the Limbs",
+        "ru": "Плач по конечностям"
+      },
+      "description": {
+        "en": "Win the Experiment 83 fight.",
+        "ru": "Победите Эксперимент 83."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "story",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-experiment"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["steam"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-shrike",
+      "title": {
+        "en": "Birdwatcher",
+        "ru": "Наблюдатель за птицами"
+      },
+      "description": {
+        "en": "Reach the meeting with the Shrike.",
+        "ru": "Доберитесь до встречи с Жуланом."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "story",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-shrike"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["xbox"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-orphan",
+      "title": {
+        "en": "Coup de Grâce",
+        "ru": "Coup de Grâce"
+      },
+      "description": {
+        "en": "Win the Orphan fight.",
+        "ru": "Победите Сироту."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "story",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-orphan"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["ps5"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-nephtis",
+      "title": {
+        "en": "Behemoth",
+        "ru": "Титан"
+      },
+      "description": {
+        "en": "Win the Nephtis Superioris fight.",
+        "ru": "Победите Nephtis Superioris."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "story",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-nephtis"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["steam"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-entity",
+      "title": {
+        "en": "In His Own Image",
+        "ru": "По образу своему"
+      },
+      "description": {
+        "en": "Win the final Entity fight.",
+        "ru": "Победите Сущность в финале."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "story",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-entity"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["xbox"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-arsenal",
+      "title": {
+        "en": "Arsenal Absolute",
+        "ru": "Полный арсенал"
+      },
+      "description": {
+        "en": "Acquire all weapons and powers.",
+        "ru": "Получите всё оружие и способности."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "collection",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": [
+          "vm-saber",
+          "vm-pistol",
+          "vm-rapier",
+          "vm-blunderbuss",
+          "vm-musket",
+          "vm-claymore",
+          "vm-fire",
+          "vm-stasis",
+          "vm-shield"
+        ]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["ps5"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-oathbound",
+      "title": {
+        "en": "We Wear the Same Colours",
+        "ru": "У нас одна форма"
+      },
+      "description": {
+        "en": "Finish the Oathbound chain.",
+        "ru": "Завершите цепочку Верных Клятве."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "quest",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-oathbound-finish"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["steam"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-firearm",
+      "title": {
+        "en": "Gun of Glory",
+        "ru": "Славная пушка"
+      },
+      "description": {
+        "en": "Bring one firearm to its final level.",
+        "ru": "Доведите один огнестрел до максимума."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "upgrade",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-masterwork-firearm"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["xbox"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": [
+        {
+          "kind": "reward",
+          "text": {
+            "en": "Only one final firearm material is documented. Choose your level-10 weapon deliberately.",
+            "ru": "Описана лишь одна финальная деталь. Обдумайте выбор оружия 10-го уровня."
+          },
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["materials"],
+            "reviewed": "2026-10-14"
+          }
+        }
+      ]
+    },
+    {
+      "id": "achievement-ambers",
+      "title": {
+        "en": "Ambersmith",
+        "ru": "Мастер Янтарей"
+      },
+      "description": {
+        "en": "Acquire every unique Amber type.",
+        "ru": "Получите каждый уникальный тип янтаря."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "collection",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": [
+          "vm-battlefield-bottomless-well",
+          "vm-battlefield-persistence",
+          "vm-battlefield-iron-grip",
+          "vm-guidepost-shell",
+          "vm-valley-perfectionism",
+          "vm-camp-dominatus",
+          "vm-camp-surplus",
+          "vm-quarry-concoction",
+          "vm-quarry-marksman",
+          "vm-battlefield-duellist",
+          "vm-scarecrow",
+          "vm-fields-volatile",
+          "vm-lullaby",
+          "vm-village-fury",
+          "vm-orchard-glass",
+          "vm-homesick",
+          "vm-cave-dominatus",
+          "vm-cave-lucky",
+          "vm-cave-lunatic",
+          "vm-mine-perfectionism",
+          "vm-mine-surplus",
+          "vm-mine-limit",
+          "vm-vale-exchange",
+          "vm-cellar-wound",
+          "vm-art",
+          "vm-deserter-finish",
+          "vm-hut-perfectionism",
+          "vm-forest-wound",
+          "vm-fishing-dilated",
+          "vm-camp-lucky",
+          "vm-hollow-wound",
+          "vm-hollow-life",
+          "vm-hollow-shell",
+          "vm-hollow-fury",
+          "vm-till-death-finish",
+          "vm-outskirts-dominatus",
+          "vm-outskirts-surplus",
+          "vm-outskirts-lunatic",
+          "vm-city-sixth",
+          "vm-city-well",
+          "vm-city-life",
+          "vm-city-squeak",
+          "vm-university-payback",
+          "vm-university-fury",
+          "vm-university-lunatic",
+          "vm-fortress-fire",
+          "vm-fortress-life",
+          "vm-fortress-lucky",
+          "vm-fortress-shell",
+          "vm-fortress-promise",
+          "vm-fortress-concoction",
+          "vm-courtyard-glass",
+          "vm-valley-copy",
+          "vm-graveyard-butcher",
+          "vm-smugglers-finish",
+          "vm-city-harvest"
+        ]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["ps5"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-transmutation",
+      "title": {
+        "en": "Transmutation Artifex",
+        "ru": "Виртуоз Трансмутаций"
+      },
+      "description": {
+        "en": "Bring one power to its final level.",
+        "ru": "Доведите одну трансмутацию до максимума."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "upgrade",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": [
+          "vm-shield",
+          "vm-fortress-transmutation",
+          "vm-monster-hunt-finish"
+        ]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["steam"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-blade",
+      "title": {
+        "en": "Bladesmith",
+        "ru": "Оружейных дел мастер"
+      },
+      "description": {
+        "en": "Bring one melee weapon to its final level.",
+        "ru": "Доведите один клинок до максимума."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "upgrade",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": [
+          "vm-lighthouse-blade",
+          "vm-chapel-blade",
+          "vm-oathbound-blade"
+        ]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["xbox"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-aerial",
+      "title": {
+        "en": "Aerial Annihilation",
+        "ru": "Уничтожение с воздуха"
+      },
+      "description": {
+        "en": "After a wall jump, kill with a headshot.",
+        "ru": "После прыжка от стены убейте выстрелом в голову."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "combat",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-pistol"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["ps5"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-scatter",
+      "title": {
+        "en": "Scattershot",
+        "ru": "Вразброс"
+      },
+      "description": {
+        "en": "One blunderbuss blast must kill five.",
+        "ru": "Убейте пятерых одним выстрелом мушкетона."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "combat",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-blunderbuss"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["steam"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-windhover",
+      "title": {
+        "en": "Windhover",
+        "ru": "Прогулка по воздуху"
+      },
+      "description": {
+        "en": "Make three airborne aimed pistol kills.",
+        "ru": "Совершите три убийства пистолетом при прицеливании в воздухе."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "combat",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-pistol"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["xbox"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-hood",
+      "title": {
+        "en": "Hood-Snatcher",
+        "ru": "Срыватель капюшонов"
+      },
+      "description": {
+        "en": "One claymore swing must decapitate three.",
+        "ru": "Обезглавьте троих одним ударом клеймора."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "combat",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-claymore"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["ps5"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-symphony",
+      "title": {
+        "en": "Symphony of Steel",
+        "ru": "Симфония стали"
+      },
+      "description": {
+        "en": "Parry ten times without receiving damage.",
+        "ru": "Парируйте десять раз без получения урона."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "combat",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-saber"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["steam"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-feast",
+      "title": {
+        "en": "Flaming Feast",
+        "ru": "Огненный пир"
+      },
+      "description": {
+        "en": "Ignite four opponents during one Fire cast.",
+        "ru": "Подожгите четверых одним применением Огня."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "combat",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-fire"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["xbox"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-statue",
+      "title": {
+        "en": "Statue of Insanity",
+        "ru": "Статуя безумия"
+      },
+      "description": {
+        "en": "Completely freeze Cannonhand Dubois with Stasis.",
+        "ru": "Полностью заморозьте Пушкорукого Дюбуа Стазисом."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "combat",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-stasis"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["ps5"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-abyssal",
+      "title": {
+        "en": "Abyssal Eviction",
+        "ru": "Выселение в бездну"
+      },
+      "description": {
+        "en": "Use Shield Bash to push an enemy to a fatal fall.",
+        "ru": "Толчком Щита сбросьте врага в смертельную пропасть."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "combat",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": [
+          "vm-shield",
+          "vm-fortress-transmutation",
+          "vm-monster-hunt-finish"
+        ]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["steam"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": [
+        {
+          "kind": "achievement",
+          "text": {
+            "en": "Upgrade Shield to level 5 for Abyssal Eviction; keep one rare material.",
+            "ru": "Для Abyssal Eviction нужен Щит 5-го уровня; сохраните редкий материал."
+          },
+          "evidence": {
+            "status": "single-source",
+            "sourceIds": ["trophies"],
+            "reviewed": "2026-10-14"
+          }
+        }
+      ]
+    },
+    {
+      "id": "achievement-bucket",
+      "title": {
+        "en": "Single Stroke",
+        "ru": "Один выстрел"
+      },
+      "description": {
+        "en": "Shoot a Grenadier’s grenade bucket off.",
+        "ru": "Отстрелите ведро гранат у гренадера."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "combat",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-pistol"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["xbox"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-trigger",
+      "title": {
+        "en": "God’s Trigger",
+        "ru": "Божественный спуск"
+      },
+      "description": {
+        "en": "Ten ranged head/weak-point hits, with no misses between.",
+        "ru": "Десять попаданий в голову или слабые точки без промахов."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "combat",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-pistol", "vm-musket"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["ps5"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-bonfire",
+      "title": {
+        "en": "Frenzied Flame",
+        "ru": "Неистовое пламя"
+      },
+      "description": {
+        "en": "Light the hidden Fortress sword bonfire.",
+        "ru": "Зажгите скрытый костёр с мечом в крепости."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "exploration",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-bonfire"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["steam"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-gap",
+      "title": {
+        "en": "Mind the Gap",
+        "ru": "Смотрите под ноги"
+      },
+      "description": {
+        "en": "Lose all health by falling into an abyss.",
+        "ru": "Погибните от падений в пропасть."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "exploration",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": []
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["xbox"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-rookie",
+      "title": {
+        "en": "Rookie Mistake",
+        "ru": "Ошибка новичка"
+      },
+      "description": {
+        "en": "Try healing after exhausting your flasks.",
+        "ru": "Попытайтесь лечиться после расхода всех флаконов."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "exploration",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": []
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["ps5"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-nick",
+      "title": {
+        "en": "In the Nick of Time",
+        "ru": "В последний миг"
+      },
+      "description": {
+        "en": "Use a lantern below 20% health with zero flasks.",
+        "ru": "Используйте фонарь с менее 20% здоровья и без флаконов."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "exploration",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": []
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["steam"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-fire-fight",
+      "title": {
+        "en": "Fight Fire With Fire",
+        "ru": "Огонь против огня"
+      },
+      "description": {
+        "en": "While burning, set an opponent alight.",
+        "ru": "Горя сами, подожгите противника."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "combat",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-fire"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["xbox"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-jackknife",
+      "title": {
+        "en": "Jackknife",
+        "ru": "Мастер на все руки"
+      },
+      "description": {
+        "en": "Damage foes with all nine weapons/powers within one life.",
+        "ru": "Нанесите урон всеми девятью видами оружия и сил за одну жизнь."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "combat",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": [
+          "vm-saber",
+          "vm-pistol",
+          "vm-rapier",
+          "vm-blunderbuss",
+          "vm-musket",
+          "vm-claymore",
+          "vm-fire",
+          "vm-stasis",
+          "vm-shield"
+        ]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["ps5"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-laudanum",
+      "title": {
+        "en": "A Bitter Cure",
+        "ru": "Горькое лекарство"
+      },
+      "description": {
+        "en": "Finish Laudanum.",
+        "ru": "Завершите Лауданум."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "quest",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-laudanum"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["steam"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": [
+        {
+          "kind": "reward",
+          "text": {
+            "en": "The Potent Concoction duplicate reportedly requires helping the children; guides disagree.",
+            "ru": "Дубликат Potent Concoction, по одному гайду, требует помощи детям; источники расходятся."
+          },
+          "evidence": {
+            "status": "conflicting",
+            "sourceIds": ["chapter7", "quests"],
+            "reviewed": "2026-10-14"
+          }
+        }
+      ]
+    },
+    {
+      "id": "achievement-seamus",
+      "title": {
+        "en": "Blood and Wine",
+        "ru": "Кровь и вино"
+      },
+      "description": {
+        "en": "Finish Seamus Diggory’s request.",
+        "ru": "Выполните просьбу Шеймуса Диггори."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "quest",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-seamus"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["xbox"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-deserter",
+      "title": {
+        "en": "Hand in the Jar",
+        "ru": "Ложка дёгтя"
+      },
+      "description": {
+        "en": "Finish The Deserter.",
+        "ru": "Завершите Дезертира."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "quest",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-deserter-finish"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["ps5"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-farewell",
+      "title": {
+        "en": "Aggressive Reconnaissance",
+        "ru": "Разведка боем"
+      },
+      "description": {
+        "en": "Finish An Unheard Farewell.",
+        "ru": "Завершите Неуслышанное прощание."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "quest",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-farewell-finish"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["steam"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    },
+    {
+      "id": "achievement-beasts",
+      "title": {
+        "en": "The Book of Beasts",
+        "ru": "Книга чудовищ"
+      },
+      "description": {
+        "en": "Finish the Monster Hunt drawing collection.",
+        "ru": "Завершите сбор рисунков Охоты на чудовищ."
+      },
+      "hint": {
+        "en": "Check the unlock in your game before marking it here.",
+        "ru": "Отмечайте только после открытия в игре."
+      },
+      "category": "quest",
+      "platforms": ["steam", "ps5", "xbox"],
+      "route": {
+        "itemIds": ["vm-monster-hunt-finish"]
+      },
+      "evidence": {
+        "status": "single-source",
+        "sourceIds": ["xbox"],
+        "reviewed": "2026-10-14"
+      },
+      "warnings": []
+    }
+  ]
+}

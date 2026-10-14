@@ -1,3 +1,5 @@
+import { createAchievementTracker } from "./achievement-view.js";
+import { validateAchievements } from "./achievements.js";
 import { VIEWS } from "./config.js";
 import { getGuideCoverage, getRouteItems, validateGuide } from "./guide.js";
 import { translate } from "./i18n.js";
@@ -211,7 +213,15 @@ try {
   guide = await response.json();
   validateGuide(guide);
   items = getRouteItems(guide);
-  knownIds = new Set(items.map((item) => item.id));
+  const achievementResponse = await fetch(
+    new URL("../data/achievements.json", import.meta.url),
+  );
+  if (!achievementResponse.ok) throw Error("Achievement request failed");
+  const catalog = await achievementResponse.json();
+  validateAchievements(catalog, items);
+  knownIds = new Set(
+    [...items, ...catalog.achievements].map((item) => item.id),
+  );
   state.completed = new Set(
     [...state.completed].filter((id) => knownIds.has(id)),
   );
@@ -223,6 +233,17 @@ try {
     onSelect: selectCurrent,
     onFilterChange: () => persist(),
   });
+  const achievementView = createAchievementTracker({
+    achievements: catalog.achievements,
+    sources: catalog.sources,
+    items,
+    state,
+    t,
+    onToggle: toggle,
+    onRoute: navigateRoute,
+  });
+  renderers.set("achievements", () => achievementView.render());
+  document.querySelector('[data-view="achievements"]').hidden = false;
   preferences();
   selectView("walkthrough", false);
 } catch (error) {
