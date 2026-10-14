@@ -433,7 +433,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter2"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -529,7 +529,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter2"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -905,7 +905,7 @@
       ]
     },
     {
-      "id": "section-3-church-abandoned-church",
+      "id": "section-3-church-abandoned-church-return",
       "chapterId": "chapter-03",
       "title": {
         "en": "Abandoned Church",
@@ -1258,7 +1258,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter4"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -1277,7 +1277,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter4"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -1333,7 +1333,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter4"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -1546,7 +1546,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter4"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -1585,7 +1585,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter4"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -1623,7 +1623,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter4"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -1717,7 +1717,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter5"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -1871,7 +1871,7 @@
           "categories": ["quest", "amber"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter5"],
+            "sourceIds": ["quests"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -1972,7 +1972,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter5"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -1991,7 +1991,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter5"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -2086,7 +2086,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter5"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -2584,7 +2584,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter7"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -2621,7 +2621,7 @@
           "categories": ["quest"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter7"],
+            "sourceIds": ["quests"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -2661,7 +2661,7 @@
           "categories": ["quest"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter7"],
+            "sourceIds": ["quests"],
             "reviewed": "2026-10-14"
           },
           "warnings": [
@@ -2732,7 +2732,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter7"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -2885,7 +2885,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter7"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -2904,7 +2904,7 @@
           "categories": ["quest"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter7"],
+            "sourceIds": ["quests"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -2924,7 +2924,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter7"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -3001,7 +3001,7 @@
           "categories": ["quest"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter7"],
+            "sourceIds": ["quests"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
@@ -3072,7 +3072,7 @@
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter7"],
+            "sourceIds": ["healing"],
             "reviewed": "2026-10-14"
           },
           "warnings": [],
