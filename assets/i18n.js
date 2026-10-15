@@ -16,6 +16,11 @@ const en = {
   noticeText:
     "Reserve one Quintessential Transmutation Material for Shield level 5. The route also flags quest failures and rewards affected by choices.",
   current: "Current",
+  jumpToStep: "Choose chapter or step",
+  stepNavigation: "Route step navigation",
+  stepPosition: "{index} / {total}",
+  sourceDetails: "About this source",
+  directions: "Directions & screenshots",
   walkthrough: "Walkthrough",
   achievements: "Achievements",
   build: "My build",
@@ -80,7 +85,6 @@ const en = {
   tipsIntro:
     "Combat reminders and decisions worth keeping in view. Suggestions are not a tested optimal build.",
   acknowledged: "Reminder checked",
-  general: "General reminders",
   loadError:
     "The guide could not load. Your saved progress has not been replaced. Retry to load it again.",
   completion: "Completion",
@@ -140,6 +144,11 @@ const ru = {
   noticeText:
     "Сохраните один высший материал трансмутации для Щита 5-го уровня. В маршруте также отмечены провалы заданий и награды, зависящие от выбора.",
   current: "Сейчас",
+  jumpToStep: "Выбрать главу или шаг",
+  stepNavigation: "Навигация по шагам",
+  stepPosition: "{index} / {total}",
+  sourceDetails: "О проверке источника",
+  directions: "Маршрут со скриншотами",
   walkthrough: "Прохождение",
   achievements: "Достижения",
   build: "Мой билд",
@@ -205,7 +214,6 @@ const ru = {
   tipsIntro:
     "Напоминания о бое и важных решениях. Советы не являются проверенным оптимальным билдом.",
   acknowledged: "Напоминание учтено",
-  general: "Общие напоминания",
   loadError:
     "Не удалось загрузить гайд. Сохранённый прогресс не заменён. Повторите загрузку.",
   completion: "Завершение",

@@ -12,7 +12,7 @@ A browser-local companion to Valor Mortis, adapted from the [Hell Is Us checklis
 - 20 named quest records, including one explicitly partial quest route.
 - 39 manually tracked achievements with Steam, PS5 and Xbox eligibility.
 - Current, Walkthrough, Achievements, My build, and Tips views.
-- 12 build milestones, nine equipment marks, and nine reminders.
+- 12 build milestones, nine equipment marks, and eight reminders.
 - English/Russian switching, light/dark themes, search, chapter/category/warning filters, and hide completed.
 - Browser-local saves, JSON backup/import, and QR/link transfer without an account or server.
 

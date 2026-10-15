@@ -1,4 +1,4 @@
-import { getBuildStatus, getNextBuildSteps } from "./build.js";
+import { getBuildStatus } from "./build.js";
 import { buildCard, tipCard } from "./build-view.js";
 import { resolveCurrentItem } from "./current.js";
 import { routeCard } from "./route-view.js";
@@ -15,8 +15,27 @@ export function createCurrentTracker({
   onSelect,
   onRoute,
 }) {
+  const expanded = new Set();
+  let renderedItemId;
+
+  function disclosure(id, title, children) {
+    const details = element("details", "current-related");
+    details.id = id;
+    details.open = expanded.has(id);
+    details.append(element("summary", "", title), ...children);
+    details.addEventListener("toggle", () => {
+      if (!details.isConnected) return;
+      if (details.open) expanded.add(id);
+      else expanded.delete(id);
+    });
+    return details;
+  }
+
   function render() {
     const root = byId("current");
+    const focusedId = root.contains(document.activeElement)
+      ? document.activeElement.id
+      : undefined;
     root.replaceChildren(element("h2", "", t("current")));
     const item = resolveCurrentItem(
       items,
@@ -27,6 +46,10 @@ export function createCurrentTracker({
       root.append(element("p", "", t("currentEmpty")));
       return;
     }
+    if (renderedItemId !== item.id) {
+      for (const id of expanded) if (id !== "current-jump") expanded.delete(id);
+    }
+    renderedItemId = item.id;
     state.currentItemId = item.id;
     const select = element("select");
     select.id = "current-step";
@@ -52,7 +75,7 @@ export function createCurrentTracker({
       const option = element(
         "option",
         "",
-        `${row.chapterId.slice(-2)} · ${row.title[state.language]}`,
+        `${state.completed.has(row.id) ? "✓ " : ""}${row.title[state.language]}`,
       );
       option.value = row.id;
       select.append(option);
@@ -62,25 +85,24 @@ export function createCurrentTracker({
     const controls = element("div", "current-controls");
     const index = items.indexOf(item);
     const previous = button(t("previous"), () => onSelect(items[index - 1].id));
+    previous.id = "current-previous";
     previous.disabled = index === 0;
     const next = button(t("next"), () => onSelect(items[index + 1].id));
     next.id = "current-next";
     next.disabled = index === items.length - 1;
     controls.append(
-      previous,
       chapterSelect,
       select,
-      next,
       button(t("firstIncomplete"), () =>
         onSelect(resolveCurrentItem(items, undefined, state.completed).id),
       ),
     );
     root.append(
-      controls,
+      disclosure("current-jump", t("jumpToStep"), [controls]),
       element(
         "p",
-        "muted",
-        `${item.region[state.language]} / ${item.lantern[state.language]}`,
+        "current-location",
+        `${guide.chapters.find((chapter) => chapter.id === item.chapterId).title[state.language]} · ${item.region[state.language]} / ${item.lantern[state.language]}`,
       ),
     );
     const current = element("div", "card current-card");
@@ -100,11 +122,8 @@ export function createCurrentTracker({
         stage.routeIds.includes(item.id) ||
         getBuildStatus(stage, state.completed) === "ready",
     );
-    const upcoming = relevant.length
-      ? relevant
-      : getNextBuildSteps(build.stages, state.completed);
     const cards = element("div", "card-grid");
-    for (const stage of upcoming)
+    for (const stage of relevant)
       cards.append(
         buildCard(stage, {
           state,
@@ -115,11 +134,17 @@ export function createCurrentTracker({
           prefix: "current-build",
         }),
       );
-    root.append(cards);
+    if (relevant.length)
+      root.append(
+        disclosure("current-build", `${t("build")} · ${relevant.length}`, [
+          cards,
+        ]),
+      );
     const tipsGrid = element("div", "card-grid");
-    for (const tip of tips.reminders.filter((tip) =>
+    const localTips = tips.reminders.filter((tip) =>
       tip.routeIds.includes(item.id),
-    ))
+    );
+    for (const tip of localTips)
       tipsGrid.append(
         tipCard(tip, {
           state,
@@ -129,14 +154,19 @@ export function createCurrentTracker({
           prefix: "current-tip",
         }),
       );
-    root.append(tipsGrid);
+    if (localTips.length)
+      root.append(
+        disclosure("current-tips", `${t("tips")} · ${localTips.length}`, [
+          tipsGrid,
+        ]),
+      );
     const linked = achievements.filter((achievement) =>
       achievement.route.itemIds.includes(item.id),
     );
     if (linked.length) {
-      root.append(element("h3", "subheading", t("achievements")));
+      const achievementList = element("div", "current-achievements");
       for (const achievement of linked)
-        root.append(
+        achievementList.append(
           check(
             achievement.id,
             `${achievement.title[state.language]} · ${t("unlock")}`,
@@ -145,20 +175,26 @@ export function createCurrentTracker({
             "current-achievement",
           ),
         );
-    }
-    const general = element("details", "card");
-    general.append(element("summary", "", t("general")));
-    for (const tip of tips.reminders.filter((tip) => !tip.routeIds.length))
-      general.append(
-        tipCard(tip, {
-          state,
-          t,
-          onToggle,
-          sources: tips.sources,
-          prefix: "current-tip",
-        }),
+      root.append(
+        disclosure(
+          "current-achievements",
+          `${t("achievements")} · ${linked.length}`,
+          [achievementList],
+        ),
       );
-    root.append(general);
+    }
+
+    const navigation = element("nav", "current-navigation");
+    navigation.setAttribute("aria-label", t("stepNavigation"));
+    const position = element(
+      "span",
+      "current-position",
+      t("stepPosition", { index: index + 1, total: items.length }),
+    );
+    position.setAttribute("aria-live", "polite");
+    navigation.append(previous, position, next);
+    root.append(navigation);
+    if (focusedId) byId(focusedId)?.focus({ preventScroll: true });
   }
   return { render };
 }

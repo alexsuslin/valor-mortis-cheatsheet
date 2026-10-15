@@ -32,7 +32,7 @@ export function routeCard(
     meta.append(element("span", "badge", categories[state.language][category]));
   if (onSelect)
     meta.append(button(t("selectCurrent"), () => onSelect(item.id)));
-  body.append(meta, evidenceLinks(item.evidence, sources, t));
+  body.append(meta, evidenceLinks(item.evidence, sources, t, "directions"));
   node.append(input, body);
   return node;
 }

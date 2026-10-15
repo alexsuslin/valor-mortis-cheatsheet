@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "sources": [
     {
       "id": "chapter1",
@@ -274,14 +274,14 @@
             "ru": "Сабля"
           },
           "description": {
-            "en": "Obtain your starting blade.",
-            "ru": "Получите стартовый клинок."
+            "en": "The Saber is given to you at the beginning of the game; there is no separate chest to find.",
+            "ru": "Саблю выдают в начале игры. Искать отдельный сундук для неё не нужно."
           },
           "categories": ["weapon"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter1"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": []
@@ -293,14 +293,14 @@
             "ru": "Огонь"
           },
           "description": {
-            "en": "Unlock Fire and burn obstructing vines.",
-            "ru": "Получите Огонь и сожгите преграждающие путь лозы."
+            "en": "Receive Fire during the opening sequence. Use it on the gold vines blocking the route.",
+            "ru": "Получите Огонь по сюжету в начале игры. Золотые лозы, перекрывающие дорогу, сжигаются этой способностью."
           },
           "categories": ["transmutation"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter1"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": []
@@ -312,14 +312,14 @@
             "ru": "Янтарь · Bottomless Well"
           },
           "description": {
-            "en": "Backtrack up the cliffs; burn vines.",
-            "ru": "Вернитесь вверх по скалам; сожгите лозы."
+            "en": "From Onslaught Arch, turn back and climb the cliffs using the branches. Burn the vines on your left and open the chest behind them.",
+            "ru": "От фонаря Onslaught Arch развернитесь и поднимитесь обратно по скалам через ветки. Слева сожгите лозы: за ними сундук с янтарём."
           },
           "categories": ["amber"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter1"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -332,14 +332,14 @@
             "ru": "Янтарь · Transmuted Persistence"
           },
           "description": {
-            "en": "Left battlefield detour, behind burnable vines.",
-            "ru": "Ответвление слева на поле битвы, за лозами."
+            "en": "Keep left as you enter the battlefield. Before the metal carriage, burn the left-hand vines; clear the enemies and open their chest.",
+            "ru": "На поле битвы держитесь левой стороны. Не доходя до металлического вагона, сожгите лозы слева. За ними враги и сундук."
           },
           "categories": ["amber"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter1"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -370,14 +370,14 @@
             "ru": "Янтарь · Iron Grip"
           },
           "description": {
-            "en": "After plunge tutorial, search right dead end.",
-            "ru": "После обучения удару сверху осмотрите правый тупик."
+            "en": "After the plunge-attack tutorial, turn right before climbing the wooden ledge. The chest is in that dead end, behind an enemy.",
+            "ru": "После обучения атаке сверху не поднимайтесь на деревянный уступ: сверните вправо. Победите врага в тупике и откройте сундук за ним."
           },
           "categories": ["amber"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter1"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -390,14 +390,14 @@
             "ru": "Первая встреча с Лотером"
           },
           "description": {
-            "en": "Continue after the intended defeat.",
-            "ru": "Продолжайте после предусмотренного поражения."
+            "en": "This first Lothaire encounter ends in an intended defeat. Continue the story after it.",
+            "ru": "Поражение в первой встрече с Лотером предусмотрено сюжетом. После него продолжайте прохождение."
           },
           "categories": ["story"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter1"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": []
@@ -427,14 +427,14 @@
             "ru": "Сила лечения"
           },
           "description": {
-            "en": "Break boxes before the pole swing.",
-            "ru": "Разбейте ящики перед прыжком к перекладине."
+            "en": "At the cliffside platform with the swing pole, break the boxes on the left before jumping. A guarded chest lies behind them.",
+            "ru": "На площадке у обрыва, перед прыжком к перекладине, разбейте ящики слева. За ними проход к врагу и сундуку с улучшением лечения."
           },
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["healing"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": []
@@ -542,14 +542,14 @@
             "ru": "Письмо офицерам"
           },
           "description": {
-            "en": "Use the moving lift; burn vines; defeat the miniboss and collect its letter.",
-            "ru": "Используйте движущийся подъёмник; сожгите лозы; победите мини-босса и заберите письмо."
+            "en": "At the second lift-release weak point, ride back down and jump onto the middle platform while moving. Burn the vines opposite your earlier path. Defeat the miniboss and pick up the officers’ letter.",
+            "ru": "У второй слабой точки, освобождающей подъёмник, спуститесь на нём и соскочите на среднюю площадку на ходу. Сожгите лозы напротив прежнего пути. Победите мини-босса и подберите письмо офицерам."
           },
           "categories": ["quest"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter2"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -717,14 +717,14 @@
             "ru": "Янтарь · Surplus"
           },
           "description": {
-            "en": "Burn hillside vines; shoot lantern and weak point.",
-            "ru": "Сожгите лозы на склоне; стреляйте в фонарь и слабую точку."
+            "en": "Burn the vines on the right-hand hillside after the camp. Inside, shoot the lantern across the poison, then the exposed weak point. Use the left swing route and climb out to the cliffside chest.",
+            "ru": "После лагеря сожгите лозы справа на склоне. В пещере выстрелите в фонарь за ядом, затем в открывшуюся слабую точку. Переправьтесь слева и поднимитесь к сундуку на скале."
           },
           "categories": ["amber"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter2"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -964,14 +964,14 @@
             "ru": "Пугало"
           },
           "description": {
-            "en": "Bring the pendant and illustrated letter; then inspect the barn pillows.",
-            "ru": "Принесите кулон и письмо с рисунком; затем осмотрите подушки в амбаре."
+            "en": "1. Speak to the body tied to the scarecrow in Fields. Find the pendant by the big tree to the right of the barn.\n2. Beyond the tall haystacks, enter the uphill house on the left; collect the illustrated letter upstairs.\n3. Give both items to the scarecrow. In the next field’s explosive-corpse barn, inspect the two pillows upstairs.",
+            "ru": "1. Поговорите с телом на пугале в Fields. Кулон лежит у большого дерева справа от амбара.\n2. За высокими стогами зайдите в дом на холме слева. Наверху возьмите письмо с рисунком.\n3. Отдайте оба предмета пугалу. В амбаре со взрывающимися телами на следующем поле осмотрите две подушки наверху."
           },
           "categories": ["quest", "amber"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter3"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -1061,14 +1061,14 @@
             "ru": "Колыбельная"
           },
           "description": {
-            "en": "Crib → backyard key → locked riverside house → return the toy.",
-            "ru": "Колыбель → ключ за домом → запертый дом у реки → верните игрушку."
+            "en": "1. Approach the crib in the house toward the burning waterfront. Pick up Weathered Key outside its back door.\n2. Retrace the route past the Volunteer; turn right and cross the river to the locked house. Take the toy from the bed.\n3. Put it in the original crib.",
+            "ru": "1. Подойдите к колыбели в доме со стороны горящей набережной. За задней дверью подберите Weathered Key.\n2. Вернитесь мимо добровольца, сверните направо и перепрыгните реку к запертому дому. Заберите игрушку с кровати.\n3. Положите её в первую колыбель."
           },
           "categories": ["quest", "amber"],
           "evidence": {
             "status": "single-source",
-            "sourceIds": ["chapter3"],
-            "reviewed": "2026-10-14"
+            "sourceIds": ["quests"],
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -1121,14 +1121,14 @@
             "ru": "Ключ от склада"
           },
           "description": {
-            "en": "Descend behind the house; inspect the box.",
-            "ru": "Спуститесь за домом; осмотрите ящик."
+            "en": "Behind the house, descend the ladder underground. Find the key on a box near two enemies; it opens the nearby door to the blocking wall’s weak point.",
+            "ru": "За домом спуститесь по лестнице под землю. Ключ лежит на ящике у двух врагов. Им открывается соседняя дверь, за которой можно уничтожить слабую точку преграды."
           },
           "categories": ["key"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter3"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": []
@@ -1364,14 +1364,14 @@
             "ru": "Тоска по дому"
           },
           "description": {
-            "en": "Find both letters near the memory and boat; return to the first letter.",
-            "ru": "Найдите письма у воспоминания и лодки; вернитесь к первому."
+            "en": "Take the wife’s letter beside the mother’s memory. In the large cave, descend through the floor tunnel; beyond the Grenadier, cross the water to the boat’s death notice. Return to the first letter’s location and let William finish speaking.",
+            "ru": "Заберите письмо жены рядом с воспоминанием матери. В большой пещере спуститесь в туннель в полу; за гренадером перепрыгните воду к лодке с извещением о смерти. Вернитесь к месту первого письма и дождитесь конца реплики Уильяма."
           },
           "categories": ["quest", "amber"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter4"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -1559,14 +1559,14 @@
             "ru": "Янтарь · Surplus"
           },
           "description": {
-            "en": "Explore behind the ladder between minecart tracks.",
-            "ru": "Осмотрите проход за лестницей между рельсами."
+            "en": "At the ladder between the minecart tracks, explore the passage behind it. Reach the lever-operated crate, freeze it with Stasis and climb the platforms on the right to the chest.",
+            "ru": "У лестницы между рельсами пройдите в ответвление за ней. Доберитесь до ящика, который двигается рычагом; остановите его Стазисом и поднимитесь по платформам справа к сундуку."
           },
           "categories": ["amber"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter4"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -1598,14 +1598,14 @@
             "ru": "Ключ от шахты"
           },
           "description": {
-            "en": "Drop from the lift onto the body’s ledge.",
-            "ru": "Спрыгните с подъёмника на уступ с телом."
+            "en": "On the lift back to the lantern, drop onto the ledge with a body halfway up. Its key opens the door beside the minecart-diversion switch.",
+            "ru": "На подъёмнике к фонарю соскочите примерно на середине пути на уступ с телом. Ключ открывает дверь возле рычага, которым перенаправляли вагонетку."
           },
           "categories": ["key"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter4"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": []
@@ -1767,14 +1767,14 @@
             "ru": "Потерянный мальчик"
           },
           "description": {
-            "en": "Read Mirek’s note; recover the cave key; inspect the cellar note.",
-            "ru": "Прочитайте записку Мирека; найдите ключ в пещере; прочитайте записку в подвале."
+            "en": "Read Mirek’s Note in the left house. Beyond the cave miniboss, follow the ramp past the blade-material chest and take Cellar Key beside the body. Return to the house’s cellar door and read the note inside.",
+            "ru": "Прочитайте записку Мирека в доме слева. За мини-боссом пещеры пройдите по пандусу мимо сундука с материалом для клинка; ключ от подвала лежит у тела. Вернитесь к подвальной двери дома и прочитайте записку внутри."
           },
           "categories": ["quest"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter5"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -1865,14 +1865,14 @@
             "ru": "Во имя искусства"
           },
           "description": {
-            "en": "Shoot through the window; inspect painting; retrieve grave key; read basement letter.",
-            "ru": "Стреляйте через окно; осмотрите картину; найдите ключ у могилы; прочитайте письмо в подвале."
+            "en": "Shoot the window weak point to enter the house. Upstairs, move the painting and shoot through the opening. Collect Basement Key by the uphill grave, then unlock the downstairs door and read the painter’s final letter at the basement’s end.",
+            "ru": "Выстрелите в слабую точку через окно, чтобы войти в дом. Наверху сдвиньте картину и выстрелите через проём. Возьмите ключ у могилы на холме; откройте подвальную дверь внизу и прочитайте последнее письмо художника в конце подвала."
           },
           "categories": ["quest", "amber"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["quests"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -1886,14 +1886,14 @@
             "ru": "Фигурка Анубиса"
           },
           "description": {
-            "en": "Search the three safe square hives; assemble the figurine.",
-            "ru": "Обыщите три безопасных квадратных улья; соберите фигурку."
+            "en": "Avoid hives marked with a red X. Collect figurine pieces from three square hives: farthest from the beekeeper’s house; on the right beside the corpse-covered road; leftmost behind the town’s first right-hand house.",
+            "ru": "Не трогайте ульи с красным крестом. Части фигурки лежат в трёх квадратных ульях: самом дальнем от хижины; справа у дороги с телами; левом за первым домом справа в поселении."
           },
           "categories": ["quest", "amber"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter5"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -2269,14 +2269,14 @@
             "ru": "Спящая красавица"
           },
           "description": {
-            "en": "Read the shrine prayer; recover Headman’s Key; inspect the spinning wheel.",
-            "ru": "Прочитайте молитву у святилища; найдите ключ старосты; осмотрите прялку."
+            "en": "At the large tree, go right under the fence to the shrine prayer. Defeat the miniboss in the next building for Headman’s Key. Unlock the house, read the upstairs note and inspect the spinning wheel. Either choice gives the same material.",
+            "ru": "У большого дерева сверните вправо под забор к молитве у святилища. Мини-босс следующего здания даст ключ старосты. Откройте дом, прочитайте записку наверху и осмотрите прялку. Оба решения дают одинаковый материал."
           },
           "categories": ["quest"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter6"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -2385,14 +2385,14 @@
             "ru": "Загадочная история Шеймуса Диггори"
           },
           "description": {
-            "en": "Speak through the window; bring pig blood or wine.",
-            "ru": "Поговорите через окно; принесите свиную кровь или вино."
+            "en": "At Silent Cannons, take the wallrun to the right of the cannon enemy. Speak through the window. Fill the bottle at the pig near the miniboss, or take wine from the barrel in the animal shack. Return either drink to Seamus.",
+            "ru": "В Silent Cannons используйте пробежку по стене справа от пушкаря. Поговорите через окно. Наберите кровь у свиньи возле мини-босса либо возьмите вино с бочки в сарае с тушами. Отнесите Шеймусу любой из напитков."
           },
           "categories": ["quest", "healing"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter6"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -2655,14 +2655,14 @@
             "ru": "Лауданум"
           },
           "description": {
-            "en": "Accept a branch at the doors; retrieve medicine in Market Square; return and rest.",
-            "ru": "Выберите вариант у дверей; найдите лекарство на Рыночной площади; вернитесь и отдохните."
+            "en": "Speak at the brown door on the right, then the second door around the building. Read the choice warning before answering. At Market Square, cross to the house and drop through the upstairs floor into the bedroom for Laudanum. Deliver it, rest and revisit the doors.",
+            "ru": "Поговорите у коричневой двери справа, затем у второй за углом. До ответа прочитайте предупреждение о выборе. От Market Square пройдите к дому и спрыгните через пол верхнего этажа в спальню за Лауданумом. Отдайте лекарство, отдохните и вернитесь к дверям."
           },
           "categories": ["quest"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["quests"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [
             {
@@ -2898,14 +2898,14 @@
             "ru": "Сказки на ночь"
           },
           "description": {
-            "en": "Recover the basement book; return and read it to the children.",
-            "ru": "Заберите книгу в подвале; вернитесь и прочитайте детям."
+            "en": "After the burning tunnel, climb the stairs and accept the children’s request at the burrow. Take the book from the basement shelf via the upstairs trapdoor. Return through the shortcut behind the bound man and choose to read the story for the larger reward.",
+            "ru": "После горящего туннеля поднимитесь по лестнице и примите просьбу детей у норы. Через люк наверху спуститесь в подвал за книгой на полке. Вернитесь коротким путём за привязанным мужчиной; прочтите детям историю для увеличенной награды."
           },
           "categories": ["quest"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["quests"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -3174,14 +3174,14 @@
             "ru": "Ёмкость флакона"
           },
           "description": {
-            "en": "Shoot the stair weak point; move the statue.",
-            "ru": "Уничтожьте слабую точку у лестницы; сдвиньте статую."
+            "en": "In the statue room, climb behind the stairs to the statue’s right. Shoot the weak point and pull the revealed switch. The moved statue exposes the flask chest.",
+            "ru": "В зале со статуей поднимитесь за лестницу справа от неё. Уничтожьте слабую точку и потяните открывшийся рычаг. Статуя сдвинется, открыв сундук с флаконом."
           },
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter8"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": []
@@ -3213,14 +3213,14 @@
             "ru": "Ключ от библиотеки"
           },
           "description": {
-            "en": "Explore left of the lift among movable walls.",
-            "ru": "Осмотрите проход слева от лифта среди подвижных стен."
+            "en": "At the lift, take the left corridor, then turn right into the movable-wall rooms. Keep left and open the wall hiding the key on the floor.",
+            "ru": "У лифта идите в коридор слева, затем направо в комнаты с подвижными стенами. Держитесь левой стороны: ключ на полу за одной из стен."
           },
           "categories": ["key"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter8"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": []
@@ -3264,14 +3264,14 @@
             "ru": "Сила лечения"
           },
           "description": {
-            "en": "Cross poison; loot behind the lower-library statue.",
-            "ru": "Пересеките яд; обыщите место за статуей нижней библиотеки."
+            "en": "After getting Shield, return to the chandelier room and cross the poison corridor. Take the lift down; in the lower library, go right to the statue. Collect its front item to clear the vines and reach the chest behind it.",
+            "ru": "Со Щитом вернитесь в зал с люстрой и пересеките ядовитый коридор. Спуститесь на лифте; в нижней библиотеке идите направо к статуе. Подберите предмет перед ней, чтобы убрать лозы и открыть сундук сзади."
           },
           "categories": ["healing"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter8"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": []
@@ -3522,14 +3522,14 @@
             "ru": "Янтарь · Life Diverted"
           },
           "description": {
-            "en": "Burn building vines; defeat its occupant.",
-            "ru": "Сожгите лозы здания; победите обитателя."
+            "en": "From Traverse, turn back toward the left-hand courtyard. Burn the vines inside the opposite building, defeat the emerging enemy and check the back wall for the chest.",
+            "ru": "От Traverse вернитесь во двор слева. В здании напротив сожгите лозы, победите вышедшего врага и откройте сундук у дальней стены."
           },
           "categories": ["amber"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter9"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -3708,14 +3708,14 @@
             "ru": "Янтарь · Tomorrow’s Promise"
           },
           "description": {
-            "en": "Climb to the long switch-door room.",
-            "ru": "Поднимитесь в длинную комнату с дверным рычагом."
+            "en": "Beside the route to Captain’s Key, climb the ladder into the long room with a switch-operated door. Look for the chest on your right.",
+            "ru": "Рядом с путём к капитанскому ключу поднимитесь по лестнице в длинную комнату с рычажной дверью. Сундук находится справа."
           },
           "categories": ["amber"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter9"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -3784,14 +3784,14 @@
             "ru": "Янтарь · Potent Concoction"
           },
           "description": {
-            "en": "Shoot the weak point to reveal a ladder.",
-            "ru": "Уничтожьте слабую точку, открывающую лестницу."
+            "en": "Climb the stairs from Ramparts, then turn around. Shoot the weak point on the opposite wall to expose a ladder. Follow that upper route to the chest near the exit weak point.",
+            "ru": "От Ramparts поднимитесь по ступеням и развернитесь. Выстрелите в слабую точку противоположной стены — откроется лестница. Пройдите по верхнему пути к сундуку возле слабой точки выхода."
           },
           "categories": ["amber"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter9"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -3968,14 +3968,14 @@
             "ru": "Хор"
           },
           "description": {
-            "en": "Read the first warden journal near the horn; inspect the upstairs chapel door.",
-            "ru": "Прочитайте первый журнал у рога; осмотрите дверь часовни наверху."
+            "en": "During the escape, enter the left room with the horn and read the first warden journal on the desk. Upstairs, inspect the chapel door at the far end of the hallway beyond the patrol room.",
+            "ru": "Во время побега зайдите в комнату слева с рогом и прочитайте первый журнал надзирателя на столе. Наверху осмотрите дверь часовни в конце коридора за залом с патрулями."
           },
           "categories": ["quest"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter10"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [
             {
@@ -4001,14 +4001,14 @@
             "ru": "Верните снаряжение"
           },
           "description": {
-            "en": "Get the kitchen Armoury Key; unlock the lower armoury.",
-            "ru": "Возьмите ключ на кухне; откройте нижний арсенал."
+            "en": "Cross the upper rafters and drop into the central kitchen. Take Armoury Key from the table, then unlock the armoury downstairs to recover your equipment.",
+            "ru": "По верхним балкам доберитесь до центра зала и спрыгните на кухню. Возьмите ключ со стола и откройте арсенал на нижнем этаже, чтобы вернуть снаряжение."
           },
           "categories": ["key"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter10"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": []
@@ -4020,14 +4020,14 @@
             "ru": "Документы часовни"
           },
           "description": {
-            "en": "Read journal two; collect Chapel Key; retrieve the prisoners’ letter.",
-            "ru": "Прочитайте второй журнал; найдите ключ часовни; заберите письмо о заключённых."
+            "en": "Read journal two in the small room beside the kitchen key. Find Chapel Key in the memory room across the upper floor. Unlock the chapel and take the prisoners’ letter from behind the bodies before leaving prison.",
+            "ru": "В комнатке рядом с кухонным ключом прочитайте второй журнал. На другой стороне верхнего этажа найдите ключ часовни в комнате с воспоминанием. Откройте часовню и до побега заберите письмо о заключённых за телами."
           },
           "categories": ["quest"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter10"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -4058,14 +4058,14 @@
             "ru": "Разместите письмо о заключённых"
           },
           "description": {
-            "en": "Attach it to the board beside the exit lantern.",
-            "ru": "Прикрепите его к доске возле выходного фонаря."
+            "en": "After the sewer exit, attach the prisoners’ letter to the board beside the city lantern.",
+            "ru": "После выхода из канализации прикрепите письмо о заключённых к доске у городского фонаря."
           },
           "categories": ["quest"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter10"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -4170,14 +4170,14 @@
             "ru": "Завершите Посланника"
           },
           "description": {
-            "en": "With Shield, explore the poisoned camp; inspect body, note and red cloth.",
-            "ru": "Со Щитом обследуйте отравленный лагерь; осмотрите тело, записку и красную ткань."
+            "en": "With Shield, return to The Other Side and descend into the poisoned camp. Read the note and inspect the body. Shoot the train-car weak point to open the next path, then inspect the red cloth at the blocked gate.",
+            "ru": "Со Щитом вернитесь к The Other Side и спуститесь в отравленный лагерь. Прочитайте записку и осмотрите тело. Выстрелите в слабую точку вагона, чтобы открыть дальнейший путь; у запертых ворот осмотрите красную ткань."
           },
           "categories": ["quest", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["emissary"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -4286,14 +4286,14 @@
             "ru": "Откройте дом в гавани"
           },
           "description": {
-            "en": "Defeat the ship-hold miniboss; use its key; read the upstairs journal and loot the chest.",
-            "ru": "Победите мини-босса трюма; примените ключ; прочитайте журнал наверху и откройте сундук."
+            "en": "From Harbour, cross the poison to the side dock. Defeat the ship-hold miniboss for Harbour Residence Key. Return toward the poison, unlock the residence and read the upstairs journal; the reward chest is on its left.",
+            "ru": "От Harbour пересеките яд к боковому причалу. Мини-босс в трюме даст ключ дома в гавани. Вернитесь к ядовитому участку, откройте дом и прочитайте журнал наверху. Сундук с наградой — слева."
           },
           "categories": ["quest", "amber", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter11"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],
@@ -4363,14 +4363,14 @@
             "ru": "Эмблема Адриена"
           },
           "description": {
-            "en": "Cross the poison detour with Shield; defeat the final guard.",
-            "ru": "Пройдите через яд со Щитом; победите последнего стража."
+            "en": "Leave Shamble Street through the riverside shortcut gate. Turn left toward the ramp with two tall enemies; use Shield on the poison branch at its foot. Follow it through the house’s weak point to the final guard.",
+            "ru": "Из Shamble Street выйдите через короткий путь к реке. Сверните влево к спуску с двумя высокими врагами; внизу пройдите со Щитом через яд. Продолжайте через дом со слабой точкой к последнему стражу."
           },
           "categories": ["quest", "revisit"],
           "evidence": {
             "status": "single-source",
             "sourceIds": ["chapter11"],
-            "reviewed": "2026-10-14"
+            "reviewed": "2026-10-15"
           },
           "warnings": [],
           "searchTerms": [],

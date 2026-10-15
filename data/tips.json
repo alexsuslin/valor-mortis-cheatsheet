@@ -211,23 +211,6 @@
       }
     },
     {
-      "id": "tip-counter",
-      "title": {
-        "en": "Counter after blocking",
-        "ru": "Контратака после блока"
-      },
-      "description": {
-        "en": "An immediate counter can recover the health lost to a block.",
-        "ru": "Немедленная контратака может вернуть здоровье, потерянное при блоке."
-      },
-      "routeIds": [],
-      "evidence": {
-        "status": "single-source",
-        "sourceIds": ["publisher"],
-        "reviewed": "2026-10-14"
-      }
-    },
-    {
       "id": "tip-weakpoints",
       "title": {
         "en": "Aim at weak points",

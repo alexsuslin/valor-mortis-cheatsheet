@@ -22,24 +22,34 @@ export function check(id, text, checked, onToggle, prefix = "check") {
   label.append(input, element("span", "", text));
   return label;
 }
-export function evidenceLinks(evidence, sources, t) {
-  const footer = element("div", "item-meta");
+export function evidenceLinks(evidence, sources, t, linkLabel = "source") {
+  const footer = element("div", "evidence");
   const label =
     evidence.status === "single-source" ? "singleSource" : evidence.status;
-  footer.append(
-    element("span", "badge", t(label)),
-    element("span", "muted", `${t("reviewed")} ${evidence.reviewed}`),
+  const details = element("details", "evidence-details");
+  details.append(
+    element(
+      "summary",
+      "",
+      t(evidence.status === "conflicting" ? "conflicting" : "sourceDetails"),
+    ),
+    element(
+      "p",
+      "muted",
+      `${t(label)} · ${t("reviewed")} ${evidence.reviewed}`,
+    ),
   );
   for (const id of evidence.sourceIds) {
     const source = sources.find((source) => source.id === id);
     if (!source) continue;
-    const link = element("a", "", `${t("source")} ↗`);
+    const link = element("a", "", `${t(linkLabel)} · ${source.name} ↗`);
     link.href = source.url;
     link.target = "_blank";
     link.rel = "noopener noreferrer";
     link.title = source.name;
     footer.append(link);
   }
+  footer.append(details);
   return footer;
 }
 export function warningNodes(warnings, language, t, sources) {

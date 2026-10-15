@@ -134,6 +134,7 @@ function toggle(id, checked) {
 function selectView(view, push = true) {
   if (!VIEWS.includes(view)) return;
   state.activeView = view;
+  document.body.dataset.activeView = view;
   for (const candidate of VIEWS) byId(candidate).hidden = candidate !== view;
   for (const control of document.querySelectorAll("[data-view]"))
     control.setAttribute("aria-pressed", String(control.dataset.view === view));
@@ -144,6 +145,7 @@ function selectView(view, push = true) {
 function selectCurrent(id) {
   state.currentItemId = id;
   selectView("current");
+  byId("current").scrollIntoView({ block: "start" });
 }
 function navigateRoute(id) {
   selectView("walkthrough");
